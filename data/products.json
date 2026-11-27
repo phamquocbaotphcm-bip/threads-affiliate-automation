@@ -1,0 +1,42 @@
+[
+  {
+    "sku": "TIENICH-01",
+    "name": "Đầu Vòi Tăng Áp 400/1000 Lỗ Hỗ Trợ Tiết Kiệm Nước",
+    "pain_point": "Nước phòng trọ yếu, rửa chén hay tắm giặt đều bực mình",
+    "price_vnd": 23300,
+    "commission_rate": 0.145,
+    "shopee_affiliate_url": "https://s.shopee.vn/qlOgbpP6m"
+  },
+  {
+    "sku": "TIENICH-02",
+    "name": "Khăn giấy rút Top Gia Thùng 6 bịch treo tường đa sắc 1280 tờ",
+    "pain_point": "Sinh viên dùng giấy tốn kém, để bàn hay bị ướt bừa bộn",
+    "price_vnd": 58020,
+    "commission_rate": 0.215,
+    "shopee_affiliate_url": "https://s.shopee.vn/7pv91V7F5y"
+  },
+  {
+    "sku": "TIENICH-03",
+    "name": "Hộp Vải Đựng Đồ Tiện Ích Có Nắp",
+    "pain_point": "Quần áo, đồ lặt vặt phòng trọ chật chội dễ bám bụi",
+    "price_vnd": 29900,
+    "commission_rate": 0.025,
+    "shopee_affiliate_url": "https://s.shopee.vn/8AXzQAQxzB"
+  },
+  {
+    "sku": "TIENICH-04",
+    "name": "Hộp Đựng Đồ Để Bàn Cỡ Lớn",
+    "pain_point": "Bàn học toàn mỹ phẩm, bút viết, dây sạc lăn lóc khắp nơi",
+    "price_vnd": 86000,
+    "commission_rate": 0.025,
+    "shopee_affiliate_url": "https://s.shopee.vn/4qHXS3BkoL"
+  },
+  {
+    "sku": "TIENICH-05",
+    "name": "Giỏ Đựng Đồ Giá Treo Đa Năng Thoát Nước",
+    "pain_point": "Bồn rửa chén hay nhà tắm trọ hay bị đọng nước ẩm mốc",
+    "price_vnd": 12000,
+    "commission_rate": 0.025,
+    "shopee_affiliate_url": "https://s.shopee.vn/3Vm9rbV83o"
+  }
+]

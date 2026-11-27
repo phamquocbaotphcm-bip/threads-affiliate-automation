@@ -1,0 +1,59 @@
+name: Threads Affiliate 24/7 (@hoinghiendotienich)
+
+on:
+  schedule:
+    # 5 khung gio Viet Nam (GMT+7 -> UTC)
+    - cron: "30 1 * * *"   # 08:30 GMT+7
+    - cron: "0 5 * * *"    # 12:00 GMT+7
+    - cron: "30 10 * * *"  # 17:30 GMT+7
+    - cron: "30 13 * * *"  # 20:30 GMT+7
+    - cron: "30 15 * * *"  # 22:30 GMT+7
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Chay thu nghiem khong dang bai that (true/false)"
+        required: false
+        default: "false"
+
+permissions:
+  contents: read
+
+jobs:
+  publish_and_monitor:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run Core_QA_Audit Unit Tests
+        run: python -m unittest discover -s tests -v
+
+      - name: Run Orchestrator Cycle
+        env:
+          THREADS_USER_ID: ${{ secrets.THREADS_USER_ID }}
+          THREADS_ACCESS_TOKEN: ${{ secrets.THREADS_ACCESS_TOKEN }}
+          THREADS_APP_ID: ${{ secrets.THREADS_APP_ID }}
+          THREADS_APP_SECRET: ${{ secrets.THREADS_APP_SECRET }}
+          SHOPEE_APP_ID: ${{ secrets.SHOPEE_APP_ID }}
+          SHOPEE_APP_SECRET: ${{ secrets.SHOPEE_APP_SECRET }}
+          TIMEZONE_OFFSET_HOURS: "7"
+          TARGET_CTR_THRESHOLD: "0.035"
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
+            python src/orchestrator.py --once --dry-run
+          else
+            python src/orchestrator.py --once --live --respect-schedule
+          fi
+
+      - name: Upload Logs & Insights Report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: threads-affiliate-logs-${{ github.run_number }}
+          path: logs/
+          retention-days: 14
