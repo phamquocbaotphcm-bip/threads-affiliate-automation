@@ -1,0 +1,50 @@
+[
+  {
+    "id": "prod_001",
+    "name": "Quạt mini cầm tay sò lạnh 100 cấp độ",
+    "category": "tech_gadget",
+    "platform": "Shopee",
+    "price_vnd": 189000,
+    "commission_pct": 12.0,
+    "pain_point": "đi ngoài đường hay ngồi văn phòng trưa nóng chảy mồ hôi mà quạt thường thổi toàn gió nóng",
+    "benefit": "có chip sò lạnh áp lên da mát lạnh tức thì như điều hòa, pin trâu dùng cả ngày",
+    "affiliate_url": "https://shope.ee/example-quat-so-lanh",
+    "status": "active"
+  },
+  {
+    "id": "prod_002",
+    "name": "Đèn treo màn hình chống cận bảo vệ mắt",
+    "category": "desk_setup",
+    "platform": "Shopee",
+    "price_vnd": 245000,
+    "commission_pct": 10.5,
+    "pain_point": "ngồi máy tính buổi tối bật đèn phòng thì chói màn hình, tắt đèn thì nhức mắt",
+    "benefit": "chiếu sáng đúng khu vực bàn phím, không hắt sáng lên màn hình, tăng góc setup cực đẹp",
+    "affiliate_url": "https://shope.ee/example-den-treo-man-hinh",
+    "status": "active"
+  },
+  {
+    "id": "prod_003",
+    "name": "Cáp sạc nhanh 3 đầu bọc dù tự ngắt",
+    "category": "tech_gadget",
+    "platform": "TikTokShop",
+    "price_vnd": 79000,
+    "commission_pct": 15.0,
+    "pain_point": "đi cà phê hay du lịch phải mang 3 sợi dây sạc rối tung cả balo",
+    "benefit": "1 sợi sạc được cả iPhone, Android lẫn tai nghe, sạc nhanh 66W không nóng máy",
+    "affiliate_url": "https://vt.tiktok.com/example-cap-sac-3-dau",
+    "status": "active"
+  },
+  {
+    "id": "prod_004",
+    "name": "Máy hút bụi mini không dây cho bàn phím & ô tô",
+    "category": "home_hack",
+    "platform": "Shopee",
+    "price_vnd": 159000,
+    "commission_pct": 14.0,
+    "pain_point": "bụi bàn phím, vụn bánh trên bàn làm việc lau hoài không sạch",
+    "benefit": "nhỏ gọn như bình nước, lực hút mạnh, thổi bụi lẫn hút bụi 2 trong 1",
+    "affiliate_url": "https://shope.ee/example-may-hut-bui-mini",
+    "status": "active"
+  }
+]

@@ -1,0 +1,9 @@
+# Danh sách link sản phẩm Affiliate (Mỗi dòng 1 link)
+# Hỗ trợ định dạng:
+#   https://shope.ee/xxxx
+# hoặc kèm ghi chú ngắn (khuyên dùng nếu sàn chặn bot đọc tiêu đề):
+#   https://shope.ee/xxxx | Quạt mini cầm tay sò lạnh 100 cấp độ | 189k
+
+https://shope.ee/example-quat-so-lanh | Quạt mini cầm tay sò lạnh 100 cấp độ | 189k
+https://shope.ee/example-den-treo-man-hinh | Đèn treo màn hình chống cận bảo vệ mắt | 245k
+https://vt.tiktok.com/example-cap-sac-3-dau | Cáp sạc nhanh 3 đầu bọc dù 66W | 79k

@@ -1,0 +1,25 @@
+{
+  "hooks": [
+    {
+      "id": "curiosity_gap",
+      "angle": "Tò mò / Review thật",
+      "main_template": "Thật sự hối hận vì không biết tới {name} sớm hơn 😭\n\nTrước cứ {pain_point}. Từ lúc dùng em này thấy {benefit}.\n\nGiá chỉ loanh quanh {price_k}k mà đáng tiền nhất tháng này. Mọi người đang dùng loại nào rồi?",
+      "reply_link_template": "Mình để sẵn link chỗ mình mua chính hãng (đang có mã giảm) ở đây cho bạn nào cần đỡ phải tìm nha 👇\n{tracked_url}",
+      "reply_engage_template": "Ai mua rồi cho mình xin review độ bền sau 3 tháng với, thấy nhiều bạn khen quá!"
+    },
+    {
+      "id": "contrarian_take",
+      "angle": "Quan điểm ngược / Tranh luận nhẹ",
+      "main_template": "Quan điểm cá nhân: Đừng phí tiền mua đồ đắt nếu nhu cầu chỉ là giải quyết chuyện {pain_point}.\n\nMình test thử {name} tầm {price_k}k thấy {benefit} — ăn đứt mấy loại đắt gấp 3.\n\nCó ai đồng ý hay thấy đồ đắt vẫn hơn?",
+      "reply_link_template": "Link sản phẩm mình test ở dưới đây (nhớ áp thêm voucher sàn cho rẻ nha) 👇\n{tracked_url}",
+      "reply_engage_template": "Nếu bạn có mẫu nào ngon hơn trong tầm giá {price_k}k comment bên dưới mình test tiếp nhé!"
+    },
+    {
+      "id": "budget_find",
+      "angle": "Săn deal ngon bổ rẻ",
+      "main_template": "Góc cứu cánh cho ai hay {pain_point} 🙋‍♂️\n\nTìm được {name} giá có {price_k}k mà {benefit}.\n\nThề là nâng cấp trải nghiệm hằng ngày lên 10 lần. Ai cần link mình ghim ngay dưới bình luận nhé!",
+      "reply_link_template": "Gửi cả nhà link chính chủ mình đặt về dùng okela đây ạ 👇\n{tracked_url}",
+      "reply_engage_template": "Mọi người còn muốn mình săn thêm món nào dưới 200k nữa không? Gợi ý bên dưới nha!"
+    }
+  ]
+}
