@@ -1,32 +1,21 @@
 # Dự án Affiliate Threads `@hoinghiendotienich`
 
-Hệ thống tự động hóa 24/7 cho kênh Threads `@hoinghiendotienich`, điều phối theo mô hình **Enterprise Orchestrator (A)** với 5 khối chuyên môn, tích hợp tự lấy/gia hạn OAuth token Threads, quản lý link Shopee Affiliate, kiểm định chất lượng độc lập (`Core_QA_Audit`) và cơ chế tự phát hiện/tự sửa lỗi ghi vào `logs/learn.log`.
+Hệ thống tự động hóa 24/7 cho kênh Threads `@hoinghiendotienich`, vận hành **3 bài/ngày × 90 ngày (mục tiêu 270 link sản phẩm)** trên **GitHub Actions** ngay cả khi tắt máy tính, kèm báo cáo định kỳ **3 ngày / 2 tuần / 1 tháng**.
 
-## 1. Phân chia Đội ngũ & Quyền hạn (RBAC)
+## 1. Lịch vận hành & Kho 270 Link (`data/product_bank_90d.json`)
 
-| Cấp | Role | Khối / Agent | Nhiệm vụ chính |
-| :--- | :--- | :--- | :--- |
-| **Cấp 0** | **Admin** | Chủ sở hữu | Phê duyệt `.env`, cấp token/link thật, duyệt bật `DRY_RUN=false` |
-| **Cấp 1** | **Main Agent (A)** | `src/orchestrator.py` | Điều phối 24/7 theo 5 khung giờ, tổng hợp báo cáo, kích hoạt Circuit Breaker |
-| **Cấp 2** | **Core_IT** | `src/auth_threads.py`, `src/self_heal.py` | OAuth 2.0 Threads, auto-refresh token, tự sửa lỗi & ghi `logs/learn.log` |
-| **Cấp 2** | **Core_MKT** | `data/posts_seed.json` | 5 bài viết hook mạnh, nhấn mạnh nhu cầu giới trẻ, kích bình luận tăng CTR |
-| **Cấp 2** | **Core_ECOM** | `src/shopee_affiliate.py`, `data/products.json` | Quản lý SKU tiện ích < 150k, validate/sinh link Shopee Affiliate |
-| **Cấp 2** | **Core_QA_Audit** | `src/compliance_qa.py`, `tests/test_pipeline.py` | Cổng kiểm duyệt độc lập (độ dài <= 500 ký tự, cấm link trần, cấm từ khóa spam) |
-| **Cấp 5** | **Satellite Agent** | Insights & Comment Collector | Thu thập lượt xem, click, bình luận/ý kiến người dùng, tính CTR |
+- **3 khung giờ vàng mỗi ngày (GMT+7):** `08:30`, `12:30`, `20:30`
+- **Chống trùng lặp 90 ngày:** `logs/published_state.json` lưu danh sách `published_urls` và `slots_by_date` để mỗi sản phẩm chỉ đăng đúng 1 lần trong chu kỳ 90 ngày.
+- **Nạp thêm link tự động qua Chrome (`browsermcp`):** Khi Admin mở máy tính, đăng nhập `https://affiliate.shopee.vn/offer/product_offer` và nhắn **"Nạp thêm link Shopee"**, Main Agent (A) sẽ tự động lấy link thật, sinh bài viết tự nhiên qua `src/product_bank.py` (không giống AI), kiểm định `Core_QA_Audit` và đẩy lên GitHub.
 
-## 2. Cấu hình môi trường (`.env`)
+## 2. Báo cáo định kỳ & Đề xuất phát triển (`src/reporter.py`)
 
-1. Sao chép `.env.example` thành `.env`:
-   ```powershell
-   Copy-Item .env.example .env
-   ```
-2. Điền thông tin Meta Threads App & Shopee Affiliate (nếu dùng API):
-   - `THREADS_APP_ID`, `THREADS_APP_SECRET`, `THREADS_REDIRECT_URI`
-   - `THREADS_USER_ID`, `THREADS_ACCESS_TOKEN` (hoặc dùng `src/auth_threads.py` để lấy token qua OAuth flow)
-   - `SHOPEE_APP_ID`, `SHOPEE_APP_SECRET` (tùy chọn — hoặc dán trực tiếp link rút gọn `https://s.shopee.vn/...` vào `data/products.json`)
-3. Mặc định `DRY_RUN=true` để chạy thử nghiệm an toàn không đăng bài thật.
+- **Mỗi 3 ngày (`--period 3d`):** Tình trạng kho link còn lại, CTR trung bình, nhật ký lỗi `logs/learn.log`.
+- **Mỗi 2 tuần (`--period 14d`):** Tổng kết hiệu suất & điều chỉnh tỷ lệ bài tương tác tự nhiên.
+- **Mỗi tháng (`--period 30d`):** Báo cáo tổng hợp & đề xuất phương án phát triển mới cho kênh.
+- GitHub Actions workflow `.github/workflows/reporting.yml` tự động tạo file trong `reports/` và mở GitHub Issue thông báo cho Admin.
 
-## 3. Chạy kiểm thử & Vận hành 24/7
+## 3. Kiểm thử & Chạy thủ công
 
 - **Chạy Unit Tests:**
   ```powershell
@@ -36,7 +25,7 @@ Hệ thống tự động hóa 24/7 cho kênh Threads `@hoinghiendotienich`, đi
   ```powershell
   python src/orchestrator.py --once --dry-run
   ```
-- **Chạy tự động 24/7 (chỉ bật sau khi Admin điền `.env` và phê duyệt `DRY_RUN=false`):**
+- **Sinh báo cáo thủ công:**
   ```powershell
-  python src/orchestrator.py --daemon
+  python src/reporter.py --period 3d
   ```

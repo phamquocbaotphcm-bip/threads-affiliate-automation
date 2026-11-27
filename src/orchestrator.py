@@ -20,6 +20,7 @@ if str(PROJECT_ROOT) not in sys.path:
 
 from src.auth_threads import ThreadsAuthConfig, refresh_long_lived_token
 from src.compliance_qa import audit_post, compose_main_post
+from src.product_bank import DAILY_SLOTS, load_bank
 from src.self_heal import LearnLogger, RecoverableTaskError, SelfHealingExecutor
 from src.shopee_affiliate import (
     is_placeholder_url,
@@ -210,13 +211,19 @@ def _local_now() -> datetime:
     return datetime.now(timezone(timedelta(hours=offset_hours)))
 
 
-def _load_published_state(state_path: Path) -> Dict[str, List[str]]:
+def _load_published_state(state_path: Path) -> Dict[str, Any]:
+    default_state: Dict[str, Any] = {"published_urls": [], "slots_by_date": {}}
     if not state_path.exists():
-        return {}
+        return default_state
     try:
-        return json.loads(state_path.read_text(encoding="utf-8"))
+        data = json.loads(state_path.read_text(encoding="utf-8"))
+        if not isinstance(data, dict):
+            return default_state
+        data.setdefault("published_urls", [])
+        data.setdefault("slots_by_date", {})
+        return data
     except json.JSONDecodeError:
-        return {}
+        return default_state
 
 
 def _is_slot_due(scheduled_slot: str, now_local: datetime) -> bool:
@@ -225,13 +232,35 @@ def _is_slot_due(scheduled_slot: str, now_local: datetime) -> bool:
     return now_local >= slot_dt
 
 
+def _load_candidate_queue() -> List[Dict[str, Any]]:
+    """Load candidate items from 90-day bank, falling back to legacy seed files."""
+    bank = load_bank(PROJECT_ROOT / "data" / "product_bank_90d.json")
+    if bank:
+        queue: List[Dict[str, Any]] = []
+        for idx, item in enumerate(bank):
+            post = dict(item["post"])
+            post["sku"] = item["sku"]
+            post["affiliate_url"] = item["shopee_affiliate_url"]
+            post.setdefault("scheduled_slot", DAILY_SLOTS[idx % len(DAILY_SLOTS)])
+            queue.append(post)
+        return queue
+
+    products = load_products(PROJECT_ROOT / "data" / "products.json")
+    posts: List[Dict[str, Any]] = json.loads(
+        (PROJECT_ROOT / "data" / "posts_seed.json").read_text(encoding="utf-8")
+    )
+    for post in posts:
+        post["affiliate_url"] = products[post["sku"]]["shopee_affiliate_url"]
+    return posts
+
+
 def run_cycle(
     dry_run: bool = True,
     simulate_self_heal: bool = True,
     respect_schedule: bool = False,
     now_local: Optional[datetime] = None,
 ) -> Dict[str, Any]:
-    """Execute one orchestration cycle across all Core teams."""
+    """Execute one orchestration cycle (3 posts/day across 08:30, 12:30, 20:30)."""
     load_dotenv(PROJECT_ROOT / ".env")
     logs_dir = PROJECT_ROOT / "logs"
     learn_logger = LearnLogger(logs_dir)
@@ -239,8 +268,9 @@ def run_cycle(
     current_local = now_local or _local_now()
     today_key = current_local.strftime("%Y-%m-%d")
     state_path = logs_dir / "published_state.json"
-    published_state = _load_published_state(state_path)
-    already_published = set(published_state.get(today_key, []))
+    state = _load_published_state(state_path)
+    published_urls = set(state.get("published_urls", []))
+    today_slots = set(state.get("slots_by_date", {}).get(today_key, []))
 
     def _handle_token_refresh(_exc: RecoverableTaskError) -> None:
         refreshed = refresh_long_lived_token(auth.access_token, dry_run=dry_run)
@@ -268,24 +298,30 @@ def run_cycle(
 
         executor.run("preflight_token_check", _transient_token_check)
 
-    products = load_products(PROJECT_ROOT / "data" / "products.json")
-    posts: List[Dict[str, Any]] = json.loads(
-        (PROJECT_ROOT / "data" / "posts_seed.json").read_text(encoding="utf-8")
-    )
+    candidates = _load_candidate_queue()
     target_ctr = float(os.getenv("TARGET_CTR_THRESHOLD", "0.035"))
     results: List[Dict[str, Any]] = []
 
-    for post in posts:
-        post_id = post["id"]
-        if respect_schedule:
-            if post_id in already_published:
-                continue
-            if not _is_slot_due(post["scheduled_slot"], current_local):
-                continue
+    if respect_schedule:
+        due_slots = [
+            slot for slot in DAILY_SLOTS
+            if slot not in today_slots and _is_slot_due(slot, current_local)
+        ]
+        unpublished = [
+            item for item in candidates
+            if item["affiliate_url"] not in published_urls
+        ]
+        work_items = list(zip(due_slots, unpublished))
+    else:
+        work_items = [
+            (DAILY_SLOTS[idx % len(DAILY_SLOTS)], item)
+            for idx, item in enumerate(candidates[: len(DAILY_SLOTS)])
+        ]
 
+    for slot, post in work_items:
+        post_id = post["id"]
         sku = post["sku"]
-        product = products[sku]
-        affiliate_url = product["shopee_affiliate_url"]
+        affiliate_url = post["affiliate_url"]
         if not is_valid_affiliate_url(affiliate_url) or (
             not dry_run and is_placeholder_url(affiliate_url)
         ):
@@ -302,7 +338,7 @@ def run_cycle(
                 context=f"Core_QA_Audit rejected {post_id}",
                 root_cause="; ".join(audit.defects),
                 auto_fix="Blocked post from publishing",
-                prevention_rule="Fix copy in data/posts_seed.json before retry",
+                prevention_rule="Fix copy before retry",
                 resolved=False,
             )
             results.append(
@@ -319,10 +355,12 @@ def run_cycle(
             ),
         )
         if respect_schedule:
-            already_published.add(post_id)
-            published_state[today_key] = sorted(already_published)
+            published_urls.add(affiliate_url)
+            today_slots.add(slot)
+            state["published_urls"] = sorted(published_urls)
+            state["slots_by_date"][today_key] = sorted(today_slots)
             state_path.write_text(
-                json.dumps(published_state, ensure_ascii=False, indent=2),
+                json.dumps(state, ensure_ascii=False, indent=2),
                 encoding="utf-8",
             )
 
@@ -335,7 +373,7 @@ def run_cycle(
         results.append(
             {
                 "post_id": post_id,
-                "slot": post["scheduled_slot"],
+                "slot": slot,
                 "sku": sku,
                 "verdict": audit.verdict,
                 "publish": pub_result,

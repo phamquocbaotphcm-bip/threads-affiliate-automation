@@ -13,6 +13,8 @@ from src import shopee_affiliate
 from src.auth_threads import ThreadsAuthConfig, build_authorization_url
 from src.compliance_qa import audit_post
 from src.orchestrator import PROJECT_ROOT, run_cycle
+from src.product_bank import add_products_to_bank, load_bank
+from src.reporter import build_report
 from src.self_heal import (
     CircuitBreakerOpenError,
     LearnLogger,
@@ -114,7 +116,7 @@ class TestPipeline(unittest.TestCase):
             respect_schedule=True,
             now_local=midday,
         )
-        self.assertEqual(first["total_posts"], 2)  # 08:30 & 12:00 only
+        self.assertEqual(first["total_posts"], 2)  # 08:30 & 12:30 only
 
         second = run_cycle(
             dry_run=True,
@@ -125,12 +127,40 @@ class TestPipeline(unittest.TestCase):
         self.assertEqual(second["total_posts"], 0)  # no duplicate publish
 
         full = run_cycle(dry_run=True, simulate_self_heal=True)
-        self.assertEqual(full["total_posts"], 5)
+        self.assertEqual(full["total_posts"], 3)  # 3 posts/day cadence
         for item in full["results"]:
             self.assertEqual(item["verdict"], "PASS")
             self.assertTrue(item["ctr_above_target"])
         self.assertTrue((PROJECT_ROOT / "logs" / "learn.log").exists())
         self.assertTrue((PROJECT_ROOT / "logs" / "insights_report.json").exists())
+
+    def test_product_bank_dedup_and_reporter(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            bank_path = Path(tmp) / "bank.json"
+            added1, total1 = add_products_to_bank(
+                bank_path,
+                [
+                    {
+                        "name": "Kệ góc nhà tắm dán tường chịu lực",
+                        "price_vnd": 35000,
+                        "commission_rate": 0.12,
+                        "shopee_affiliate_url": "https://s.shopee.vn/demo1",
+                    },
+                    {
+                        "name": "Kệ góc nhà tắm dán tường chịu lực",
+                        "price_vnd": 35000,
+                        "commission_rate": 0.12,
+                        "shopee_affiliate_url": "https://s.shopee.vn/demo1",
+                    },
+                ],
+            )
+            self.assertEqual((added1, total1), (1, 1))
+            items = load_bank(bank_path)
+            self.assertEqual(audit_post(items[0]["post"], "https://s.shopee.vn/demo1").verdict, "PASS")
+
+        rep = build_report(period="3d", project_root=PROJECT_ROOT)
+        self.assertTrue(Path(rep["report_path"]).exists())
+        self.assertGreaterEqual(rep["total_bank"], 5)
 
 
 if __name__ == "__main__":

@@ -1,0 +1,77 @@
+[
+  {
+    "sku": "TIENICH-01",
+    "name": "Đầu Vòi Tăng Áp 400/1000 Lỗ Hỗ Trợ Tiết Kiệm Nước",
+    "price_vnd": 23300,
+    "commission_rate": 0.145,
+    "shopee_affiliate_url": "https://s.shopee.vn/qlOgbpP6m",
+    "post": {
+      "id": "POST-01",
+      "hook": "Ở trọ tầng cao nước chảy như rùa bò mới hiểu cảnh rửa cái chén cũng bực.",
+      "body": "Hôm bữa mua thử cái đầu vòi tăng áp 23k gắn vào vòi bồn rửa, nước xịt ra mạnh hơn hẳn mà tia nhỏ nên đỡ tốn nước nữa. Lắp 1 phút là xong.",
+      "engagement_question": "Phòng trọ mọi người nước có bị yếu giờ cao điểm không?",
+      "affiliate_comment_cta": "Ai cần đầu vòi tăng áp rẻ bèo thì xem ở đây nha: {affiliate_url}",
+      "hashtags": "#hoinghiendotienich #phongtro #sinhvien #tienich"
+    }
+  },
+  {
+    "sku": "TIENICH-02",
+    "name": "Khăn giấy rút Top Gia Thùng 6 bịch treo tường đa sắc 1280 tờ",
+    "price_vnd": 58020,
+    "commission_rate": 0.215,
+    "shopee_affiliate_url": "https://s.shopee.vn/7pv91V7F5y",
+    "post": {
+      "id": "POST-02",
+      "hook": "Tiền giấy ăn hàng tháng tính ra cũng tốn ngang mấy ly trà sữa chứ đùa.",
+      "body": "Đợt này mình chuyển sang mua nguyên thùng 6 bịch khăn giấy treo tường 58k, treo ngay cạnh bàn học rút cho gọn. Giấy dai lau không bị bở vụn.",
+      "engagement_question": "Mọi người hay mua lẻ từng bịch ở tạp hóa hay ôm nguyên thùng trên mạng?",
+      "affiliate_comment_cta": "Chỗ mình mua thùng 6 bịch giá 58k đây nhé: {affiliate_url}",
+      "hashtags": "#hoinghiendotienich #tietkiem #sinhvien"
+    }
+  },
+  {
+    "sku": "TIENICH-03",
+    "name": "Hộp Vải Đựng Đồ Tiện Ích Có Nắp",
+    "price_vnd": 29900,
+    "commission_rate": 0.025,
+    "shopee_affiliate_url": "https://s.shopee.vn/8AXzQAQxzB",
+    "post": {
+      "id": "POST-03",
+      "hook": "Phòng trọ nhỏ mà không có hộp đựng đồ thì nhìn góc nào cũng thấy bừa.",
+      "body": "Sắm 2 cái hộp vải có nắp chưa tới 30k một cái, nhét hết tất vớ với đồ lặt vặt vào xong xếp chồng lên nhau nhìn phòng gọn hẳn.",
+      "engagement_question": "Mọi người hay phân loại đồ lặt vặt kiểu gì cho đỡ rối mắt?",
+      "affiliate_comment_cta": "Link hộp vải có nắp mình để dưới comment này nha: {affiliate_url}",
+      "hashtags": "#hoinghiendotienich #decorphongtro #gondep"
+    }
+  },
+  {
+    "sku": "TIENICH-04",
+    "name": "Hộp Đựng Đồ Để Bàn Cỡ Lớn",
+    "price_vnd": 86000,
+    "commission_rate": 0.025,
+    "shopee_affiliate_url": "https://s.shopee.vn/4qHXS3BkoL",
+    "post": {
+      "id": "POST-04",
+      "hook": "Mỗi lần tìm cây bút hay tuýp kem dưỡng trên bàn học là phải bới tung cả lên.",
+      "body": "Bỏ 86k mua cái hộp nhựa để bàn chia ngăn cỡ lớn, gom hết đồ skincare với phụ kiện vào một chỗ. Sáng dậy vội lấy đồ cũng nhanh.",
+      "engagement_question": "Bàn của bạn đang gọn gàng hay kiểu tìm gì cũng mất 5 phút?",
+      "affiliate_comment_cta": "Link hộp để bàn mình đang dùng ở đây nhé: {affiliate_url}",
+      "hashtags": "#hoinghiendotienich #setupgoclamviec #gocbanhoc"
+    }
+  },
+  {
+    "sku": "TIENICH-05",
+    "name": "Giỏ Đựng Đồ Giá Treo Đa Năng Thoát Nước",
+    "price_vnd": 12000,
+    "commission_rate": 0.025,
+    "shopee_affiliate_url": "https://s.shopee.vn/3Vm9rbV83o",
+    "post": {
+      "id": "POST-05",
+      "hook": "Miếng rửa chén để trực tiếp lên bồn lúc nào cũng nhớt nhớt nhìn phát ớn.",
+      "body": "Gắn cái giỏ treo có lỗ thoát nước 12k ngay vòi rửa, xài xong thả vào đó cho ráo hẳn nước, đỡ mùi ẩm mốc hẳn luôn.",
+      "engagement_question": "Mấy món lặt vặt 10-15k kiểu này mọi người thấy món nào đáng tiền nhất?",
+      "affiliate_comment_cta": "Giỏ treo thoát nước 12k mình mua ở shop này nha: {affiliate_url}",
+      "hashtags": "#hoinghiendotienich #meovat #giare"
+    }
+  }
+]

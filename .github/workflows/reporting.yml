@@ -1,0 +1,65 @@
+name: Periodic Growth Reports (3d / 14d / 30d)
+
+on:
+  schedule:
+    - cron: "0 2 */3 * *"   # Bao cao moi 3 ngay (09:00 GMT+7)
+    - cron: "0 2 1,15 * *"  # Tong ket moi 2 tuan (09:00 GMT+7)
+    - cron: "0 2 1 * *"     # Bao cao tong hop thang (09:00 GMT+7)
+  workflow_dispatch:
+    inputs:
+      period:
+        description: "Loai bao cao (3d / 14d / 30d)"
+        required: true
+        default: "3d"
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  generate_report:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generate Report
+        id: gen
+        run: |
+          PERIOD="3d"
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            PERIOD="${{ github.event.inputs.period }}"
+          elif [ "${{ github.event.schedule }}" = "0 2 1 * *" ]; then
+            PERIOD="30d"
+          elif [ "${{ github.event.schedule }}" = "0 2 1,15 * *" ]; then
+            PERIOD="14d"
+          fi
+          python src/reporter.py --period "$PERIOD" > report_summary.json
+          REPORT_PATH=$(python -c "import json; print(json.load(open('report_summary.json'))['report_path'])")
+          echo "period=$PERIOD" >> "$GITHUB_OUTPUT"
+          echo "report_path=$REPORT_PATH" >> "$GITHUB_OUTPUT"
+
+      - name: Commit Report to Repository
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add reports/
+          git diff --staged --quiet || (git commit -m "report: add ${{ steps.gen.outputs.period }} summary" && git push)
+
+      - name: Open GitHub Issue Notification
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const body = fs.readFileSync('${{ steps.gen.outputs.report_path }}', 'utf8');
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: `[Report ${{ steps.gen.outputs.period }}] @hoinghiendotienich - ${new Date().toISOString().slice(0, 10)}`,
+              body
+            });
