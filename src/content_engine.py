@@ -43,9 +43,14 @@ def build_tracked_url(base_url: str, product_id: str, hook_id: str) -> str:
     return urlunparse(parsed._replace(query=new_query))
 
 
+from src.link_scraper import load_products_from_links_file
+
+
 def generate_thread_bundle(
     product: Optional[Dict] = None,
     hook: Optional[Dict] = None,
+    links_file: Optional[Path] = None,
+    fetch_remote: bool = True,
 ) -> Dict:
     """
     Generate a 3-part interactive Threads bundle:
@@ -53,11 +58,15 @@ def generate_thread_bundle(
       2. reply_link: Soft CTA + UTM-tracked affiliate link (drives CTR)
       3. reply_engage: Follow-up engagement prompt (boosts thread velocity)
     """
-    products = load_products()
+    products = load_products_from_links_file(
+        file_path=links_file, fetch_remote=fetch_remote
+    )
+    if not products:
+        products = load_products()
     hooks = load_hooks()
 
     if not products:
-        raise ValueError("No active products found in config/products.json")
+        raise ValueError("No active products found in product_links.txt or products.json")
     if not hooks:
         raise ValueError("No hook templates found in config/hooks.json")
 

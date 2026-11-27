@@ -1,6 +1,10 @@
 name: Threads Affiliate Auto-Post
 
 on:
+  push:
+    branches: [main]
+    paths:
+      - "config/product_links.txt"
   schedule:
     # 08:00, 12:30, 20:30 GMT+7 (Vietnam peak Threads hours)
     - cron: "0 1 * * *"
@@ -34,10 +38,12 @@ jobs:
 
       - name: Run Threads Affiliate Pipeline
         env:
+          PRODUCT_LINKS_FILE: ${{ vars.PRODUCT_LINKS_FILE || 'config/product_links.txt' }}
+          DRY_RUN: ${{ vars.DRY_RUN || 'true' }}
           THREADS_USER_ID: ${{ secrets.THREADS_USER_ID }}
           THREADS_ACCESS_TOKEN: ${{ secrets.THREADS_ACCESS_TOKEN }}
         run: |
-          if [ "${{ github.event.inputs.live }}" = "true" ] || ([ "${{ github.event_name }}" = "schedule" ] && [ -n "$THREADS_ACCESS_TOKEN" ]); then
+          if [ "${{ github.event.inputs.live }}" = "true" ] || ([ "$DRY_RUN" = "false" ] && [ -n "$THREADS_ACCESS_TOKEN" ]); then
             python3 -m src.pipeline --mode publish --live
           else
             python3 -m src.pipeline --mode publish

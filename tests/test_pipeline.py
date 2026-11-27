@@ -43,6 +43,25 @@ class TestThreadsAffiliatePipeline(unittest.TestCase):
             self.assertEqual(len(leaderboard), 1)
             self.assertEqual(leaderboard[0]["ctr_pct"], 6.5)
 
+    def test_link_scraper_from_file(self):
+        from src.link_scraper import load_products_from_links_file
+
+        with tempfile.TemporaryDirectory() as tmpdir:
+            links_file = Path(tmpdir) / "links.txt"
+            links_file.write_text(
+                "# comment\nhttps://shope.ee/test-item | Loa bluetooth mini | 149k\n",
+                encoding="utf-8",
+            )
+            products = load_products_from_links_file(links_file, fetch_remote=False)
+            self.assertEqual(len(products), 1)
+            self.assertEqual(products[0]["name"], "Loa bluetooth mini")
+            self.assertEqual(products[0]["price_vnd"], 149000)
+            self.assertEqual(products[0]["platform"], "Shopee")
+
+            bundle = generate_thread_bundle(links_file=links_file, fetch_remote=False)
+            passed, errors = validate_thread_bundle(bundle)
+            self.assertTrue(passed, f"Unexpected QA errors: {errors}")
+
 
 if __name__ == "__main__":
     unittest.main()
