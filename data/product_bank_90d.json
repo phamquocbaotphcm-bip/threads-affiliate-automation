@@ -1868,5 +1868,56 @@
       "topic_tag": "Đồ tiện ích"
     },
     "image_url": ""
+  },
+  {
+    "sku": "BANK-111",
+    "name": "Bộ Chăn Ga Gối Cotton Đũi 4 Món BingBông Chần Bông Hè Mềm Mịn",
+    "price_vnd": 839000,
+    "commission_rate": 0.045,
+    "shopee_affiliate_url": "https://s.shopee.vn/4fy8aSZy3o",
+    "image_url": "",
+    "post": {
+      "id": "BANK-111",
+      "hook": "Từ ngày có bộ chăn ga gối cotton đũi, mấy việc lặt vặt buổi tối làm nhanh hơn hẳn.",
+      "body": "Không quá cầu kỳ nhưng đúng công năng cần thiết mỗi ngày. Với 839k thì khó đòi hỏi gì hơn.",
+      "engagement_question": "Có ai hay đặt hàng lúc nửa đêm xong sáng ra quên mất mình đặt gì không?",
+      "affiliate_comment_cta": "Chỗ mình đặt bộ chăn ga gối cotton đũi uy tín giá ổn đây nhé: {affiliate_url}",
+      "hashtags": "",
+      "topic_tag": "Đồ tiện ích"
+    }
+  },
+  {
+    "sku": "BANK-112",
+    "name": "Sữa Dưỡng Thể Vaseline Phục Hồi Da Trắng Da Chống Nắng 500ml",
+    "price_vnd": 183000,
+    "commission_rate": 0.115,
+    "shopee_affiliate_url": "https://s.shopee.vn/4qHYmnKmBc",
+    "image_url": "https://down-aka-vn.img.susercontent.com/vn-11134207-7ras8-mc3xfz6bsinm66.webp",
+    "post": {
+      "id": "BANK-112",
+      "hook": "Đồ gia dụng giờ rẻ thật, tầm 183k đã có sữa dưỡng thể vaseline phục hồi dùng khá chắc chắn.",
+      "body": "Mình đặt về dùng thử mấy hôm thấy khá ưng, giá chỉ khoảng 183k nên không bị đau ví. Gọn nhẹ, cất hay mang đi đều tiện.",
+      "engagement_question": "Bạn hay mua đồ gia dụng ở chợ gần nhà hay đặt online?",
+      "affiliate_comment_cta": "Bạn nào hỏi sữa dưỡng thể vaseline phục hồi thì xem chi tiết ở đây nha: {affiliate_url}",
+      "hashtags": "",
+      "topic_tag": "Đồ tiện ích"
+    }
+  },
+  {
+    "sku": "BANK-113",
+    "name": "Bộ Bàn Ghế Học Sinh Việt Nhật 1 Bàn 2 Ghế Có Tựa Cho Bé",
+    "price_vnd": 394200,
+    "commission_rate": 0.045,
+    "shopee_affiliate_url": "https://s.shopee.vn/80EaYd86vi",
+    "image_url": "https://down-aka-vn.img.susercontent.com/4393abe64de0ac8cffd54a27cdd9a1ab.webp",
+    "post": {
+      "id": "BANK-113",
+      "hook": "Đi học về mệt mà thấy góc phòng gọn gàng nhờ bộ bàn ghế học sinh việt cũng đỡ stress.",
+      "body": "Phù hợp nhất cho mấy bạn ở trọ một mình hoặc ký túc xá vì không chiếm diện tích. Chi phí 394k quá dễ chịu.",
+      "engagement_question": "Món đồ nào bạn mua về xong thấy hối hận vì không mua sớm hơn?",
+      "affiliate_comment_cta": "Mình gắn sẵn đường dẫn bộ bàn ghế học sinh việt ở đây cho tiện tìm: {affiliate_url}",
+      "hashtags": "",
+      "topic_tag": "Đồ tiện ích"
+    }
   }
 ]
