@@ -1,0 +1,75 @@
+{
+  "channel": "@hoinghiendotienich",
+  "timestamp": "2026-11-28T00:54:03.513134+00:00",
+  "dry_run": true,
+  "target_ctr_threshold": 0.035,
+  "total_posts": 3,
+  "results": [
+    {
+      "post_id": "POST-01",
+      "slot": "08:30",
+      "sku": "TIENICH-01",
+      "verdict": "PASS",
+      "publish": {
+        "media_id": "dryrun_95486",
+        "reply_id": "dryrun_reply_831886",
+        "status": "PUBLISHED_DRY_RUN"
+      },
+      "insights": {
+        "post_id": "POST-01",
+        "impressions": 1200,
+        "clicks": 54,
+        "ctr": 0.045,
+        "top_comments": [
+          "Giá học sinh sinh viên quá ổn, cho xin link với ạ",
+          "Mình đang cần loại nhỏ gọn cho bàn học phòng trọ!"
+        ]
+      },
+      "ctr_above_target": true
+    },
+    {
+      "post_id": "POST-02",
+      "slot": "12:30",
+      "sku": "TIENICH-02",
+      "verdict": "PASS",
+      "publish": {
+        "media_id": "dryrun_203127",
+        "reply_id": "dryrun_reply_409595",
+        "status": "PUBLISHED_DRY_RUN"
+      },
+      "insights": {
+        "post_id": "POST-02",
+        "impressions": 1200,
+        "clicks": 54,
+        "ctr": 0.045,
+        "top_comments": [
+          "Giá học sinh sinh viên quá ổn, cho xin link với ạ",
+          "Mình đang cần loại nhỏ gọn cho bàn học phòng trọ!"
+        ]
+      },
+      "ctr_above_target": true
+    },
+    {
+      "post_id": "POST-03",
+      "slot": "20:30",
+      "sku": "TIENICH-03",
+      "verdict": "PASS",
+      "publish": {
+        "media_id": "dryrun_683336",
+        "reply_id": "dryrun_reply_198314",
+        "status": "PUBLISHED_DRY_RUN"
+      },
+      "insights": {
+        "post_id": "POST-03",
+        "impressions": 1200,
+        "clicks": 54,
+        "ctr": 0.045,
+        "top_comments": [
+          "Giá học sinh sinh viên quá ổn, cho xin link với ạ",
+          "Mình đang cần loại nhỏ gọn cho bàn học phòng trọ!"
+        ]
+      },
+      "ctr_above_target": true
+    }
+  ]
+}
