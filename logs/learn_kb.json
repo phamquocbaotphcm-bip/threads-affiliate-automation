@@ -340,5 +340,32 @@
     "auto_fix": "Wrapped collect_satellite_insights() API calls in try/except RecoverableTaskError with safe defaults",
     "prevention_rule": "Treat immediate post-publish insights fetch as best-effort so publishing never fails retroactively",
     "resolved": true
+  },
+  {
+    "timestamp": "2026-11-28T04:03:24.373533+00:00",
+    "error_type": "NETWORK_ERROR",
+    "context": "publish_POST-02 (attempt 1/3)",
+    "root_cause": "Upstream HTTP 400",
+    "auto_fix": "Retry with bounded backoff",
+    "prevention_rule": "Use request timeout and transient retry guard",
+    "resolved": false
+  },
+  {
+    "timestamp": "2026-11-28T04:03:26.439366+00:00",
+    "error_type": "NETWORK_ERROR",
+    "context": "publish_POST-02 (attempt 2/3)",
+    "root_cause": "Upstream HTTP 400",
+    "auto_fix": "Retry with bounded backoff",
+    "prevention_rule": "Use request timeout and transient retry guard",
+    "resolved": false
+  },
+  {
+    "timestamp": "2026-11-28T04:03:30.498784+00:00",
+    "error_type": "NETWORK_ERROR",
+    "context": "publish_POST-02 (attempt 3/3)",
+    "root_cause": "Upstream HTTP 400",
+    "auto_fix": "Retry with bounded backoff",
+    "prevention_rule": "Use request timeout and transient retry guard",
+    "resolved": false
   }
 ]
