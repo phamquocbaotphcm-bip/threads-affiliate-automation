@@ -1,0 +1,344 @@
+[
+  {
+    "timestamp": "2026-11-27T13:10:59.580304+00:00",
+    "error_type": "TOKEN_EXPIRED",
+    "context": "preflight_token_check (attempt 1/3)",
+    "root_cause": "Access token TTL reached threshold",
+    "auto_fix": "Refresh long-lived Threads OAuth token and retry request",
+    "prevention_rule": "Proactively refresh token when remaining TTL < 7 days",
+    "resolved": true
+  },
+  {
+    "timestamp": "2026-11-27T13:10:59.883764+00:00",
+    "error_type": "TOKEN_EXPIRED",
+    "context": "preflight_token_check (attempt 1/3)",
+    "root_cause": "Access token TTL reached threshold",
+    "auto_fix": "Refresh long-lived Threads OAuth token and retry request",
+    "prevention_rule": "Proactively refresh token when remaining TTL < 7 days",
+    "resolved": true
+  },
+  {
+    "timestamp": "2026-11-27T13:27:09.029982+00:00",
+    "error_type": "TOKEN_EXPIRED",
+    "context": "preflight_token_check (attempt 1/3)",
+    "root_cause": "Access token TTL reached threshold",
+    "auto_fix": "Refresh long-lived Threads OAuth token and retry request",
+    "prevention_rule": "Proactively refresh token when remaining TTL < 7 days",
+    "resolved": false
+  },
+  {
+    "timestamp": "2026-11-27T13:27:09.042161+00:00",
+    "error_type": "TOKEN_EXPIRED",
+    "context": "preflight_token_check (recovered on attempt 2/3)",
+    "root_cause": "Resolved after auto-fix and retry",
+    "auto_fix": "Refresh long-lived Threads OAuth token and retry request",
+    "prevention_rule": "Proactively refresh token when remaining TTL < 7 days",
+    "resolved": true
+  },
+  {
+    "timestamp": "2026-11-27T13:27:09.291084+00:00",
+    "error_type": "TOKEN_EXPIRED",
+    "context": "preflight_token_check (attempt 1/3)",
+    "root_cause": "Access token TTL reached threshold",
+    "auto_fix": "Refresh long-lived Threads OAuth token and retry request",
+    "prevention_rule": "Proactively refresh token when remaining TTL < 7 days",
+    "resolved": false
+  },
+  {
+    "timestamp": "2026-11-27T13:27:09.303225+00:00",
+    "error_type": "TOKEN_EXPIRED",
+    "context": "preflight_token_check (recovered on attempt 2/3)",
+    "root_cause": "Resolved after auto-fix and retry",
+    "auto_fix": "Refresh long-lived Threads OAuth token and retry request",
+    "prevention_rule": "Proactively refresh token when remaining TTL < 7 days",
+    "resolved": true
+  },
+  {
+    "timestamp": "2026-11-27T13:32:43.824796+00:00",
+    "error_type": "TOKEN_EXPIRED",
+    "context": "preflight_token_check (attempt 1/3)",
+    "root_cause": "Access token TTL reached threshold",
+    "auto_fix": "Refresh long-lived Threads OAuth token and retry request",
+    "prevention_rule": "Proactively refresh token when remaining TTL < 7 days",
+    "resolved": false
+  },
+  {
+    "timestamp": "2026-11-27T13:32:43.836580+00:00",
+    "error_type": "TOKEN_EXPIRED",
+    "context": "preflight_token_check (recovered on attempt 2/3)",
+    "root_cause": "Resolved after auto-fix and retry",
+    "auto_fix": "Refresh long-lived Threads OAuth token and retry request",
+    "prevention_rule": "Proactively refresh token when remaining TTL < 7 days",
+    "resolved": true
+  },
+  {
+    "timestamp": "2026-11-27T13:34:32.937218+00:00",
+    "error_type": "TOKEN_EXPIRED",
+    "context": "preflight_token_check (attempt 1/3)",
+    "root_cause": "Access token TTL reached threshold",
+    "auto_fix": "Refresh long-lived Threads OAuth token and retry request",
+    "prevention_rule": "Proactively refresh token when remaining TTL < 7 days",
+    "resolved": false
+  },
+  {
+    "timestamp": "2026-11-27T13:34:32.949081+00:00",
+    "error_type": "TOKEN_EXPIRED",
+    "context": "preflight_token_check (recovered on attempt 2/3)",
+    "root_cause": "Resolved after auto-fix and retry",
+    "auto_fix": "Refresh long-lived Threads OAuth token and retry request",
+    "prevention_rule": "Proactively refresh token when remaining TTL < 7 days",
+    "resolved": true
+  },
+  {
+    "timestamp": "2026-11-27T15:01:18.008209+00:00",
+    "error_type": "TOKEN_EXPIRED",
+    "context": "preflight_token_check (attempt 1/3)",
+    "root_cause": "Access token TTL reached threshold",
+    "auto_fix": "Refresh long-lived Threads OAuth token and retry request",
+    "prevention_rule": "Proactively refresh token when remaining TTL < 7 days",
+    "resolved": false
+  },
+  {
+    "timestamp": "2026-11-27T15:01:18.021524+00:00",
+    "error_type": "TOKEN_EXPIRED",
+    "context": "preflight_token_check (recovered on attempt 2/3)",
+    "root_cause": "Resolved after auto-fix and retry",
+    "auto_fix": "Refresh long-lived Threads OAuth token and retry request",
+    "prevention_rule": "Proactively refresh token when remaining TTL < 7 days",
+    "resolved": true
+  },
+  {
+    "timestamp": "2026-11-27T15:01:18.296650+00:00",
+    "error_type": "TOKEN_EXPIRED",
+    "context": "preflight_token_check (attempt 1/3)",
+    "root_cause": "Access token TTL reached threshold",
+    "auto_fix": "Refresh long-lived Threads OAuth token and retry request",
+    "prevention_rule": "Proactively refresh token when remaining TTL < 7 days",
+    "resolved": false
+  },
+  {
+    "timestamp": "2026-11-27T15:01:18.310743+00:00",
+    "error_type": "TOKEN_EXPIRED",
+    "context": "preflight_token_check (recovered on attempt 2/3)",
+    "root_cause": "Resolved after auto-fix and retry",
+    "auto_fix": "Refresh long-lived Threads OAuth token and retry request",
+    "prevention_rule": "Proactively refresh token when remaining TTL < 7 days",
+    "resolved": true
+  },
+  {
+    "timestamp": "2026-11-27T15:30:25.307810+00:00",
+    "error_type": "NETWORK_ERROR",
+    "context": "publish_POST-05 (attempt 1/3)",
+    "root_cause": "Network timeout or DNS/connection error",
+    "auto_fix": "Retry with bounded backoff",
+    "prevention_rule": "Use request timeout and transient retry guard",
+    "resolved": false
+  },
+  {
+    "timestamp": "2026-11-27T15:30:27.319657+00:00",
+    "error_type": "NETWORK_ERROR",
+    "context": "publish_POST-05 (attempt 2/3)",
+    "root_cause": "Network timeout or DNS/connection error",
+    "auto_fix": "Retry with bounded backoff",
+    "prevention_rule": "Use request timeout and transient retry guard",
+    "resolved": false
+  },
+  {
+    "timestamp": "2026-11-27T15:30:31.331927+00:00",
+    "error_type": "NETWORK_ERROR",
+    "context": "publish_POST-05 (attempt 3/3)",
+    "root_cause": "Network timeout or DNS/connection error",
+    "auto_fix": "Retry with bounded backoff",
+    "prevention_rule": "Use request timeout and transient retry guard",
+    "resolved": false
+  },
+  {
+    "timestamp": "2026-11-27T17:23:10.840037+00:00",
+    "error_type": "TOKEN_EXPIRED",
+    "context": "preflight_token_check (attempt 1/3)",
+    "root_cause": "Access token TTL reached threshold",
+    "auto_fix": "Refresh long-lived Threads OAuth token and retry request",
+    "prevention_rule": "Proactively refresh token when remaining TTL < 7 days",
+    "resolved": false
+  },
+  {
+    "timestamp": "2026-11-27T17:23:10.852126+00:00",
+    "error_type": "TOKEN_EXPIRED",
+    "context": "preflight_token_check (recovered on attempt 2/3)",
+    "root_cause": "Resolved after auto-fix and retry",
+    "auto_fix": "Refresh long-lived Threads OAuth token and retry request",
+    "prevention_rule": "Proactively refresh token when remaining TTL < 7 days",
+    "resolved": true
+  },
+  {
+    "timestamp": "2026-11-27T17:27:59.173159+00:00",
+    "error_type": "TOKEN_EXPIRED",
+    "context": "preflight_token_check (attempt 1/3)",
+    "root_cause": "Access token TTL reached threshold",
+    "auto_fix": "Refresh long-lived Threads OAuth token and retry request",
+    "prevention_rule": "Proactively refresh token when remaining TTL < 7 days",
+    "resolved": false
+  },
+  {
+    "timestamp": "2026-11-27T17:27:59.185729+00:00",
+    "error_type": "TOKEN_EXPIRED",
+    "context": "preflight_token_check (recovered on attempt 2/3)",
+    "root_cause": "Resolved after auto-fix and retry",
+    "auto_fix": "Refresh long-lived Threads OAuth token and retry request",
+    "prevention_rule": "Proactively refresh token when remaining TTL < 7 days",
+    "resolved": true
+  },
+  {
+    "timestamp": "2026-11-28T00:32:08.573989+00:00",
+    "error_type": "TOKEN_EXPIRED",
+    "context": "preflight_token_check (attempt 1/3)",
+    "root_cause": "Access token TTL reached threshold",
+    "auto_fix": "Refresh long-lived Threads OAuth token and retry request",
+    "prevention_rule": "Proactively refresh token when remaining TTL < 7 days",
+    "resolved": false
+  },
+  {
+    "timestamp": "2026-11-28T00:32:08.586811+00:00",
+    "error_type": "TOKEN_EXPIRED",
+    "context": "preflight_token_check (recovered on attempt 2/3)",
+    "root_cause": "Resolved after auto-fix and retry",
+    "auto_fix": "Refresh long-lived Threads OAuth token and retry request",
+    "prevention_rule": "Proactively refresh token when remaining TTL < 7 days",
+    "resolved": true
+  },
+  {
+    "timestamp": "2026-11-28T00:34:45.534686+00:00",
+    "error_type": "TOKEN_EXPIRED",
+    "context": "preflight_token_check (attempt 1/3)",
+    "root_cause": "Access token TTL reached threshold",
+    "auto_fix": "Refresh long-lived Threads OAuth token and retry request",
+    "prevention_rule": "Proactively refresh token when remaining TTL < 7 days",
+    "resolved": false
+  },
+  {
+    "timestamp": "2026-11-28T00:34:45.546640+00:00",
+    "error_type": "TOKEN_EXPIRED",
+    "context": "preflight_token_check (recovered on attempt 2/3)",
+    "root_cause": "Resolved after auto-fix and retry",
+    "auto_fix": "Refresh long-lived Threads OAuth token and retry request",
+    "prevention_rule": "Proactively refresh token when remaining TTL < 7 days",
+    "resolved": true
+  },
+  {
+    "timestamp": "2026-11-28T00:38:21.892732+00:00",
+    "error_type": "TOKEN_EXPIRED",
+    "context": "preflight_token_check (attempt 1/3)",
+    "root_cause": "Access token TTL reached threshold",
+    "auto_fix": "Refresh long-lived Threads OAuth token and retry request",
+    "prevention_rule": "Proactively refresh token when remaining TTL < 7 days",
+    "resolved": false
+  },
+  {
+    "timestamp": "2026-11-28T00:38:21.905345+00:00",
+    "error_type": "TOKEN_EXPIRED",
+    "context": "preflight_token_check (recovered on attempt 2/3)",
+    "root_cause": "Resolved after auto-fix and retry",
+    "auto_fix": "Refresh long-lived Threads OAuth token and retry request",
+    "prevention_rule": "Proactively refresh token when remaining TTL < 7 days",
+    "resolved": true
+  },
+  {
+    "timestamp": "2026-11-28T00:41:01.785101+00:00",
+    "error_type": "TOKEN_EXPIRED",
+    "context": "preflight_token_check (attempt 1/3)",
+    "root_cause": "Access token TTL reached threshold",
+    "auto_fix": "Refresh long-lived Threads OAuth token and retry request",
+    "prevention_rule": "Proactively refresh token when remaining TTL < 7 days",
+    "resolved": false
+  },
+  {
+    "timestamp": "2026-11-28T00:41:01.797553+00:00",
+    "error_type": "TOKEN_EXPIRED",
+    "context": "preflight_token_check (recovered on attempt 2/3)",
+    "root_cause": "Resolved after auto-fix and retry",
+    "auto_fix": "Refresh long-lived Threads OAuth token and retry request",
+    "prevention_rule": "Proactively refresh token when remaining TTL < 7 days",
+    "resolved": true
+  },
+  {
+    "timestamp": "2026-11-28T00:43:50.714802+00:00",
+    "error_type": "TOKEN_EXPIRED",
+    "context": "preflight_token_check (attempt 1/3)",
+    "root_cause": "Access token TTL reached threshold",
+    "auto_fix": "Refresh long-lived Threads OAuth token and retry request",
+    "prevention_rule": "Proactively refresh token when remaining TTL < 7 days",
+    "resolved": false
+  },
+  {
+    "timestamp": "2026-11-28T00:43:50.727349+00:00",
+    "error_type": "TOKEN_EXPIRED",
+    "context": "preflight_token_check (recovered on attempt 2/3)",
+    "root_cause": "Resolved after auto-fix and retry",
+    "auto_fix": "Refresh long-lived Threads OAuth token and retry request",
+    "prevention_rule": "Proactively refresh token when remaining TTL < 7 days",
+    "resolved": true
+  },
+  {
+    "timestamp": "2026-11-28T00:46:38.797608+00:00",
+    "error_type": "TOKEN_EXPIRED",
+    "context": "preflight_token_check (attempt 1/3)",
+    "root_cause": "Access token TTL reached threshold",
+    "auto_fix": "Refresh long-lived Threads OAuth token and retry request",
+    "prevention_rule": "Proactively refresh token when remaining TTL < 7 days",
+    "resolved": false
+  },
+  {
+    "timestamp": "2026-11-28T00:46:38.809922+00:00",
+    "error_type": "TOKEN_EXPIRED",
+    "context": "preflight_token_check (recovered on attempt 2/3)",
+    "root_cause": "Resolved after auto-fix and retry",
+    "auto_fix": "Refresh long-lived Threads OAuth token and retry request",
+    "prevention_rule": "Proactively refresh token when remaining TTL < 7 days",
+    "resolved": true
+  },
+  {
+    "timestamp": "2026-11-28T00:49:50.492663+00:00",
+    "error_type": "TOKEN_EXPIRED",
+    "context": "preflight_token_check (attempt 1/3)",
+    "root_cause": "Access token TTL reached threshold",
+    "auto_fix": "Refresh long-lived Threads OAuth token and retry request",
+    "prevention_rule": "Proactively refresh token when remaining TTL < 7 days",
+    "resolved": false
+  },
+  {
+    "timestamp": "2026-11-28T00:49:50.505177+00:00",
+    "error_type": "TOKEN_EXPIRED",
+    "context": "preflight_token_check (recovered on attempt 2/3)",
+    "root_cause": "Resolved after auto-fix and retry",
+    "auto_fix": "Refresh long-lived Threads OAuth token and retry request",
+    "prevention_rule": "Proactively refresh token when remaining TTL < 7 days",
+    "resolved": true
+  },
+  {
+    "timestamp": "2026-11-28T04:02:04.183454+00:00",
+    "error_type": "TEST_LOG_POLLUTION",
+    "context": "GitHub Actions Run #1/#2",
+    "root_cause": "Unit tests wrote simulated dry-run state directly into production logs/published_state.json",
+    "auto_fix": "Added logs_dir parameter to run_cycle() and isolated tests with tempfile.TemporaryDirectory()",
+    "prevention_rule": "All tests must use TemporaryDirectory for logs_dir and never mutate production logs/ or data/",
+    "resolved": true
+  },
+  {
+    "timestamp": "2026-11-28T04:02:04.186982+00:00",
+    "error_type": "GIT_PUSH_CONFLICT",
+    "context": "GitHub Actions parallel workflows (08:12 AM)",
+    "root_cause": "Concurrent threads_affiliate.yml and reporting.yml pushed to main without rebasing first",
+    "auto_fix": "Added git pull --rebase origin main before git push in both workflows",
+    "prevention_rule": "Always rebase onto origin/main before pushing automated state commits in CI",
+    "resolved": true
+  },
+  {
+    "timestamp": "2026-11-28T04:02:04.188556+00:00",
+    "error_type": "INSIGHTS_RACE_CONDITION",
+    "context": "Threads Graph API post-publish insights",
+    "root_cause": "Immediate GET /{media_id}/insights after publishing can fail before Meta indexes the post",
+    "auto_fix": "Wrapped collect_satellite_insights() API calls in try/except RecoverableTaskError with safe defaults",
+    "prevention_rule": "Treat immediate post-publish insights fetch as best-effort so publishing never fails retroactively",
+    "resolved": true
+  }
+]

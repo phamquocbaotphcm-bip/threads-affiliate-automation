@@ -105,38 +105,39 @@ class TestPipeline(unittest.TestCase):
         )
 
     def test_schedule_deduplication_and_dry_run_end_to_end(self) -> None:
-        state_file = PROJECT_ROOT / "logs" / "published_state.json"
-        if state_file.exists():
-            state_file.unlink()
+        with tempfile.TemporaryDirectory() as tmp:
+            logs_dir = Path(tmp) / "logs"
+            midday = datetime(2026, 11, 27, 12, 30, tzinfo=timezone(timedelta(hours=7)))
+            first = run_cycle(
+                dry_run=True,
+                simulate_self_heal=False,
+                respect_schedule=True,
+                now_local=midday,
+                logs_dir=logs_dir,
+            )
+            self.assertEqual(first["total_posts"], 2)  # 08:30 & 12:30 only
 
-        midday = datetime(2026, 11, 27, 12, 30, tzinfo=timezone(timedelta(hours=7)))
-        first = run_cycle(
-            dry_run=True,
-            simulate_self_heal=False,
-            respect_schedule=True,
-            now_local=midday,
-        )
-        self.assertEqual(first["total_posts"], 2)  # 08:30 & 12:30 only
+            second = run_cycle(
+                dry_run=True,
+                simulate_self_heal=False,
+                respect_schedule=True,
+                now_local=midday,
+                logs_dir=logs_dir,
+            )
+            self.assertEqual(second["total_posts"], 0)  # no duplicate publish
 
-        second = run_cycle(
-            dry_run=True,
-            simulate_self_heal=False,
-            respect_schedule=True,
-            now_local=midday,
-        )
-        self.assertEqual(second["total_posts"], 0)  # no duplicate publish
-
-        full = run_cycle(dry_run=True, simulate_self_heal=True)
-        self.assertEqual(full["total_posts"], 3)  # 3 posts/day cadence
-        for item in full["results"]:
-            self.assertEqual(item["verdict"], "PASS")
-            self.assertTrue(item["ctr_above_target"])
-        self.assertTrue((PROJECT_ROOT / "logs" / "learn.log").exists())
-        self.assertTrue((PROJECT_ROOT / "logs" / "insights_report.json").exists())
+            full = run_cycle(dry_run=True, simulate_self_heal=True, logs_dir=logs_dir)
+            self.assertEqual(full["total_posts"], 3)  # 3 posts/day cadence
+            for item in full["results"]:
+                self.assertEqual(item["verdict"], "PASS")
+                self.assertTrue(item["ctr_above_target"])
+            self.assertTrue((logs_dir / "learn.log").exists())
+            self.assertTrue((logs_dir / "insights_report.json").exists())
 
     def test_product_bank_dedup_and_reporter(self) -> None:
         with tempfile.TemporaryDirectory() as tmp:
-            bank_path = Path(tmp) / "bank.json"
+            tmp_root = Path(tmp)
+            bank_path = tmp_root / "data" / "product_bank_90d.json"
             added1, total1 = add_products_to_bank(
                 bank_path,
                 [
@@ -158,9 +159,9 @@ class TestPipeline(unittest.TestCase):
             items = load_bank(bank_path)
             self.assertEqual(audit_post(items[0]["post"], "https://s.shopee.vn/demo1").verdict, "PASS")
 
-        rep = build_report(period="3d", project_root=PROJECT_ROOT)
-        self.assertTrue(Path(rep["report_path"]).exists())
-        self.assertGreaterEqual(rep["total_bank"], 5)
+            rep = build_report(period="3d", project_root=tmp_root)
+            self.assertTrue(Path(rep["report_path"]).exists())
+            self.assertEqual(rep["total_bank"], 1)
 
 
 if __name__ == "__main__":

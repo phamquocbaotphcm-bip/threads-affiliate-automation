@@ -173,30 +173,40 @@ def collect_satellite_insights(
             "top_comments": [],
         }
 
-    insights_qs = urllib.parse.urlencode(
-        {"metric": "views,likes,replies", "access_token": auth.access_token}
-    )
-    insights_data = _threads_request(
-        f"{THREADS_API_BASE}/{media_id}/insights?{insights_qs}"
-    )
-    metrics = {
-        item.get("name"): item.get("values", [{}])[0].get("value", 0)
-        for item in insights_data.get("data", [])
-    }
-    views = int(metrics.get("views", 0))
-    replies_count = int(metrics.get("replies", 0))
+    try:
+        insights_qs = urllib.parse.urlencode(
+            {"metric": "views,likes,replies", "access_token": auth.access_token}
+        )
+        insights_data = _threads_request(
+            f"{THREADS_API_BASE}/{media_id}/insights?{insights_qs}"
+        )
+        metrics = {
+            item.get("name"): item.get("values", [{}])[0].get("value", 0)
+            for item in insights_data.get("data", [])
+        }
+        views = int(metrics.get("views", 0))
+        replies_count = int(metrics.get("replies", 0))
 
-    replies_qs = urllib.parse.urlencode(
-        {"fields": "text", "access_token": auth.access_token}
-    )
-    replies_data = _threads_request(
-        f"{THREADS_API_BASE}/{media_id}/replies?{replies_qs}"
-    )
-    top_comments = [
-        item.get("text", "")
-        for item in replies_data.get("data", [])[:5]
-        if item.get("text")
-    ]
+        replies_qs = urllib.parse.urlencode(
+            {"fields": "text", "access_token": auth.access_token}
+        )
+        replies_data = _threads_request(
+            f"{THREADS_API_BASE}/{media_id}/replies?{replies_qs}"
+        )
+        top_comments = [
+            item.get("text", "")
+            for item in replies_data.get("data", [])[:5]
+            if item.get("text")
+        ]
+    except RecoverableTaskError:
+        return {
+            "post_id": post_id,
+            "impressions": 0,
+            "clicks": 0,
+            "ctr": 0.0,
+            "top_comments": [],
+        }
+
     return {
         "post_id": post_id,
         "impressions": views,
@@ -259,15 +269,17 @@ def run_cycle(
     simulate_self_heal: bool = True,
     respect_schedule: bool = False,
     now_local: Optional[datetime] = None,
+    logs_dir: Optional[Path] = None,
 ) -> Dict[str, Any]:
     """Execute one orchestration cycle (3 posts/day across 08:30, 12:30, 20:30)."""
     load_dotenv(PROJECT_ROOT / ".env")
-    logs_dir = PROJECT_ROOT / "logs"
-    learn_logger = LearnLogger(logs_dir)
+    active_logs_dir = Path(logs_dir) if logs_dir is not None else PROJECT_ROOT / "logs"
+    active_logs_dir.mkdir(parents=True, exist_ok=True)
+    learn_logger = LearnLogger(active_logs_dir)
     auth = ThreadsAuthConfig.from_env()
     current_local = now_local or _local_now()
     today_key = current_local.strftime("%Y-%m-%d")
-    state_path = logs_dir / "published_state.json"
+    state_path = active_logs_dir / "published_state.json"
     state = _load_published_state(state_path)
     published_urls = set(state.get("published_urls", []))
     today_slots = set(state.get("slots_by_date", {}).get(today_key, []))
@@ -390,7 +402,7 @@ def run_cycle(
         "total_posts": len(results),
         "results": results,
     }
-    (logs_dir / "insights_report.json").write_text(
+    (active_logs_dir / "insights_report.json").write_text(
         json.dumps(report, ensure_ascii=False, indent=2), encoding="utf-8"
     )
     return report
