@@ -20,7 +20,7 @@ if str(PROJECT_ROOT) not in sys.path:
 
 from src.auth_threads import ThreadsAuthConfig, refresh_long_lived_token
 from src.compliance_qa import audit_post, compose_main_post
-from src.product_bank import DAILY_SLOTS, load_bank
+from src.product_bank import DAILY_SLOTS, generate_natural_post, load_bank
 from src.self_heal import LearnLogger, RecoverableTaskError, SelfHealingExecutor
 from src.shopee_affiliate import (
     is_placeholder_url,
@@ -87,13 +87,17 @@ def publish_threads_post(
     auth: ThreadsAuthConfig,
     text: str,
     reply_text: str,
+    image_url: str = "",
+    topic_tag: str = "",
     dry_run: bool = True,
 ) -> Dict[str, Any]:
-    """Publish a Threads post and attach the affiliate link as the first reply."""
+    """Publish a Threads post (IMAGE with TEXT fallback) and attach affiliate reply."""
+    use_image = bool(image_url and image_url.startswith("https://"))
     if dry_run:
         return {
             "media_id": f"dryrun_{abs(hash(text)) % 1000000}",
             "reply_id": f"dryrun_reply_{abs(hash(reply_text)) % 1000000}",
+            "media_type": "IMAGE" if use_image else "TEXT",
             "status": "PUBLISHED_DRY_RUN",
         }
 
@@ -107,14 +111,33 @@ def publish_threads_post(
     create_url = f"{THREADS_API_BASE}/{auth.user_id}/threads"
     publish_url = f"{THREADS_API_BASE}/{auth.user_id}/threads_publish"
 
-    container = _threads_request(
-        create_url,
-        data={
-            "media_type": "TEXT",
-            "text": text,
-            "access_token": auth.access_token,
-        },
-    )
+    base_payload: Dict[str, str] = {
+        "text": text,
+        "access_token": auth.access_token,
+    }
+    if topic_tag:
+        base_payload["topic_tag"] = topic_tag
+
+    media_type_used = "TEXT"
+    container: Optional[Dict[str, Any]] = None
+    if use_image:
+        try:
+            img_payload = dict(base_payload)
+            img_payload["media_type"] = "IMAGE"
+            img_payload["image_url"] = image_url
+            container = _threads_request(create_url, data=img_payload)
+            media_type_used = "IMAGE"
+        except RecoverableTaskError as exc:
+            if exc.error_type == "TOKEN_EXPIRED":
+                raise
+            container = None
+
+    if container is None:
+        txt_payload = dict(base_payload)
+        txt_payload["media_type"] = "TEXT"
+        container = _threads_request(create_url, data=txt_payload)
+        media_type_used = "TEXT"
+
     published = _threads_request(
         publish_url,
         data={
@@ -141,6 +164,7 @@ def publish_threads_post(
     return {
         "media_id": published["id"],
         "reply_id": reply_published["id"],
+        "media_type": media_type_used,
         "status": "PUBLISHED_LIVE",
     }
 
@@ -224,7 +248,11 @@ def _local_now() -> datetime:
 
 
 def _load_published_state(state_path: Path) -> Dict[str, Any]:
-    default_state: Dict[str, Any] = {"published_urls": [], "slots_by_date": {}}
+    default_state: Dict[str, Any] = {
+        "published_urls": [],
+        "slots_by_date": {},
+        "recent_texts": [],
+    }
     if not state_path.exists():
         return default_state
     try:
@@ -233,6 +261,7 @@ def _load_published_state(state_path: Path) -> Dict[str, Any]:
             return default_state
         data.setdefault("published_urls", [])
         data.setdefault("slots_by_date", {})
+        data.setdefault("recent_texts", [])
         return data
     except json.JSONDecodeError:
         return default_state
@@ -244,15 +273,25 @@ def _is_slot_due(scheduled_slot: str, now_local: datetime) -> bool:
     return now_local >= slot_dt
 
 
-def _load_candidate_queue() -> List[Dict[str, Any]]:
+def _load_candidate_queue(
+    bank_path: Optional[Path] = None,
+) -> List[Dict[str, Any]]:
     """Load candidate items from 90-day bank, falling back to legacy seed files."""
-    bank = load_bank(PROJECT_ROOT / "data" / "product_bank_90d.json")
+    target_bank = (
+        Path(bank_path)
+        if bank_path is not None
+        else PROJECT_ROOT / "data" / "product_bank_90d.json"
+    )
+    bank = load_bank(target_bank)
     if bank:
         queue: List[Dict[str, Any]] = []
         for idx, item in enumerate(bank):
             post = dict(item["post"])
             post["sku"] = item["sku"]
             post["affiliate_url"] = item["shopee_affiliate_url"]
+            post["image_url"] = item.get("image_url", "")
+            post["_raw_item"] = item
+            post["_bank_index"] = idx + 1
             post.setdefault("scheduled_slot", DAILY_SLOTS[idx % len(DAILY_SLOTS)])
             queue.append(post)
         return queue
@@ -263,7 +302,36 @@ def _load_candidate_queue() -> List[Dict[str, Any]]:
     )
     for post in posts:
         post["affiliate_url"] = products[post["sku"]]["shopee_affiliate_url"]
+        post["image_url"] = products[post["sku"]].get("image_url", "")
     return posts
+
+
+def _audit_with_auto_rewrite(
+    post: Dict[str, Any],
+    affiliate_url: str,
+    recent_texts: List[str],
+) -> tuple[Dict[str, Any], Any]:
+    """Audit post; if rejected, auto-rewrite with up to 2 alternative templates."""
+    audit = audit_post(post, affiliate_url, recent_texts=recent_texts)
+    if audit.verdict == "PASS":
+        return post, audit
+
+    raw_item = post.get("_raw_item")
+    if not raw_item:
+        return post, audit
+
+    bank_idx = int(post.get("_bank_index", 1))
+    for offset in (1, 2):
+        rewritten = generate_natural_post(
+            raw_item, index=bank_idx, variant_offset=offset
+        )
+        rewritten["sku"] = post.get("sku", "")
+        rewritten["affiliate_url"] = affiliate_url
+        rewritten["image_url"] = post.get("image_url", "")
+        audit = audit_post(rewritten, affiliate_url, recent_texts=recent_texts)
+        if audit.verdict == "PASS":
+            return rewritten, audit
+    return post, audit
 
 
 def run_cycle(
@@ -272,6 +340,7 @@ def run_cycle(
     respect_schedule: bool = False,
     now_local: Optional[datetime] = None,
     logs_dir: Optional[Path] = None,
+    bank_path: Optional[Path] = None,
 ) -> Dict[str, Any]:
     """Execute one orchestration cycle (3 posts/day across 08:30, 12:30, 20:30)."""
     load_dotenv(PROJECT_ROOT / ".env")
@@ -285,6 +354,7 @@ def run_cycle(
     state = _load_published_state(state_path)
     published_urls = set(state.get("published_urls", []))
     today_slots = set(state.get("slots_by_date", {}).get(today_key, []))
+    recent_texts: List[str] = list(state.get("recent_texts", []))
 
     def _handle_token_refresh(_exc: RecoverableTaskError) -> None:
         refreshed = refresh_long_lived_token(auth.access_token, dry_run=dry_run)
@@ -312,89 +382,110 @@ def run_cycle(
 
         executor.run("preflight_token_check", _transient_token_check)
 
-    candidates = _load_candidate_queue()
+    candidates = _load_candidate_queue(bank_path=bank_path)
     target_ctr = float(os.getenv("TARGET_CTR_THRESHOLD", "0.035"))
     results: List[Dict[str, Any]] = []
 
     if respect_schedule:
-        due_slots = [
+        target_slots = [
             slot for slot in DAILY_SLOTS
             if slot not in today_slots and _is_slot_due(slot, current_local)
         ]
-        unpublished = [
+        pool = [
             item for item in candidates
             if item["affiliate_url"] not in published_urls
         ]
-        work_items = list(zip(due_slots, unpublished))
     else:
-        work_items = [
-            (DAILY_SLOTS[idx % len(DAILY_SLOTS)], item)
-            for idx, item in enumerate(candidates[: len(DAILY_SLOTS)])
-        ]
+        target_slots = list(DAILY_SLOTS)
+        pool = list(candidates)
 
-    for slot, post in work_items:
-        post_id = post["id"]
-        sku = post["sku"]
-        affiliate_url = post["affiliate_url"]
-        if not is_valid_affiliate_url(affiliate_url) or (
-            not dry_run and is_placeholder_url(affiliate_url)
-        ):
-            raise RecoverableTaskError(
-                "INVALID_AFFILIATE_LINK",
-                f"Invalid or placeholder affiliate URL for {sku}",
-                root_cause="Affiliate URL failed domain/HTTPS/placeholder validation",
+    pool_idx = 0
+    for slot in target_slots:
+        published_for_slot = False
+        while pool_idx < len(pool) and not published_for_slot:
+            post = pool[pool_idx]
+            pool_idx += 1
+            post_id = post["id"]
+            sku = post["sku"]
+            affiliate_url = post["affiliate_url"]
+
+            if not is_valid_affiliate_url(affiliate_url) or (
+                not dry_run and is_placeholder_url(affiliate_url)
+            ):
+                raise RecoverableTaskError(
+                    "INVALID_AFFILIATE_LINK",
+                    f"Invalid or placeholder affiliate URL for {sku}",
+                    root_cause="Affiliate URL failed domain/HTTPS/placeholder validation",
+                )
+
+            checked_post, audit = _audit_with_auto_rewrite(
+                post, affiliate_url, recent_texts
             )
+            if audit.verdict != "PASS":
+                learn_logger.record(
+                    error_type="COMPLIANCE_VIOLATION",
+                    context=f"Core_QA_Audit rejected {post_id} after auto-rewrite",
+                    root_cause="; ".join(audit.defects),
+                    auto_fix="Skipped SKU and pulled next candidate in bank",
+                    prevention_rule="Keep templates natural and unique vs last 10 posts",
+                    resolved=True,
+                )
+                results.append(
+                    {
+                        "post_id": post_id,
+                        "verdict": "REJECT",
+                        "defects": audit.defects,
+                        "naturalness_score": audit.naturalness_score,
+                    }
+                )
+                continue
 
-        audit = audit_post(post, affiliate_url)
-        if audit.verdict != "PASS":
-            learn_logger.record(
-                error_type="COMPLIANCE_VIOLATION",
-                context=f"Core_QA_Audit rejected {post_id}",
-                root_cause="; ".join(audit.defects),
-                auto_fix="Blocked post from publishing",
-                prevention_rule="Fix copy before retry",
-                resolved=False,
+            main_text = compose_main_post(checked_post)
+            reply_text = checked_post["affiliate_comment_cta"].format(
+                affiliate_url=affiliate_url
+            )
+            slot_image = (
+                checked_post.get("image_url", "") if slot == "20:30" else ""
+            )
+            topic_tag = str(checked_post.get("topic_tag", ""))
+            pub_result = executor.run(
+                f"publish_{post_id}",
+                lambda mt=main_text, rt=reply_text, img=slot_image, tt=topic_tag: publish_threads_post(
+                    auth, mt, rt, image_url=img, topic_tag=tt, dry_run=dry_run
+                ),
+            )
+            recent_texts.append(main_text)
+            recent_texts = recent_texts[-10:]
+            if respect_schedule:
+                published_urls.add(affiliate_url)
+                today_slots.add(slot)
+                state["published_urls"] = sorted(published_urls)
+                state["slots_by_date"][today_key] = sorted(today_slots)
+                state["recent_texts"] = recent_texts
+                state_path.write_text(
+                    json.dumps(state, ensure_ascii=False, indent=2),
+                    encoding="utf-8",
+                )
+
+            insights = collect_satellite_insights(
+                post_id,
+                auth=auth,
+                media_id=pub_result.get("media_id", ""),
+                dry_run=dry_run,
             )
             results.append(
-                {"post_id": post_id, "verdict": "REJECT", "defects": audit.defects}
+                {
+                    "post_id": post_id,
+                    "slot": slot,
+                    "sku": sku,
+                    "verdict": audit.verdict,
+                    "naturalness_score": audit.naturalness_score,
+                    "publish": pub_result,
+                    "insights": insights,
+                    "ctr_above_target": insights["ctr"] >= target_ctr,
+                }
             )
-            continue
-
-        main_text = compose_main_post(post)
-        reply_text = post["affiliate_comment_cta"].format(affiliate_url=affiliate_url)
-        pub_result = executor.run(
-            f"publish_{post_id}",
-            lambda mt=main_text, rt=reply_text: publish_threads_post(
-                auth, mt, rt, dry_run=dry_run
-            ),
-        )
-        if respect_schedule:
-            published_urls.add(affiliate_url)
-            today_slots.add(slot)
-            state["published_urls"] = sorted(published_urls)
-            state["slots_by_date"][today_key] = sorted(today_slots)
-            state_path.write_text(
-                json.dumps(state, ensure_ascii=False, indent=2),
-                encoding="utf-8",
-            )
-
-        insights = collect_satellite_insights(
-            post_id,
-            auth=auth,
-            media_id=pub_result.get("media_id", ""),
-            dry_run=dry_run,
-        )
-        results.append(
-            {
-                "post_id": post_id,
-                "slot": slot,
-                "sku": sku,
-                "verdict": audit.verdict,
-                "publish": pub_result,
-                "insights": insights,
-                "ctr_above_target": insights["ctr"] >= target_ctr,
-            }
-        )
+            published_for_slot = True
 
     report = {
         "channel": "@hoinghiendotienich",

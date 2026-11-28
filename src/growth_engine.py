@@ -180,10 +180,14 @@ def publish_daily_viral_post(
             )
         create_url = f"{THREADS_API_BASE}/{auth.user_id}/threads"
         publish_url = f"{THREADS_API_BASE}/{auth.user_id}/threads_publish"
-        container = _threads_request(
-            create_url,
-            data={"media_type": "TEXT", "text": text, "access_token": auth.access_token},
-        )
+        payload: Dict[str, str] = {
+            "media_type": "TEXT",
+            "text": text,
+            "access_token": auth.access_token,
+        }
+        if candidate.get("topic_tag"):
+            payload["topic_tag"] = str(candidate["topic_tag"])
+        container = _threads_request(create_url, data=payload)
         published = _threads_request(
             publish_url,
             data={"creation_id": container["id"], "access_token": auth.access_token},

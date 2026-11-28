@@ -11,8 +11,10 @@
       "body": "Hôm bữa mua thử cái đầu vòi tăng áp 23k gắn vào vòi bồn rửa, nước xịt ra mạnh hơn hẳn mà tia nhỏ nên đỡ tốn nước nữa. Lắp 1 phút là xong.",
       "engagement_question": "Phòng trọ mọi người nước có bị yếu giờ cao điểm không?",
       "affiliate_comment_cta": "Ai cần đầu vòi tăng áp rẻ bèo thì xem ở đây nha: {affiliate_url}",
-      "hashtags": "#hoinghiendotienich #phongtro #sinhvien #tienich"
-    }
+      "hashtags": "",
+      "topic_tag": "Đồ tiện ích"
+    },
+    "image_url": ""
   },
   {
     "sku": "TIENICH-02",
@@ -26,8 +28,10 @@
       "body": "Đợt này mình chuyển sang mua nguyên thùng 6 bịch khăn giấy treo tường 58k, treo ngay cạnh bàn học rút cho gọn. Giấy dai lau không bị bở vụn.",
       "engagement_question": "Mọi người hay mua lẻ từng bịch ở tạp hóa hay ôm nguyên thùng trên mạng?",
       "affiliate_comment_cta": "Chỗ mình mua thùng 6 bịch giá 58k đây nhé: {affiliate_url}",
-      "hashtags": "#hoinghiendotienich #tietkiem #sinhvien"
-    }
+      "hashtags": "",
+      "topic_tag": "Đồ tiện ích"
+    },
+    "image_url": ""
   },
   {
     "sku": "TIENICH-03",
@@ -41,8 +45,10 @@
       "body": "Sắm 2 cái hộp vải có nắp chưa tới 30k một cái, nhét hết tất vớ với đồ lặt vặt vào xong xếp chồng lên nhau nhìn phòng gọn hẳn.",
       "engagement_question": "Mọi người hay phân loại đồ lặt vặt kiểu gì cho đỡ rối mắt?",
       "affiliate_comment_cta": "Link hộp vải có nắp mình để dưới comment này nha: {affiliate_url}",
-      "hashtags": "#hoinghiendotienich #decorphongtro #gondep"
-    }
+      "hashtags": "",
+      "topic_tag": "Đồ tiện ích"
+    },
+    "image_url": ""
   },
   {
     "sku": "TIENICH-04",
@@ -56,8 +62,10 @@
       "body": "Bỏ 86k mua cái hộp nhựa để bàn chia ngăn cỡ lớn, gom hết đồ skincare với phụ kiện vào một chỗ. Sáng dậy vội lấy đồ cũng nhanh.",
       "engagement_question": "Bàn của bạn đang gọn gàng hay kiểu tìm gì cũng mất 5 phút?",
       "affiliate_comment_cta": "Link hộp để bàn mình đang dùng ở đây nhé: {affiliate_url}",
-      "hashtags": "#hoinghiendotienich #setupgoclamviec #gocbanhoc"
-    }
+      "hashtags": "",
+      "topic_tag": "Đồ tiện ích"
+    },
+    "image_url": ""
   },
   {
     "sku": "TIENICH-05",
@@ -71,8 +79,10 @@
       "body": "Gắn cái giỏ treo có lỗ thoát nước 12k ngay vòi rửa, xài xong thả vào đó cho ráo hẳn nước, đỡ mùi ẩm mốc hẳn luôn.",
       "engagement_question": "Mấy món lặt vặt 10-15k kiểu này mọi người thấy món nào đáng tiền nhất?",
       "affiliate_comment_cta": "Giỏ treo thoát nước 12k mình mua ở shop này nha: {affiliate_url}",
-      "hashtags": "#hoinghiendotienich #meovat #giare"
-    }
+      "hashtags": "",
+      "topic_tag": "Đồ tiện ích"
+    },
+    "image_url": ""
   },
   {
     "sku": "BANK-006",
@@ -82,12 +92,14 @@
     "shopee_affiliate_url": "https://s.shopee.vn/AAJ43qQdr8",
     "post": {
       "id": "BANK-006",
-      "hook": "Ở trọ mới thấy mấy món lặt vặt kiểu quần short unisex basic thể thao phong cứu cánh cực kỳ.",
-      "body": "Bữa mình đặt thử về dùng thấy tiện hơn hẳn, giá chỉ tầm 69k nên sinh viên mua không bị xót ví. Gọn nhẹ, dùng hàng ngày đỡ mất thời gian.",
-      "engagement_question": "Ở đây có bạn nào dùng loại này chưa, thấy ổn không?",
-      "affiliate_comment_cta": "Link quần short unisex basic thể thao phong mình để dưới đây cho ai cần nha: {affiliate_url}",
-      "hashtags": "#hoinghiendotienich #tienich #phongtro #sinhvien"
-    }
+      "hook": "Nhiều khi chỉ cần đổi một món nhỏ như quần short unisex basic thể thao là sinh hoạt thoải mái hơn nhiều.",
+      "body": "Nhỏ gọn nên chuyển trọ mang theo cũng dễ, không lo cồng kềnh. Mức giá 69k mua không cần đắn đo.",
+      "engagement_question": "Phòng trọ mọi người món tiện ích nào dùng nhiều nhất vậy?",
+      "affiliate_comment_cta": "Để lại link quần short unisex basic thể thao ở đây cho bạn nào đang tìm mua: {affiliate_url}",
+      "hashtags": "",
+      "topic_tag": "Đồ tiện ích"
+    },
+    "image_url": ""
   },
   {
     "sku": "BANK-007",
@@ -97,12 +109,14 @@
     "shopee_affiliate_url": "https://s.shopee.vn/6AmvIUt05g",
     "post": {
       "id": "BANK-007",
-      "hook": "Ai hay lười dọn góc phòng giống mình thì ngó thử combo 5 hộp min chì thiên long này xem.",
-      "body": "Mình xài cả tuần nay thấy khá ưng, tầm 35k mà giải quyết gọn mấy việc lặt vặt trong phòng trọ. Đỡ phải loay hoay mỗi lần cần.",
-      "engagement_question": "Mọi người hay ưu tiên đồ giá rẻ hay mua loại xịn dùng lâu dài?",
-      "affiliate_comment_cta": "Link combo 5 hộp min chì thiên long mình để dưới đây cho ai cần nha: {affiliate_url}",
-      "hashtags": "#hoinghiendotienich #tienich #phongtro #sinhvien"
-    }
+      "hook": "Ai hay lười dọn góc phòng giống mình thì ngó thử combo 5 hộp min chì thiên này xem.",
+      "body": "Không quá cầu kỳ nhưng đúng công năng cần thiết mỗi ngày. Với 35k thì khó đòi hỏi gì hơn.",
+      "engagement_question": "Bạn thích đồ tối giản một màu hay màu sắc nổi bật cho vui mắt?",
+      "affiliate_comment_cta": "Shop mình hay mua combo 5 hộp min chì thiên giá mềm đây nhé: {affiliate_url}",
+      "hashtags": "",
+      "topic_tag": "Đồ tiện ích"
+    },
+    "image_url": ""
   },
   {
     "sku": "BANK-008",
@@ -112,12 +126,14 @@
     "shopee_affiliate_url": "https://s.shopee.vn/3qP0WDG75F",
     "post": {
       "id": "BANK-008",
-      "hook": "Tầm 145k mà mua được combo 2 túi nước giặt nuki blue dùng ổn áp phết.",
-      "body": "Đợt này săn được deal tầm 145k, mang về để góc bàn hay phòng tắm đều vừa vặn. Đồ rẻ nhưng dùng kỹ vẫn bền lắm nha.",
-      "engagement_question": "Phòng trọ mọi người món tiện ích nào dùng nhiều nhất vậy?",
-      "affiliate_comment_cta": "Link combo 2 túi nước giặt nuki blue mình để dưới đây cho ai cần nha: {affiliate_url}",
-      "hashtags": "#hoinghiendotienich #tienich #phongtro #sinhvien"
-    }
+      "hook": "Sinh viên ở ghép phòng nhỏ rất nên có một cái combo 2 túi nước giặt nuki cho gọn.",
+      "body": "Mình đặt về dùng thử mấy hôm thấy khá ưng, giá chỉ khoảng 145k nên không bị đau ví. Gọn nhẹ, cất hay mang đi đều tiện.",
+      "engagement_question": "Bạn thích săn mã giảm giá vào khung giờ nào trong ngày?",
+      "affiliate_comment_cta": "Xem giá hiện tại của combo 2 túi nước giặt nuki ở link này nha: {affiliate_url}",
+      "hashtags": "",
+      "topic_tag": "Đồ tiện ích"
+    },
+    "image_url": ""
   },
   {
     "sku": "BANK-009",
@@ -127,12 +143,14 @@
     "shopee_affiliate_url": "https://s.shopee.vn/2gD384X4Ac",
     "post": {
       "id": "BANK-009",
-      "hook": "Ở trọ mới thấy mấy món lặt vặt kiểu bàn gấp mini học tập ngồi bệt cứu cánh cực kỳ.",
-      "body": "Bữa mình đặt thử về dùng thấy tiện hơn hẳn, giá chỉ tầm 70k nên sinh viên mua không bị xót ví. Gọn nhẹ, dùng hàng ngày đỡ mất thời gian.",
-      "engagement_question": "Ở đây có bạn nào dùng loại này chưa, thấy ổn không?",
-      "affiliate_comment_cta": "Link bàn gấp mini học tập ngồi bệt mình để dưới đây cho ai cần nha: {affiliate_url}",
-      "hashtags": "#hoinghiendotienich #tienich #phongtro #sinhvien"
-    }
+      "hook": "Không ngờ món đồ giá 70k như bàn gấp mini học tập ngồi lại giải quyết đúng chỗ ngứa.",
+      "body": "Phù hợp nhất cho mấy bạn ở trọ một mình hoặc ký túc xá vì không chiếm diện tích. Chi phí 70k quá dễ chịu.",
+      "engagement_question": "Tầm giá dưới 100k bạn thấy món nào đáng mua nhất?",
+      "affiliate_comment_cta": "Cần mua bàn gấp mini học tập ngồi thì bấm vào đây xem thử nhé: {affiliate_url}",
+      "hashtags": "",
+      "topic_tag": "Đồ tiện ích"
+    },
+    "image_url": ""
   },
   {
     "sku": "BANK-010",
@@ -142,12 +160,14 @@
     "shopee_affiliate_url": "https://s.shopee.vn/7AfSULycTo",
     "post": {
       "id": "BANK-010",
-      "hook": "Ai hay lười dọn góc phòng giống mình thì ngó thử giấy vệ sinh treo tường topgia đa này xem.",
-      "body": "Mình xài cả tuần nay thấy khá ưng, tầm 108k mà giải quyết gọn mấy việc lặt vặt trong phòng trọ. Đỡ phải loay hoay mỗi lần cần.",
-      "engagement_question": "Mọi người hay ưu tiên đồ giá rẻ hay mua loại xịn dùng lâu dài?",
-      "affiliate_comment_cta": "Link giấy vệ sinh treo tường topgia đa mình để dưới đây cho ai cần nha: {affiliate_url}",
-      "hashtags": "#hoinghiendotienich #tienich #phongtro #sinhvien"
-    }
+      "hook": "Cứ tưởng mua về cho vui ai dè giấy vệ sinh treo tường topgia thành món dùng nhiều nhất tuần.",
+      "body": "Nhỏ gọn nên chuyển trọ mang theo cũng dễ, không lo cồng kềnh. Mức giá 108k mua không cần đắn đo.",
+      "engagement_question": "Ở ghép với bạn cùng phòng mọi người có hay chia nhau mua đồ chung không?",
+      "affiliate_comment_cta": "Link giấy vệ sinh treo tường topgia mình để dưới đây cho ai cần nha: {affiliate_url}",
+      "hashtags": "",
+      "topic_tag": "Đồ tiện ích"
+    },
+    "image_url": ""
   },
   {
     "sku": "BANK-011",
@@ -157,12 +177,14 @@
     "shopee_affiliate_url": "https://s.shopee.vn/50axuNJvhQ",
     "post": {
       "id": "BANK-011",
-      "hook": "Tầm 48k mà mua được túi nước xả vải hygiene expert care dùng ổn áp phết.",
-      "body": "Đợt này săn được deal tầm 48k, mang về để góc bàn hay phòng tắm đều vừa vặn. Đồ rẻ nhưng dùng kỹ vẫn bền lắm nha.",
-      "engagement_question": "Phòng trọ mọi người món tiện ích nào dùng nhiều nhất vậy?",
-      "affiliate_comment_cta": "Link túi nước xả vải hygiene expert care mình để dưới đây cho ai cần nha: {affiliate_url}",
-      "hashtags": "#hoinghiendotienich #tienich #phongtro #sinhvien"
-    }
+      "hook": "Từ ngày có túi nước xả vải hygiene expert, mấy việc lặt vặt buổi tối làm nhanh hơn hẳn.",
+      "body": "Không quá cầu kỳ nhưng đúng công năng cần thiết mỗi ngày. Với 48k thì khó đòi hỏi gì hơn.",
+      "engagement_question": "Có ai hay đặt hàng lúc nửa đêm xong sáng ra quên mất mình đặt gì không?",
+      "affiliate_comment_cta": "Chỗ mình đặt túi nước xả vải hygiene expert uy tín giá ổn đây nhé: {affiliate_url}",
+      "hashtags": "",
+      "topic_tag": "Đồ tiện ích"
+    },
+    "image_url": ""
   },
   {
     "sku": "BANK-012",
@@ -172,12 +194,14 @@
     "shopee_affiliate_url": "https://s.shopee.vn/4fy7VlYk2C",
     "post": {
       "id": "BANK-012",
-      "hook": "Ở trọ mới thấy mấy món lặt vặt kiểu giấy ăn rút topgia đa sắc 240 cứu cánh cực kỳ.",
-      "body": "Bữa mình đặt thử về dùng thấy tiện hơn hẳn, giá chỉ tầm 74k nên sinh viên mua không bị xót ví. Gọn nhẹ, dùng hàng ngày đỡ mất thời gian.",
-      "engagement_question": "Ở đây có bạn nào dùng loại này chưa, thấy ổn không?",
-      "affiliate_comment_cta": "Link giấy ăn rút topgia đa sắc 240 mình để dưới đây cho ai cần nha: {affiliate_url}",
-      "hashtags": "#hoinghiendotienich #tienich #phongtro #sinhvien"
-    }
+      "hook": "Đồ gia dụng giờ rẻ thật, tầm 74k đã có giấy ăn rút topgia đa sắc dùng khá chắc chắn.",
+      "body": "Mình đặt về dùng thử mấy hôm thấy khá ưng, giá chỉ khoảng 74k nên không bị đau ví. Gọn nhẹ, cất hay mang đi đều tiện.",
+      "engagement_question": "Bạn hay mua đồ gia dụng ở chợ gần nhà hay đặt online?",
+      "affiliate_comment_cta": "Bạn nào hỏi giấy ăn rút topgia đa sắc thì xem chi tiết ở đây nha: {affiliate_url}",
+      "hashtags": "",
+      "topic_tag": "Đồ tiện ích"
+    },
+    "image_url": ""
   },
   {
     "sku": "BANK-013",
@@ -187,12 +211,14 @@
     "shopee_affiliate_url": "https://s.shopee.vn/7AfSUNaiJa",
     "post": {
       "id": "BANK-013",
-      "hook": "Ai hay lười dọn góc phòng giống mình thì ngó thử quần đùi nam nữ ở nhà giá này xem.",
-      "body": "Mình xài cả tuần nay thấy khá ưng, tầm 30k mà giải quyết gọn mấy việc lặt vặt trong phòng trọ. Đỡ phải loay hoay mỗi lần cần.",
-      "engagement_question": "Mọi người hay ưu tiên đồ giá rẻ hay mua loại xịn dùng lâu dài?",
-      "affiliate_comment_cta": "Link quần đùi nam nữ ở nhà giá mình để dưới đây cho ai cần nha: {affiliate_url}",
-      "hashtags": "#hoinghiendotienich #tienich #phongtro #sinhvien"
-    }
+      "hook": "Đi học về mệt mà thấy góc phòng gọn gàng nhờ quần đùi nam nữ ở nhà cũng đỡ stress.",
+      "body": "Phù hợp nhất cho mấy bạn ở trọ một mình hoặc ký túc xá vì không chiếm diện tích. Chi phí 30k quá dễ chịu.",
+      "engagement_question": "Món đồ nào bạn mua về xong thấy hối hận vì không mua sớm hơn?",
+      "affiliate_comment_cta": "Mình gắn sẵn đường dẫn quần đùi nam nữ ở nhà ở đây cho tiện tìm: {affiliate_url}",
+      "hashtags": "",
+      "topic_tag": "Đồ tiện ích"
+    },
+    "image_url": ""
   },
   {
     "sku": "BANK-014",
@@ -202,12 +228,14 @@
     "shopee_affiliate_url": "https://s.shopee.vn/6fjBtSqmJs",
     "post": {
       "id": "BANK-014",
-      "hook": "Tầm 69k mà mua được khăn giấy pio topgia đa năng thùng dùng ổn áp phết.",
-      "body": "Đợt này săn được deal tầm 69k, mang về để góc bàn hay phòng tắm đều vừa vặn. Đồ rẻ nhưng dùng kỹ vẫn bền lắm nha.",
-      "engagement_question": "Phòng trọ mọi người món tiện ích nào dùng nhiều nhất vậy?",
-      "affiliate_comment_cta": "Link khăn giấy pio topgia đa năng thùng mình để dưới đây cho ai cần nha: {affiliate_url}",
-      "hashtags": "#hoinghiendotienich #tienich #phongtro #sinhvien"
-    }
+      "hook": "Tầm 69k mà kiếm được khăn giấy pio topgia đa năng dùng ổn áp phết.",
+      "body": "Nhỏ gọn nên chuyển trọ mang theo cũng dễ, không lo cồng kềnh. Mức giá 69k mua không cần đắn đo.",
+      "engagement_question": "Nếu chấm điểm độ gọn gàng góc phòng hiện tại bạn cho mấy điểm?",
+      "affiliate_comment_cta": "Ai muốn tham khảo khăn giấy pio topgia đa năng giống mình thì vào đây xem nhé: {affiliate_url}",
+      "hashtags": "",
+      "topic_tag": "Đồ tiện ích"
+    },
+    "image_url": ""
   },
   {
     "sku": "BANK-015",
@@ -217,12 +245,14 @@
     "shopee_affiliate_url": "https://s.shopee.vn/80EZTuzB0X",
     "post": {
       "id": "BANK-015",
-      "hook": "Ở trọ mới thấy mấy món lặt vặt kiểu giấy vệ sinh treo tường topgia thùng cứu cánh cực kỳ.",
-      "body": "Bữa mình đặt thử về dùng thấy tiện hơn hẳn, giá chỉ tầm 139k nên sinh viên mua không bị xót ví. Gọn nhẹ, dùng hàng ngày đỡ mất thời gian.",
-      "engagement_question": "Ở đây có bạn nào dùng loại này chưa, thấy ổn không?",
-      "affiliate_comment_cta": "Link giấy vệ sinh treo tường topgia thùng mình để dưới đây cho ai cần nha: {affiliate_url}",
-      "hashtags": "#hoinghiendotienich #tienich #phongtro #sinhvien"
-    }
+      "hook": "Bữa lướt thấy giấy vệ sinh treo tường topgia giá 139k đặt đại về xài thử mà ưng ghê.",
+      "body": "Không quá cầu kỳ nhưng đúng công năng cần thiết mỗi ngày. Với 139k thì khó đòi hỏi gì hơn.",
+      "engagement_question": "Góc phòng của bạn hiện tại có món nào tâm đắc nhất không?",
+      "affiliate_comment_cta": "Thông tin sản phẩm giấy vệ sinh treo tường topgia mình để ngay đây nha: {affiliate_url}",
+      "hashtags": "",
+      "topic_tag": "Đồ tiện ích"
+    },
+    "image_url": ""
   },
   {
     "sku": "BANK-016",
@@ -232,12 +262,14 @@
     "shopee_affiliate_url": "https://s.shopee.vn/9Kjx4N7qlF",
     "post": {
       "id": "BANK-016",
-      "hook": "Ai hay lười dọn góc phòng giống mình thì ngó thử quần đùi cộc basic vải da cá này xem.",
-      "body": "Mình xài cả tuần nay thấy khá ưng, tầm 44k mà giải quyết gọn mấy việc lặt vặt trong phòng trọ. Đỡ phải loay hoay mỗi lần cần.",
-      "engagement_question": "Mọi người hay ưu tiên đồ giá rẻ hay mua loại xịn dùng lâu dài?",
-      "affiliate_comment_cta": "Link quần đùi cộc basic vải da cá mình để dưới đây cho ai cần nha: {affiliate_url}",
-      "hashtags": "#hoinghiendotienich #tienich #phongtro #sinhvien"
-    }
+      "hook": "Mấy bạn hay thức khuya học bài chắc sẽ cần tới quần đùi cộc basic vải da này.",
+      "body": "Mình đặt về dùng thử mấy hôm thấy khá ưng, giá chỉ khoảng 44k nên không bị đau ví. Gọn nhẹ, cất hay mang đi đều tiện.",
+      "engagement_question": "Cuối tuần này bạn có dự định dọn lại góc học tập hay phòng ngủ không?",
+      "affiliate_comment_cta": "Để lại link quần đùi cộc basic vải da ở đây cho bạn nào đang tìm mua: {affiliate_url}",
+      "hashtags": "",
+      "topic_tag": "Đồ tiện ích"
+    },
+    "image_url": ""
   },
   {
     "sku": "BANK-017",
@@ -247,12 +279,14 @@
     "shopee_affiliate_url": "https://s.shopee.vn/4VehJUcckx",
     "post": {
       "id": "BANK-017",
-      "hook": "Tầm 80k mà mua được thùng 8 bịch khăn giấy pio topgia dùng ổn áp phết.",
-      "body": "Đợt này săn được deal tầm 80k, mang về để góc bàn hay phòng tắm đều vừa vặn. Đồ rẻ nhưng dùng kỹ vẫn bền lắm nha.",
-      "engagement_question": "Phòng trọ mọi người món tiện ích nào dùng nhiều nhất vậy?",
-      "affiliate_comment_cta": "Link thùng 8 bịch khăn giấy pio topgia mình để dưới đây cho ai cần nha: {affiliate_url}",
-      "hashtags": "#hoinghiendotienich #tienich #phongtro #sinhvien"
-    }
+      "hook": "Nhỏ bạn qua phòng chơi hỏi hoài chỗ mua thùng 8 bịch khăn giấy pio này luôn.",
+      "body": "Phù hợp nhất cho mấy bạn ở trọ một mình hoặc ký túc xá vì không chiếm diện tích. Chi phí 80k quá dễ chịu.",
+      "engagement_question": "Món đồ đầu tiên bạn tự sắm khi ra ở riêng là gì thế?",
+      "affiliate_comment_cta": "Shop mình hay mua thùng 8 bịch khăn giấy pio giá mềm đây nhé: {affiliate_url}",
+      "hashtags": "",
+      "topic_tag": "Đồ tiện ích"
+    },
+    "image_url": ""
   },
   {
     "sku": "BANK-018",
@@ -262,12 +296,14 @@
     "shopee_affiliate_url": "https://s.shopee.vn/4B1qusqGe9",
     "post": {
       "id": "BANK-018",
-      "hook": "Ở trọ mới thấy mấy món lặt vặt kiểu bút bi nước deli viết gel bấm cứu cánh cực kỳ.",
-      "body": "Bữa mình đặt thử về dùng thấy tiện hơn hẳn, giá chỉ tầm 12k nên sinh viên mua không bị xót ví. Gọn nhẹ, dùng hàng ngày đỡ mất thời gian.",
-      "engagement_question": "Ở đây có bạn nào dùng loại này chưa, thấy ổn không?",
-      "affiliate_comment_cta": "Link bút bi nước deli viết gel bấm mình để dưới đây cho ai cần nha: {affiliate_url}",
-      "hashtags": "#hoinghiendotienich #tienich #phongtro #sinhvien"
-    }
+      "hook": "Tháng này tốn tiền nhất là mua mấy món tiện ích, nhưng riêng bút bi nước deli viết gel thì không tiếc.",
+      "body": "Nhỏ gọn nên chuyển trọ mang theo cũng dễ, không lo cồng kềnh. Mức giá 12k mua không cần đắn đo.",
+      "engagement_question": "Có ai hay bị nghiện săn mấy món lặt vặt kiểu này giống mình không?",
+      "affiliate_comment_cta": "Xem giá hiện tại của bút bi nước deli viết gel ở link này nha: {affiliate_url}",
+      "hashtags": "",
+      "topic_tag": "Đồ tiện ích"
+    },
+    "image_url": ""
   },
   {
     "sku": "BANK-019",
@@ -277,12 +313,14 @@
     "shopee_affiliate_url": "https://s.shopee.vn/7AfSxS97WY",
     "post": {
       "id": "BANK-019",
-      "hook": "Ai hay lười dọn góc phòng giống mình thì ngó thử cường lực iphone kk vmox tự dán này xem.",
-      "body": "Mình xài cả tuần nay thấy khá ưng, tầm 28k mà giải quyết gọn mấy việc lặt vặt trong phòng trọ. Đỡ phải loay hoay mỗi lần cần.",
-      "engagement_question": "Mọi người hay ưu tiên đồ giá rẻ hay mua loại xịn dùng lâu dài?",
-      "affiliate_comment_cta": "Link cường lực iphone kk vmox tự dán mình để dưới đây cho ai cần nha: {affiliate_url}",
-      "hashtags": "#hoinghiendotienich #tienich #phongtro #sinhvien"
-    }
+      "hook": "Sáng nay dọn lại phòng mới nhớ ra cường lực iphone kk vmox tự mua mấy tháng trước vẫn bền.",
+      "body": "Không quá cầu kỳ nhưng đúng công năng cần thiết mỗi ngày. Với 28k thì khó đòi hỏi gì hơn.",
+      "engagement_question": "Bạn thường xem đánh giá mấy sao trước khi bấm đặt hàng?",
+      "affiliate_comment_cta": "Cần mua cường lực iphone kk vmox tự thì bấm vào đây xem thử nhé: {affiliate_url}",
+      "hashtags": "",
+      "topic_tag": "Đồ tiện ích"
+    },
+    "image_url": ""
   },
   {
     "sku": "BANK-020",
@@ -292,12 +330,14 @@
     "shopee_affiliate_url": "https://s.shopee.vn/2qWTnUgSWY",
     "post": {
       "id": "BANK-020",
-      "hook": "Tầm 106k mà mua được khăn giấy vệ sinh treo tường tiểu dùng ổn áp phết.",
-      "body": "Đợt này săn được deal tầm 106k, mang về để góc bàn hay phòng tắm đều vừa vặn. Đồ rẻ nhưng dùng kỹ vẫn bền lắm nha.",
-      "engagement_question": "Phòng trọ mọi người món tiện ích nào dùng nhiều nhất vậy?",
-      "affiliate_comment_cta": "Link khăn giấy vệ sinh treo tường tiểu mình để dưới đây cho ai cần nha: {affiliate_url}",
-      "hashtags": "#hoinghiendotienich #tienich #phongtro #sinhvien"
-    }
+      "hook": "Ở trọ mới thấy mấy món nhỏ nhỏ kiểu khăn giấy vệ sinh treo tường cứu cánh cực kỳ.",
+      "body": "Mình đặt về dùng thử mấy hôm thấy khá ưng, giá chỉ khoảng 106k nên không bị đau ví. Gọn nhẹ, cất hay mang đi đều tiện.",
+      "engagement_question": "Ở đây có bạn nào dùng loại này chưa, thấy ổn không?",
+      "affiliate_comment_cta": "Link khăn giấy vệ sinh treo tường mình để dưới đây cho ai cần nha: {affiliate_url}",
+      "hashtags": "",
+      "topic_tag": "Đồ tiện ích"
+    },
+    "image_url": ""
   },
   {
     "sku": "BANK-021",
@@ -307,12 +347,14 @@
     "shopee_affiliate_url": "https://s.shopee.vn/9AQXL8W67U",
     "post": {
       "id": "BANK-021",
-      "hook": "Ở trọ mới thấy mấy món lặt vặt kiểu khăn vải khô đa năng gumi 300g cứu cánh cực kỳ.",
-      "body": "Bữa mình đặt thử về dùng thấy tiện hơn hẳn, giá chỉ tầm 56k nên sinh viên mua không bị xót ví. Gọn nhẹ, dùng hàng ngày đỡ mất thời gian.",
-      "engagement_question": "Ở đây có bạn nào dùng loại này chưa, thấy ổn không?",
-      "affiliate_comment_cta": "Link khăn vải khô đa năng gumi 300g mình để dưới đây cho ai cần nha: {affiliate_url}",
-      "hashtags": "#hoinghiendotienich #tienich #phongtro #sinhvien"
-    }
+      "hook": "Hồi mới dọn ra ở riêng cứ nghĩ không cần, giờ xài khăn vải khô đa năng gumi mỗi ngày luôn.",
+      "body": "Phù hợp nhất cho mấy bạn ở trọ một mình hoặc ký túc xá vì không chiếm diện tích. Chi phí 56k quá dễ chịu.",
+      "engagement_question": "Mỗi tháng bạn dành khoảng bao nhiêu cho mấy món đồ tiện ích nhỏ?",
+      "affiliate_comment_cta": "Chỗ mình đặt khăn vải khô đa năng gumi uy tín giá ổn đây nhé: {affiliate_url}",
+      "hashtags": "",
+      "topic_tag": "Đồ tiện ích"
+    },
+    "image_url": ""
   },
   {
     "sku": "BANK-022",
@@ -322,12 +364,14 @@
     "shopee_affiliate_url": "https://s.shopee.vn/9AQXL8ikNo",
     "post": {
       "id": "BANK-022",
-      "hook": "Ai hay lười dọn góc phòng giống mình thì ngó thử torriden kem dưỡng làm dịu da dive này xem.",
-      "body": "Mình xài cả tuần nay thấy khá ưng, tầm 385k mà giải quyết gọn mấy việc lặt vặt trong phòng trọ. Đỡ phải loay hoay mỗi lần cần.",
-      "engagement_question": "Mọi người hay ưu tiên đồ giá rẻ hay mua loại xịn dùng lâu dài?",
-      "affiliate_comment_cta": "Link torriden kem dưỡng làm dịu da dive mình để dưới đây cho ai cần nha: {affiliate_url}",
-      "hashtags": "#hoinghiendotienich #tienich #phongtro #sinhvien"
-    }
+      "hook": "Góc phòng trông bớt lộn xộn hẳn từ hôm mình thêm torriden kem dưỡng làm dịu da.",
+      "body": "Nhỏ gọn nên chuyển trọ mang theo cũng dễ, không lo cồng kềnh. Mức giá 385k mua không cần đắn đo.",
+      "engagement_question": "Khi chuyển trọ bạn thấy món đồ nào khó mang theo nhất?",
+      "affiliate_comment_cta": "Bạn nào hỏi torriden kem dưỡng làm dịu da thì xem chi tiết ở đây nha: {affiliate_url}",
+      "hashtags": "",
+      "topic_tag": "Đồ tiện ích"
+    },
+    "image_url": ""
   },
   {
     "sku": "BANK-023",
@@ -337,12 +381,14 @@
     "shopee_affiliate_url": "https://s.shopee.vn/60TVZLPobI",
     "post": {
       "id": "BANK-023",
-      "hook": "Tầm 69k mà mua được áo thun nữ thắt eo ôm body dùng ổn áp phết.",
-      "body": "Đợt này săn được deal tầm 69k, mang về để góc bàn hay phòng tắm đều vừa vặn. Đồ rẻ nhưng dùng kỹ vẫn bền lắm nha.",
-      "engagement_question": "Phòng trọ mọi người món tiện ích nào dùng nhiều nhất vậy?",
-      "affiliate_comment_cta": "Link áo thun nữ thắt eo ôm body mình để dưới đây cho ai cần nha: {affiliate_url}",
-      "hashtags": "#hoinghiendotienich #tienich #phongtro #sinhvien"
-    }
+      "hook": "Đợt này siết chi tiêu nên toàn săn đồ tầm 69k, như áo thun nữ thắt eo ôm thấy đáng tiền.",
+      "body": "Không quá cầu kỳ nhưng đúng công năng cần thiết mỗi ngày. Với 69k thì khó đòi hỏi gì hơn.",
+      "engagement_question": "Mọi người hay ưu tiên đồ giá rẻ hay mua loại đắt dùng lâu dài?",
+      "affiliate_comment_cta": "Mình gắn sẵn đường dẫn áo thun nữ thắt eo ôm ở đây cho tiện tìm: {affiliate_url}",
+      "hashtags": "",
+      "topic_tag": "Đồ tiện ích"
+    },
+    "image_url": ""
   },
   {
     "sku": "BANK-024",
@@ -352,12 +398,14 @@
     "shopee_affiliate_url": "https://s.shopee.vn/9fMnw5OzFG",
     "post": {
       "id": "BANK-024",
-      "hook": "Ở trọ mới thấy mấy món lặt vặt kiểu torriden xịt dưỡng căng bóng dive in cứu cánh cực kỳ.",
-      "body": "Bữa mình đặt thử về dùng thấy tiện hơn hẳn, giá chỉ tầm 286k nên sinh viên mua không bị xót ví. Gọn nhẹ, dùng hàng ngày đỡ mất thời gian.",
-      "engagement_question": "Ở đây có bạn nào dùng loại này chưa, thấy ổn không?",
-      "affiliate_comment_cta": "Link torriden xịt dưỡng căng bóng dive in mình để dưới đây cho ai cần nha: {affiliate_url}",
-      "hashtags": "#hoinghiendotienich #tienich #phongtro #sinhvien"
-    }
+      "hook": "Phòng trọ chật thì cứ ưu tiên mấy món gọn nhẹ như torriden xịt dưỡng căng bóng dive trước.",
+      "body": "Mình đặt về dùng thử mấy hôm thấy khá ưng, giá chỉ khoảng 286k nên không bị đau ví. Gọn nhẹ, cất hay mang đi đều tiện.",
+      "engagement_question": "Theo mọi người tiêu chí quan trọng nhất khi mua đồ phòng trọ là gì?",
+      "affiliate_comment_cta": "Ai muốn tham khảo torriden xịt dưỡng căng bóng dive giống mình thì vào đây xem nhé: {affiliate_url}",
+      "hashtags": "",
+      "topic_tag": "Đồ tiện ích"
+    },
+    "image_url": ""
   },
   {
     "sku": "BANK-025",
@@ -367,12 +415,14 @@
     "shopee_affiliate_url": "https://s.shopee.vn/90778revjW",
     "post": {
       "id": "BANK-025",
-      "hook": "Ai hay lười dọn góc phòng giống mình thì ngó thử thùng 10 bịch khăn giấy rút top này xem.",
-      "body": "Mình xài cả tuần nay thấy khá ưng, tầm 139k mà giải quyết gọn mấy việc lặt vặt trong phòng trọ. Đỡ phải loay hoay mỗi lần cần.",
-      "engagement_question": "Mọi người hay ưu tiên đồ giá rẻ hay mua loại xịn dùng lâu dài?",
-      "affiliate_comment_cta": "Link thùng 10 bịch khăn giấy rút top mình để dưới đây cho ai cần nha: {affiliate_url}",
-      "hashtags": "#hoinghiendotienich #tienich #phongtro #sinhvien"
-    }
+      "hook": "Ai đang muốn nâng cấp góc bàn học mà ngân sách cỡ 139k thử ngó thùng 10 bịch khăn giấy rút.",
+      "body": "Phù hợp nhất cho mấy bạn ở trọ một mình hoặc ký túc xá vì không chiếm diện tích. Chi phí 139k quá dễ chịu.",
+      "engagement_question": "Ngoài món này ra mọi người còn gợi ý đồ gì hay cho phòng nhỏ không?",
+      "affiliate_comment_cta": "Thông tin sản phẩm thùng 10 bịch khăn giấy rút mình để ngay đây nha: {affiliate_url}",
+      "hashtags": "",
+      "topic_tag": "Đồ tiện ích"
+    },
+    "image_url": ""
   },
   {
     "sku": "BANK-026",
@@ -382,12 +432,14 @@
     "shopee_affiliate_url": "https://s.shopee.vn/80EZx20xEm",
     "post": {
       "id": "BANK-026",
-      "hook": "Tầm 94k mà mua được kem đánh răng p/s ultra white trắng dùng ổn áp phết.",
-      "body": "Đợt này săn được deal tầm 94k, mang về để góc bàn hay phòng tắm đều vừa vặn. Đồ rẻ nhưng dùng kỹ vẫn bền lắm nha.",
+      "hook": "Nhiều khi chỉ cần đổi một món nhỏ như kem đánh răng p/s ultra white là sinh hoạt thoải mái hơn nhiều.",
+      "body": "Nhỏ gọn nên chuyển trọ mang theo cũng dễ, không lo cồng kềnh. Mức giá 94k mua không cần đắn đo.",
       "engagement_question": "Phòng trọ mọi người món tiện ích nào dùng nhiều nhất vậy?",
-      "affiliate_comment_cta": "Link kem đánh răng p/s ultra white trắng mình để dưới đây cho ai cần nha: {affiliate_url}",
-      "hashtags": "#hoinghiendotienich #tienich #phongtro #sinhvien"
-    }
+      "affiliate_comment_cta": "Để lại link kem đánh răng p/s ultra white ở đây cho bạn nào đang tìm mua: {affiliate_url}",
+      "hashtags": "",
+      "topic_tag": "Đồ tiện ích"
+    },
+    "image_url": ""
   },
   {
     "sku": "BANK-027",
@@ -397,12 +449,14 @@
     "shopee_affiliate_url": "https://s.shopee.vn/8VAqXxb4Ek",
     "post": {
       "id": "BANK-027",
-      "hook": "Ở trọ mới thấy mấy món lặt vặt kiểu thùng 30 gói giấy ăn rút topgia cứu cánh cực kỳ.",
-      "body": "Bữa mình đặt thử về dùng thấy tiện hơn hẳn, giá chỉ tầm 74k nên sinh viên mua không bị xót ví. Gọn nhẹ, dùng hàng ngày đỡ mất thời gian.",
-      "engagement_question": "Ở đây có bạn nào dùng loại này chưa, thấy ổn không?",
-      "affiliate_comment_cta": "Link thùng 30 gói giấy ăn rút topgia mình để dưới đây cho ai cần nha: {affiliate_url}",
-      "hashtags": "#hoinghiendotienich #tienich #phongtro #sinhvien"
-    }
+      "hook": "Ai hay lười dọn góc phòng giống mình thì ngó thử thùng 30 gói giấy ăn rút này xem.",
+      "body": "Không quá cầu kỳ nhưng đúng công năng cần thiết mỗi ngày. Với 74k thì khó đòi hỏi gì hơn.",
+      "engagement_question": "Bạn thích đồ tối giản một màu hay màu sắc nổi bật cho vui mắt?",
+      "affiliate_comment_cta": "Shop mình hay mua thùng 30 gói giấy ăn rút giá mềm đây nhé: {affiliate_url}",
+      "hashtags": "",
+      "topic_tag": "Đồ tiện ích"
+    },
+    "image_url": ""
   },
   {
     "sku": "BANK-028",
@@ -412,12 +466,14 @@
     "shopee_affiliate_url": "https://s.shopee.vn/1gKWPPIgEK",
     "post": {
       "id": "BANK-028",
-      "hook": "Ai hay lười dọn góc phòng giống mình thì ngó thử set 10 đôi tất trơn ulzzang siêu này xem.",
-      "body": "Mình xài cả tuần nay thấy khá ưng, tầm 29k mà giải quyết gọn mấy việc lặt vặt trong phòng trọ. Đỡ phải loay hoay mỗi lần cần.",
-      "engagement_question": "Mọi người hay ưu tiên đồ giá rẻ hay mua loại xịn dùng lâu dài?",
-      "affiliate_comment_cta": "Link set 10 đôi tất trơn ulzzang siêu mình để dưới đây cho ai cần nha: {affiliate_url}",
-      "hashtags": "#hoinghiendotienich #tienich #phongtro #sinhvien"
-    }
+      "hook": "Sinh viên ở ghép phòng nhỏ rất nên có một cái set 10 đôi tất trơn ulzzang cho gọn.",
+      "body": "Mình đặt về dùng thử mấy hôm thấy khá ưng, giá chỉ khoảng 29k nên không bị đau ví. Gọn nhẹ, cất hay mang đi đều tiện.",
+      "engagement_question": "Bạn thích săn mã giảm giá vào khung giờ nào trong ngày?",
+      "affiliate_comment_cta": "Xem giá hiện tại của set 10 đôi tất trơn ulzzang ở link này nha: {affiliate_url}",
+      "hashtags": "",
+      "topic_tag": "Đồ tiện ích"
+    },
+    "image_url": ""
   },
   {
     "sku": "BANK-029",
@@ -427,12 +483,14 @@
     "shopee_affiliate_url": "https://s.shopee.vn/2gD3bFSti2",
     "post": {
       "id": "BANK-029",
-      "hook": "Tầm 46k mà mua được ốp lưng iphone tpu đệm nhung chống dùng ổn áp phết.",
-      "body": "Đợt này săn được deal tầm 46k, mang về để góc bàn hay phòng tắm đều vừa vặn. Đồ rẻ nhưng dùng kỹ vẫn bền lắm nha.",
-      "engagement_question": "Phòng trọ mọi người món tiện ích nào dùng nhiều nhất vậy?",
-      "affiliate_comment_cta": "Link ốp lưng iphone tpu đệm nhung chống mình để dưới đây cho ai cần nha: {affiliate_url}",
-      "hashtags": "#hoinghiendotienich #tienich #phongtro #sinhvien"
-    }
+      "hook": "Không ngờ món đồ giá 46k như ốp lưng iphone tpu đệm nhung lại giải quyết đúng chỗ ngứa.",
+      "body": "Phù hợp nhất cho mấy bạn ở trọ một mình hoặc ký túc xá vì không chiếm diện tích. Chi phí 46k quá dễ chịu.",
+      "engagement_question": "Tầm giá dưới 100k bạn thấy món nào đáng mua nhất?",
+      "affiliate_comment_cta": "Cần mua ốp lưng iphone tpu đệm nhung thì bấm vào đây xem thử nhé: {affiliate_url}",
+      "hashtags": "",
+      "topic_tag": "Đồ tiện ích"
+    },
+    "image_url": ""
   },
   {
     "sku": "BANK-030",
@@ -442,12 +500,14 @@
     "shopee_affiliate_url": "https://s.shopee.vn/7fbjYRNCQH",
     "post": {
       "id": "BANK-030",
-      "hook": "Ở trọ mới thấy mấy món lặt vặt kiểu bịch màng bọc thực phẩm pe treo cứu cánh cực kỳ.",
-      "body": "Bữa mình đặt thử về dùng thấy tiện hơn hẳn, giá chỉ tầm 59k nên sinh viên mua không bị xót ví. Gọn nhẹ, dùng hàng ngày đỡ mất thời gian.",
-      "engagement_question": "Ở đây có bạn nào dùng loại này chưa, thấy ổn không?",
-      "affiliate_comment_cta": "Link bịch màng bọc thực phẩm pe treo mình để dưới đây cho ai cần nha: {affiliate_url}",
-      "hashtags": "#hoinghiendotienich #tienich #phongtro #sinhvien"
-    }
+      "hook": "Cứ tưởng mua về cho vui ai dè bịch màng bọc thực phẩm pe thành món dùng nhiều nhất tuần.",
+      "body": "Nhỏ gọn nên chuyển trọ mang theo cũng dễ, không lo cồng kềnh. Mức giá 59k mua không cần đắn đo.",
+      "engagement_question": "Ở ghép với bạn cùng phòng mọi người có hay chia nhau mua đồ chung không?",
+      "affiliate_comment_cta": "Link bịch màng bọc thực phẩm pe mình để dưới đây cho ai cần nha: {affiliate_url}",
+      "hashtags": "",
+      "topic_tag": "Đồ tiện ích"
+    },
+    "image_url": ""
   },
   {
     "sku": "BANK-031",
@@ -457,12 +517,14 @@
     "shopee_affiliate_url": "https://s.shopee.vn/7AfSxWcEWW",
     "post": {
       "id": "BANK-031",
-      "hook": "Ai hay lười dọn góc phòng giống mình thì ngó thử kính cường lực iphone kk 4d cao này xem.",
-      "body": "Mình xài cả tuần nay thấy khá ưng, tầm 29k mà giải quyết gọn mấy việc lặt vặt trong phòng trọ. Đỡ phải loay hoay mỗi lần cần.",
-      "engagement_question": "Mọi người hay ưu tiên đồ giá rẻ hay mua loại xịn dùng lâu dài?",
-      "affiliate_comment_cta": "Link kính cường lực iphone kk 4d cao mình để dưới đây cho ai cần nha: {affiliate_url}",
-      "hashtags": "#hoinghiendotienich #tienich #phongtro #sinhvien"
-    }
+      "hook": "Từ ngày có kính cường lực iphone kk 4d, mấy việc lặt vặt buổi tối làm nhanh hơn hẳn.",
+      "body": "Không quá cầu kỳ nhưng đúng công năng cần thiết mỗi ngày. Với 29k thì khó đòi hỏi gì hơn.",
+      "engagement_question": "Có ai hay đặt hàng lúc nửa đêm xong sáng ra quên mất mình đặt gì không?",
+      "affiliate_comment_cta": "Chỗ mình đặt kính cường lực iphone kk 4d uy tín giá ổn đây nhé: {affiliate_url}",
+      "hashtags": "",
+      "topic_tag": "Đồ tiện ích"
+    },
+    "image_url": ""
   },
   {
     "sku": "BANK-032",
@@ -472,12 +534,14 @@
     "shopee_affiliate_url": "https://s.shopee.vn/3B9KCJ6W27",
     "post": {
       "id": "BANK-032",
-      "hook": "Tầm 26k mà mua được kính cường lực iphone full màn 3d dùng ổn áp phết.",
-      "body": "Đợt này săn được deal tầm 26k, mang về để góc bàn hay phòng tắm đều vừa vặn. Đồ rẻ nhưng dùng kỹ vẫn bền lắm nha.",
-      "engagement_question": "Phòng trọ mọi người món tiện ích nào dùng nhiều nhất vậy?",
-      "affiliate_comment_cta": "Link kính cường lực iphone full màn 3d mình để dưới đây cho ai cần nha: {affiliate_url}",
-      "hashtags": "#hoinghiendotienich #tienich #phongtro #sinhvien"
-    }
+      "hook": "Đồ gia dụng giờ rẻ thật, tầm 26k đã có kính cường lực iphone full màn dùng khá chắc chắn.",
+      "body": "Mình đặt về dùng thử mấy hôm thấy khá ưng, giá chỉ khoảng 26k nên không bị đau ví. Gọn nhẹ, cất hay mang đi đều tiện.",
+      "engagement_question": "Bạn hay mua đồ gia dụng ở chợ gần nhà hay đặt online?",
+      "affiliate_comment_cta": "Bạn nào hỏi kính cường lực iphone full màn thì xem chi tiết ở đây nha: {affiliate_url}",
+      "hashtags": "",
+      "topic_tag": "Đồ tiện ích"
+    },
+    "image_url": ""
   },
   {
     "sku": "BANK-033",
@@ -487,12 +551,14 @@
     "shopee_affiliate_url": "https://s.shopee.vn/BVicnTYR9",
     "post": {
       "id": "BANK-033",
-      "hook": "Ở trọ mới thấy mấy món lặt vặt kiểu khẩu trang 5d thịnh phát 3 lớp cứu cánh cực kỳ.",
-      "body": "Bữa mình đặt thử về dùng thấy tiện hơn hẳn, giá chỉ tầm 69k nên sinh viên mua không bị xót ví. Gọn nhẹ, dùng hàng ngày đỡ mất thời gian.",
-      "engagement_question": "Ở đây có bạn nào dùng loại này chưa, thấy ổn không?",
-      "affiliate_comment_cta": "Link khẩu trang 5d thịnh phát 3 lớp mình để dưới đây cho ai cần nha: {affiliate_url}",
-      "hashtags": "#hoinghiendotienich #tienich #phongtro #sinhvien"
-    }
+      "hook": "Đi học về mệt mà thấy góc phòng gọn gàng nhờ khẩu trang 5d thịnh phát 3 cũng đỡ stress.",
+      "body": "Phù hợp nhất cho mấy bạn ở trọ một mình hoặc ký túc xá vì không chiếm diện tích. Chi phí 69k quá dễ chịu.",
+      "engagement_question": "Món đồ nào bạn mua về xong thấy hối hận vì không mua sớm hơn?",
+      "affiliate_comment_cta": "Mình gắn sẵn đường dẫn khẩu trang 5d thịnh phát 3 ở đây cho tiện tìm: {affiliate_url}",
+      "hashtags": "",
+      "topic_tag": "Đồ tiện ích"
+    },
+    "image_url": ""
   },
   {
     "sku": "BANK-034",
@@ -502,12 +568,14 @@
     "shopee_affiliate_url": "https://s.shopee.vn/1W16DFbg5H",
     "post": {
       "id": "BANK-034",
-      "hook": "Ai hay lười dọn góc phòng giống mình thì ngó thử khăn giấy rút 1280 tờ treo tường này xem.",
-      "body": "Mình xài cả tuần nay thấy khá ưng, tầm 129k mà giải quyết gọn mấy việc lặt vặt trong phòng trọ. Đỡ phải loay hoay mỗi lần cần.",
-      "engagement_question": "Mọi người hay ưu tiên đồ giá rẻ hay mua loại xịn dùng lâu dài?",
-      "affiliate_comment_cta": "Link khăn giấy rút 1280 tờ treo tường mình để dưới đây cho ai cần nha: {affiliate_url}",
-      "hashtags": "#hoinghiendotienich #tienich #phongtro #sinhvien"
-    }
+      "hook": "Tầm 129k mà kiếm được khăn giấy rút 1280 tờ treo dùng ổn áp phết.",
+      "body": "Nhỏ gọn nên chuyển trọ mang theo cũng dễ, không lo cồng kềnh. Mức giá 129k mua không cần đắn đo.",
+      "engagement_question": "Nếu chấm điểm độ gọn gàng góc phòng hiện tại bạn cho mấy điểm?",
+      "affiliate_comment_cta": "Ai muốn tham khảo khăn giấy rút 1280 tờ treo giống mình thì vào đây xem nhé: {affiliate_url}",
+      "hashtags": "",
+      "topic_tag": "Đồ tiện ích"
+    },
+    "image_url": ""
   },
   {
     "sku": "BANK-035",
@@ -517,12 +585,14 @@
     "shopee_affiliate_url": "https://s.shopee.vn/6AmvlpbNDP",
     "post": {
       "id": "BANK-035",
-      "hook": "Tầm 85k mà mua được dầu dừa tinh khiết organic vietcoco 250ml dùng ổn áp phết.",
-      "body": "Đợt này săn được deal tầm 85k, mang về để góc bàn hay phòng tắm đều vừa vặn. Đồ rẻ nhưng dùng kỹ vẫn bền lắm nha.",
-      "engagement_question": "Phòng trọ mọi người món tiện ích nào dùng nhiều nhất vậy?",
-      "affiliate_comment_cta": "Link dầu dừa tinh khiết organic vietcoco 250ml mình để dưới đây cho ai cần nha: {affiliate_url}",
-      "hashtags": "#hoinghiendotienich #tienich #phongtro #sinhvien"
-    }
+      "hook": "Bữa lướt thấy dầu dừa tinh khiết organic vietcoco giá 85k đặt đại về xài thử mà ưng ghê.",
+      "body": "Không quá cầu kỳ nhưng đúng công năng cần thiết mỗi ngày. Với 85k thì khó đòi hỏi gì hơn.",
+      "engagement_question": "Góc phòng của bạn hiện tại có món nào tâm đắc nhất không?",
+      "affiliate_comment_cta": "Thông tin sản phẩm dầu dừa tinh khiết organic vietcoco mình để ngay đây nha: {affiliate_url}",
+      "hashtags": "",
+      "topic_tag": "Đồ tiện ích"
+    },
+    "image_url": ""
   },
   {
     "sku": "BANK-036",
@@ -532,12 +602,14 @@
     "shopee_affiliate_url": "https://s.shopee.vn/20xMoB5fkd",
     "post": {
       "id": "BANK-036",
-      "hook": "Ở trọ mới thấy mấy món lặt vặt kiểu nước tương pha sẵn tỏi ớt shiitake cứu cánh cực kỳ.",
-      "body": "Bữa mình đặt thử về dùng thấy tiện hơn hẳn, giá chỉ tầm 35k nên sinh viên mua không bị xót ví. Gọn nhẹ, dùng hàng ngày đỡ mất thời gian.",
-      "engagement_question": "Ở đây có bạn nào dùng loại này chưa, thấy ổn không?",
-      "affiliate_comment_cta": "Link nước tương pha sẵn tỏi ớt shiitake mình để dưới đây cho ai cần nha: {affiliate_url}",
-      "hashtags": "#hoinghiendotienich #tienich #phongtro #sinhvien"
-    }
+      "hook": "Mấy bạn hay thức khuya học bài chắc sẽ cần tới nước tương pha sẵn tỏi ớt này.",
+      "body": "Mình đặt về dùng thử mấy hôm thấy khá ưng, giá chỉ khoảng 35k nên không bị đau ví. Gọn nhẹ, cất hay mang đi đều tiện.",
+      "engagement_question": "Cuối tuần này bạn có dự định dọn lại góc học tập hay phòng ngủ không?",
+      "affiliate_comment_cta": "Để lại link nước tương pha sẵn tỏi ớt ở đây cho bạn nào đang tìm mua: {affiliate_url}",
+      "hashtags": "",
+      "topic_tag": "Đồ tiện ích"
+    },
+    "image_url": ""
   },
   {
     "sku": "BANK-037",
@@ -547,12 +619,14 @@
     "shopee_affiliate_url": "https://s.shopee.vn/6VPmASNSou",
     "post": {
       "id": "BANK-037",
-      "hook": "Ai hay lười dọn góc phòng giống mình thì ngó thử sữa tắm lifebuoy thiên nhiên detox 800g này xem.",
-      "body": "Mình xài cả tuần nay thấy khá ưng, tầm 245k mà giải quyết gọn mấy việc lặt vặt trong phòng trọ. Đỡ phải loay hoay mỗi lần cần.",
-      "engagement_question": "Mọi người hay ưu tiên đồ giá rẻ hay mua loại xịn dùng lâu dài?",
-      "affiliate_comment_cta": "Link sữa tắm lifebuoy thiên nhiên detox 800g mình để dưới đây cho ai cần nha: {affiliate_url}",
-      "hashtags": "#hoinghiendotienich #tienich #phongtro #sinhvien"
-    }
+      "hook": "Nhỏ bạn qua phòng chơi hỏi hoài chỗ mua sữa tắm lifebuoy thiên nhiên detox này luôn.",
+      "body": "Phù hợp nhất cho mấy bạn ở trọ một mình hoặc ký túc xá vì không chiếm diện tích. Chi phí 245k quá dễ chịu.",
+      "engagement_question": "Món đồ đầu tiên bạn tự sắm khi ra ở riêng là gì thế?",
+      "affiliate_comment_cta": "Shop mình hay mua sữa tắm lifebuoy thiên nhiên detox giá mềm đây nhé: {affiliate_url}",
+      "hashtags": "",
+      "topic_tag": "Đồ tiện ích"
+    },
+    "image_url": ""
   },
   {
     "sku": "BANK-038",
@@ -562,12 +636,14 @@
     "shopee_affiliate_url": "https://s.shopee.vn/6q2cZ4e4Jv",
     "post": {
       "id": "BANK-038",
-      "hook": "Tầm 30k mà mua được bánh tráng bò tỏi chua cay best dùng ổn áp phết.",
-      "body": "Đợt này săn được deal tầm 30k, mang về để góc bàn hay phòng tắm đều vừa vặn. Đồ rẻ nhưng dùng kỹ vẫn bền lắm nha.",
-      "engagement_question": "Phòng trọ mọi người món tiện ích nào dùng nhiều nhất vậy?",
-      "affiliate_comment_cta": "Link bánh tráng bò tỏi chua cay best mình để dưới đây cho ai cần nha: {affiliate_url}",
-      "hashtags": "#hoinghiendotienich #tienich #phongtro #sinhvien"
-    }
+      "hook": "Tháng này tốn tiền nhất là mua mấy món tiện ích, nhưng riêng bánh tráng bò tỏi chua cay thì không tiếc.",
+      "body": "Nhỏ gọn nên chuyển trọ mang theo cũng dễ, không lo cồng kềnh. Mức giá 30k mua không cần đắn đo.",
+      "engagement_question": "Có ai hay bị nghiện săn mấy món lặt vặt kiểu này giống mình không?",
+      "affiliate_comment_cta": "Xem giá hiện tại của bánh tráng bò tỏi chua cay ở link này nha: {affiliate_url}",
+      "hashtags": "",
+      "topic_tag": "Đồ tiện ích"
+    },
+    "image_url": ""
   },
   {
     "sku": "BANK-039",
@@ -577,12 +653,14 @@
     "shopee_affiliate_url": "https://s.shopee.vn/7pv9kunK77",
     "post": {
       "id": "BANK-039",
-      "hook": "Ở trọ mới thấy mấy món lặt vặt kiểu combo 4 túi nước giặt xả joki cứu cánh cực kỳ.",
-      "body": "Bữa mình đặt thử về dùng thấy tiện hơn hẳn, giá chỉ tầm 170k nên sinh viên mua không bị xót ví. Gọn nhẹ, dùng hàng ngày đỡ mất thời gian.",
-      "engagement_question": "Ở đây có bạn nào dùng loại này chưa, thấy ổn không?",
-      "affiliate_comment_cta": "Link combo 4 túi nước giặt xả joki mình để dưới đây cho ai cần nha: {affiliate_url}",
-      "hashtags": "#hoinghiendotienich #tienich #phongtro #sinhvien"
-    }
+      "hook": "Sáng nay dọn lại phòng mới nhớ ra combo 4 túi nước giặt xả mua mấy tháng trước vẫn bền.",
+      "body": "Không quá cầu kỳ nhưng đúng công năng cần thiết mỗi ngày. Với 170k thì khó đòi hỏi gì hơn.",
+      "engagement_question": "Bạn thường xem đánh giá mấy sao trước khi bấm đặt hàng?",
+      "affiliate_comment_cta": "Cần mua combo 4 túi nước giặt xả thì bấm vào đây xem thử nhé: {affiliate_url}",
+      "hashtags": "",
+      "topic_tag": "Đồ tiện ích"
+    },
+    "image_url": ""
   },
   {
     "sku": "BANK-040",
@@ -592,12 +670,14 @@
     "shopee_affiliate_url": "https://s.shopee.vn/gRzDkRjkw",
     "post": {
       "id": "BANK-040",
-      "hook": "Ai hay lười dọn góc phòng giống mình thì ngó thử dầu gội hoa bưởi thorakao giảm rụng này xem.",
-      "body": "Mình xài cả tuần nay thấy khá ưng, tầm 88k mà giải quyết gọn mấy việc lặt vặt trong phòng trọ. Đỡ phải loay hoay mỗi lần cần.",
-      "engagement_question": "Mọi người hay ưu tiên đồ giá rẻ hay mua loại xịn dùng lâu dài?",
-      "affiliate_comment_cta": "Link dầu gội hoa bưởi thorakao giảm rụng mình để dưới đây cho ai cần nha: {affiliate_url}",
-      "hashtags": "#hoinghiendotienich #tienich #phongtro #sinhvien"
-    }
+      "hook": "Ở trọ mới thấy mấy món nhỏ nhỏ kiểu dầu gội hoa bưởi thorakao giảm cứu cánh cực kỳ.",
+      "body": "Mình đặt về dùng thử mấy hôm thấy khá ưng, giá chỉ khoảng 88k nên không bị đau ví. Gọn nhẹ, cất hay mang đi đều tiện.",
+      "engagement_question": "Ở đây có bạn nào dùng loại này chưa, thấy ổn không?",
+      "affiliate_comment_cta": "Link dầu gội hoa bưởi thorakao giảm mình để dưới đây cho ai cần nha: {affiliate_url}",
+      "hashtags": "",
+      "topic_tag": "Đồ tiện ích"
+    },
+    "image_url": ""
   },
   {
     "sku": "BANK-041",
@@ -607,12 +687,14 @@
     "shopee_affiliate_url": "https://s.shopee.vn/8fUGkSEwts",
     "post": {
       "id": "BANK-041",
-      "hook": "Tầm 49k mà mua được nước giặt đồ lót sinh học topgia dùng ổn áp phết.",
-      "body": "Đợt này săn được deal tầm 49k, mang về để góc bàn hay phòng tắm đều vừa vặn. Đồ rẻ nhưng dùng kỹ vẫn bền lắm nha.",
-      "engagement_question": "Phòng trọ mọi người món tiện ích nào dùng nhiều nhất vậy?",
-      "affiliate_comment_cta": "Link nước giặt đồ lót sinh học topgia mình để dưới đây cho ai cần nha: {affiliate_url}",
-      "hashtags": "#hoinghiendotienich #tienich #phongtro #sinhvien"
-    }
+      "hook": "Hồi mới dọn ra ở riêng cứ nghĩ không cần, giờ xài nước giặt đồ lót sinh học mỗi ngày luôn.",
+      "body": "Phù hợp nhất cho mấy bạn ở trọ một mình hoặc ký túc xá vì không chiếm diện tích. Chi phí 49k quá dễ chịu.",
+      "engagement_question": "Mỗi tháng bạn dành khoảng bao nhiêu cho mấy món đồ tiện ích nhỏ?",
+      "affiliate_comment_cta": "Chỗ mình đặt nước giặt đồ lót sinh học uy tín giá ổn đây nhé: {affiliate_url}",
+      "hashtags": "",
+      "topic_tag": "Đồ tiện ích"
+    },
+    "image_url": ""
   },
   {
     "sku": "BANK-042",
@@ -622,12 +704,14 @@
     "shopee_affiliate_url": "https://s.shopee.vn/7VIJMJWacH",
     "post": {
       "id": "BANK-042",
-      "hook": "Ở trọ mới thấy mấy món lặt vặt kiểu tinh dầu treo khuếch tán mộc an cứu cánh cực kỳ.",
-      "body": "Bữa mình đặt thử về dùng thấy tiện hơn hẳn, giá chỉ tầm 28k nên sinh viên mua không bị xót ví. Gọn nhẹ, dùng hàng ngày đỡ mất thời gian.",
-      "engagement_question": "Ở đây có bạn nào dùng loại này chưa, thấy ổn không?",
-      "affiliate_comment_cta": "Link tinh dầu treo khuếch tán mộc an mình để dưới đây cho ai cần nha: {affiliate_url}",
-      "hashtags": "#hoinghiendotienich #tienich #phongtro #sinhvien"
-    }
+      "hook": "Góc phòng trông bớt lộn xộn hẳn từ hôm mình thêm tinh dầu treo khuếch tán mộc.",
+      "body": "Nhỏ gọn nên chuyển trọ mang theo cũng dễ, không lo cồng kềnh. Mức giá 28k mua không cần đắn đo.",
+      "engagement_question": "Khi chuyển trọ bạn thấy món đồ nào khó mang theo nhất?",
+      "affiliate_comment_cta": "Bạn nào hỏi tinh dầu treo khuếch tán mộc thì xem chi tiết ở đây nha: {affiliate_url}",
+      "hashtags": "",
+      "topic_tag": "Đồ tiện ích"
+    },
+    "image_url": ""
   },
   {
     "sku": "BANK-043",
@@ -637,12 +721,14 @@
     "shopee_affiliate_url": "https://s.shopee.vn/3VmAbAbChH",
     "post": {
       "id": "BANK-043",
-      "hook": "Ai hay lười dọn góc phòng giống mình thì ngó thử mặt nạ lucenbase 377 làm sáng da này xem.",
-      "body": "Mình xài cả tuần nay thấy khá ưng, tầm 98k mà giải quyết gọn mấy việc lặt vặt trong phòng trọ. Đỡ phải loay hoay mỗi lần cần.",
-      "engagement_question": "Mọi người hay ưu tiên đồ giá rẻ hay mua loại xịn dùng lâu dài?",
-      "affiliate_comment_cta": "Link mặt nạ lucenbase 377 làm sáng da mình để dưới đây cho ai cần nha: {affiliate_url}",
-      "hashtags": "#hoinghiendotienich #tienich #phongtro #sinhvien"
-    }
+      "hook": "Đợt này siết chi tiêu nên toàn săn đồ tầm 98k, như mặt nạ lucenbase 377 làm sáng thấy đáng tiền.",
+      "body": "Không quá cầu kỳ nhưng đúng công năng cần thiết mỗi ngày. Với 98k thì khó đòi hỏi gì hơn.",
+      "engagement_question": "Mọi người hay ưu tiên đồ giá rẻ hay mua loại đắt dùng lâu dài?",
+      "affiliate_comment_cta": "Mình gắn sẵn đường dẫn mặt nạ lucenbase 377 làm sáng ở đây cho tiện tìm: {affiliate_url}",
+      "hashtags": "",
+      "topic_tag": "Đồ tiện ích"
+    },
+    "image_url": ""
   },
   {
     "sku": "BANK-044",
@@ -652,12 +738,14 @@
     "shopee_affiliate_url": "https://s.shopee.vn/20xMoPu75a",
     "post": {
       "id": "BANK-044",
-      "hook": "Tầm 120k mà mua được nước giặt net matic túi 3kg dùng ổn áp phết.",
-      "body": "Đợt này săn được deal tầm 120k, mang về để góc bàn hay phòng tắm đều vừa vặn. Đồ rẻ nhưng dùng kỹ vẫn bền lắm nha.",
-      "engagement_question": "Phòng trọ mọi người món tiện ích nào dùng nhiều nhất vậy?",
-      "affiliate_comment_cta": "Link nước giặt net matic túi 3kg mình để dưới đây cho ai cần nha: {affiliate_url}",
-      "hashtags": "#hoinghiendotienich #tienich #phongtro #sinhvien"
-    }
+      "hook": "Phòng trọ chật thì cứ ưu tiên mấy món gọn nhẹ như nước giặt net matic túi 3kg trước.",
+      "body": "Mình đặt về dùng thử mấy hôm thấy khá ưng, giá chỉ khoảng 120k nên không bị đau ví. Gọn nhẹ, cất hay mang đi đều tiện.",
+      "engagement_question": "Theo mọi người tiêu chí quan trọng nhất khi mua đồ phòng trọ là gì?",
+      "affiliate_comment_cta": "Ai muốn tham khảo nước giặt net matic túi 3kg giống mình thì vào đây xem nhé: {affiliate_url}",
+      "hashtags": "",
+      "topic_tag": "Đồ tiện ích"
+    },
+    "image_url": ""
   },
   {
     "sku": "BANK-045",
@@ -667,12 +755,14 @@
     "shopee_affiliate_url": "https://s.shopee.vn/4LLHai32Hb",
     "post": {
       "id": "BANK-045",
-      "hook": "Ở trọ mới thấy mấy món lặt vặt kiểu mũ trùm đầu vải không dệt bisou cứu cánh cực kỳ.",
-      "body": "Bữa mình đặt thử về dùng thấy tiện hơn hẳn, giá chỉ tầm 41k nên sinh viên mua không bị xót ví. Gọn nhẹ, dùng hàng ngày đỡ mất thời gian.",
-      "engagement_question": "Ở đây có bạn nào dùng loại này chưa, thấy ổn không?",
-      "affiliate_comment_cta": "Link mũ trùm đầu vải không dệt bisou mình để dưới đây cho ai cần nha: {affiliate_url}",
-      "hashtags": "#hoinghiendotienich #tienich #phongtro #sinhvien"
-    }
+      "hook": "Ai đang muốn nâng cấp góc bàn học mà ngân sách cỡ 41k thử ngó mũ trùm đầu vải không dệt.",
+      "body": "Phù hợp nhất cho mấy bạn ở trọ một mình hoặc ký túc xá vì không chiếm diện tích. Chi phí 41k quá dễ chịu.",
+      "engagement_question": "Ngoài món này ra mọi người còn gợi ý đồ gì hay cho phòng nhỏ không?",
+      "affiliate_comment_cta": "Thông tin sản phẩm mũ trùm đầu vải không dệt mình để ngay đây nha: {affiliate_url}",
+      "hashtags": "",
+      "topic_tag": "Đồ tiện ích"
+    },
+    "image_url": ""
   },
   {
     "sku": "BANK-046",
@@ -682,12 +772,14 @@
     "shopee_affiliate_url": "https://s.shopee.vn/1Lhg1CT1wy",
     "post": {
       "id": "BANK-046",
-      "hook": "Ai hay lười dọn góc phòng giống mình thì ngó thử áo thun ôm body giữ nhiệt cổ này xem.",
-      "body": "Mình xài cả tuần nay thấy khá ưng, tầm 81k mà giải quyết gọn mấy việc lặt vặt trong phòng trọ. Đỡ phải loay hoay mỗi lần cần.",
-      "engagement_question": "Mọi người hay ưu tiên đồ giá rẻ hay mua loại xịn dùng lâu dài?",
-      "affiliate_comment_cta": "Link áo thun ôm body giữ nhiệt cổ mình để dưới đây cho ai cần nha: {affiliate_url}",
-      "hashtags": "#hoinghiendotienich #tienich #phongtro #sinhvien"
-    }
+      "hook": "Nhiều khi chỉ cần đổi một món nhỏ như áo thun ôm body giữ nhiệt là sinh hoạt thoải mái hơn nhiều.",
+      "body": "Nhỏ gọn nên chuyển trọ mang theo cũng dễ, không lo cồng kềnh. Mức giá 81k mua không cần đắn đo.",
+      "engagement_question": "Phòng trọ mọi người món tiện ích nào dùng nhiều nhất vậy?",
+      "affiliate_comment_cta": "Để lại link áo thun ôm body giữ nhiệt ở đây cho bạn nào đang tìm mua: {affiliate_url}",
+      "hashtags": "",
+      "topic_tag": "Đồ tiện ích"
+    },
+    "image_url": ""
   },
   {
     "sku": "BANK-047",
@@ -697,12 +789,14 @@
     "shopee_affiliate_url": "https://s.shopee.vn/9KjxXuAOoz",
     "post": {
       "id": "BANK-047",
-      "hook": "Tầm 34k mà mua được dép lỗ mặt cười đi trong nhà dùng ổn áp phết.",
-      "body": "Đợt này săn được deal tầm 34k, mang về để góc bàn hay phòng tắm đều vừa vặn. Đồ rẻ nhưng dùng kỹ vẫn bền lắm nha.",
-      "engagement_question": "Phòng trọ mọi người món tiện ích nào dùng nhiều nhất vậy?",
-      "affiliate_comment_cta": "Link dép lỗ mặt cười đi trong nhà mình để dưới đây cho ai cần nha: {affiliate_url}",
-      "hashtags": "#hoinghiendotienich #tienich #phongtro #sinhvien"
-    }
+      "hook": "Ai hay lười dọn góc phòng giống mình thì ngó thử dép lỗ mặt cười đi trong này xem.",
+      "body": "Không quá cầu kỳ nhưng đúng công năng cần thiết mỗi ngày. Với 34k thì khó đòi hỏi gì hơn.",
+      "engagement_question": "Bạn thích đồ tối giản một màu hay màu sắc nổi bật cho vui mắt?",
+      "affiliate_comment_cta": "Shop mình hay mua dép lỗ mặt cười đi trong giá mềm đây nhé: {affiliate_url}",
+      "hashtags": "",
+      "topic_tag": "Đồ tiện ích"
+    },
+    "image_url": ""
   },
   {
     "sku": "BANK-048",
@@ -712,12 +806,14 @@
     "shopee_affiliate_url": "https://s.shopee.vn/30pu0GlMi3",
     "post": {
       "id": "BANK-048",
-      "hook": "Ở trọ mới thấy mấy món lặt vặt kiểu bột cacao nguyên chất dk harvest cứu cánh cực kỳ.",
-      "body": "Bữa mình đặt thử về dùng thấy tiện hơn hẳn, giá chỉ tầm 89k nên sinh viên mua không bị xót ví. Gọn nhẹ, dùng hàng ngày đỡ mất thời gian.",
-      "engagement_question": "Ở đây có bạn nào dùng loại này chưa, thấy ổn không?",
-      "affiliate_comment_cta": "Link bột cacao nguyên chất dk harvest mình để dưới đây cho ai cần nha: {affiliate_url}",
-      "hashtags": "#hoinghiendotienich #tienich #phongtro #sinhvien"
-    }
+      "hook": "Sinh viên ở ghép phòng nhỏ rất nên có một cái bột cacao nguyên chất dk harvest cho gọn.",
+      "body": "Mình đặt về dùng thử mấy hôm thấy khá ưng, giá chỉ khoảng 89k nên không bị đau ví. Gọn nhẹ, cất hay mang đi đều tiện.",
+      "engagement_question": "Bạn thích săn mã giảm giá vào khung giờ nào trong ngày?",
+      "affiliate_comment_cta": "Xem giá hiện tại của bột cacao nguyên chất dk harvest ở link này nha: {affiliate_url}",
+      "hashtags": "",
+      "topic_tag": "Đồ tiện ích"
+    },
+    "image_url": ""
   },
   {
     "sku": "BANK-049",
@@ -727,12 +823,14 @@
     "shopee_affiliate_url": "https://s.shopee.vn/114pcbTLUp",
     "post": {
       "id": "BANK-049",
-      "hook": "Ai hay lười dọn góc phòng giống mình thì ngó thử kem dưỡng ẩm cerave moisturising cream 50ml này xem.",
-      "body": "Mình xài cả tuần nay thấy khá ưng, tầm 178k mà giải quyết gọn mấy việc lặt vặt trong phòng trọ. Đỡ phải loay hoay mỗi lần cần.",
-      "engagement_question": "Mọi người hay ưu tiên đồ giá rẻ hay mua loại xịn dùng lâu dài?",
-      "affiliate_comment_cta": "Link kem dưỡng ẩm cerave moisturising cream 50ml mình để dưới đây cho ai cần nha: {affiliate_url}",
-      "hashtags": "#hoinghiendotienich #tienich #phongtro #sinhvien"
-    }
+      "hook": "Không ngờ món đồ giá 178k như kem dưỡng ẩm cerave moisturising cream lại giải quyết đúng chỗ ngứa.",
+      "body": "Phù hợp nhất cho mấy bạn ở trọ một mình hoặc ký túc xá vì không chiếm diện tích. Chi phí 178k quá dễ chịu.",
+      "engagement_question": "Tầm giá dưới 100k bạn thấy món nào đáng mua nhất?",
+      "affiliate_comment_cta": "Cần mua kem dưỡng ẩm cerave moisturising cream thì bấm vào đây xem thử nhé: {affiliate_url}",
+      "hashtags": "",
+      "topic_tag": "Đồ tiện ích"
+    },
+    "image_url": ""
   },
   {
     "sku": "BANK-050",
@@ -742,12 +840,14 @@
     "shopee_affiliate_url": "https://s.shopee.vn/qlPQIhjGm",
     "post": {
       "id": "BANK-050",
-      "hook": "Tầm 129k mà mua được khăn giấy rút treo tường bông sen dùng ổn áp phết.",
-      "body": "Đợt này săn được deal tầm 129k, mang về để góc bàn hay phòng tắm đều vừa vặn. Đồ rẻ nhưng dùng kỹ vẫn bền lắm nha.",
-      "engagement_question": "Phòng trọ mọi người món tiện ích nào dùng nhiều nhất vậy?",
-      "affiliate_comment_cta": "Link khăn giấy rút treo tường bông sen mình để dưới đây cho ai cần nha: {affiliate_url}",
-      "hashtags": "#hoinghiendotienich #tienich #phongtro #sinhvien"
-    }
+      "hook": "Cứ tưởng mua về cho vui ai dè khăn giấy rút treo tường bông thành món dùng nhiều nhất tuần.",
+      "body": "Nhỏ gọn nên chuyển trọ mang theo cũng dễ, không lo cồng kềnh. Mức giá 129k mua không cần đắn đo.",
+      "engagement_question": "Ở ghép với bạn cùng phòng mọi người có hay chia nhau mua đồ chung không?",
+      "affiliate_comment_cta": "Link khăn giấy rút treo tường bông mình để dưới đây cho ai cần nha: {affiliate_url}",
+      "hashtags": "",
+      "topic_tag": "Đồ tiện ích"
+    },
+    "image_url": ""
   },
   {
     "sku": "BANK-051",
@@ -757,12 +857,14 @@
     "shopee_affiliate_url": "https://s.shopee.vn/50ayNxdHLO",
     "post": {
       "id": "BANK-051",
-      "hook": "Ở trọ mới thấy mấy món lặt vặt kiểu tẩy tế bào chết body dove chăm cứu cánh cực kỳ.",
-      "body": "Bữa mình đặt thử về dùng thấy tiện hơn hẳn, giá chỉ tầm 204k nên sinh viên mua không bị xót ví. Gọn nhẹ, dùng hàng ngày đỡ mất thời gian.",
-      "engagement_question": "Ở đây có bạn nào dùng loại này chưa, thấy ổn không?",
-      "affiliate_comment_cta": "Link tẩy tế bào chết body dove chăm mình để dưới đây cho ai cần nha: {affiliate_url}",
-      "hashtags": "#hoinghiendotienich #tienich #phongtro #sinhvien"
-    }
+      "hook": "Từ ngày có tẩy tế bào chết body dove, mấy việc lặt vặt buổi tối làm nhanh hơn hẳn.",
+      "body": "Không quá cầu kỳ nhưng đúng công năng cần thiết mỗi ngày. Với 204k thì khó đòi hỏi gì hơn.",
+      "engagement_question": "Có ai hay đặt hàng lúc nửa đêm xong sáng ra quên mất mình đặt gì không?",
+      "affiliate_comment_cta": "Chỗ mình đặt tẩy tế bào chết body dove uy tín giá ổn đây nhé: {affiliate_url}",
+      "hashtags": "",
+      "topic_tag": "Đồ tiện ích"
+    },
+    "image_url": ""
   },
   {
     "sku": "BANK-052",
@@ -772,12 +874,14 @@
     "shopee_affiliate_url": "https://s.shopee.vn/40iRC7uQFE",
     "post": {
       "id": "BANK-052",
-      "hook": "Ai hay lười dọn góc phòng giống mình thì ngó thử khăn tắm royal towel sợi cotton mềm này xem.",
-      "body": "Mình xài cả tuần nay thấy khá ưng, tầm 20k mà giải quyết gọn mấy việc lặt vặt trong phòng trọ. Đỡ phải loay hoay mỗi lần cần.",
-      "engagement_question": "Mọi người hay ưu tiên đồ giá rẻ hay mua loại xịn dùng lâu dài?",
-      "affiliate_comment_cta": "Link khăn tắm royal towel sợi cotton mềm mình để dưới đây cho ai cần nha: {affiliate_url}",
-      "hashtags": "#hoinghiendotienich #tienich #phongtro #sinhvien"
-    }
+      "hook": "Đồ gia dụng giờ rẻ thật, tầm 20k đã có khăn tắm royal towel sợi cotton dùng khá chắc chắn.",
+      "body": "Mình đặt về dùng thử mấy hôm thấy khá ưng, giá chỉ khoảng 20k nên không bị đau ví. Gọn nhẹ, cất hay mang đi đều tiện.",
+      "engagement_question": "Bạn hay mua đồ gia dụng ở chợ gần nhà hay đặt online?",
+      "affiliate_comment_cta": "Bạn nào hỏi khăn tắm royal towel sợi cotton thì xem chi tiết ở đây nha: {affiliate_url}",
+      "hashtags": "",
+      "topic_tag": "Đồ tiện ích"
+    },
+    "image_url": ""
   },
   {
     "sku": "BANK-053",
@@ -787,12 +891,14 @@
     "shopee_affiliate_url": "https://s.shopee.vn/20xMoSJUuK",
     "post": {
       "id": "BANK-053",
-      "hook": "Tầm 72k mà mua được combo 2 quần short kaki nam vải dùng ổn áp phết.",
-      "body": "Đợt này săn được deal tầm 72k, mang về để góc bàn hay phòng tắm đều vừa vặn. Đồ rẻ nhưng dùng kỹ vẫn bền lắm nha.",
-      "engagement_question": "Phòng trọ mọi người món tiện ích nào dùng nhiều nhất vậy?",
-      "affiliate_comment_cta": "Link combo 2 quần short kaki nam vải mình để dưới đây cho ai cần nha: {affiliate_url}",
-      "hashtags": "#hoinghiendotienich #tienich #phongtro #sinhvien"
-    }
+      "hook": "Đi học về mệt mà thấy góc phòng gọn gàng nhờ combo 2 quần short kaki nam cũng đỡ stress.",
+      "body": "Phù hợp nhất cho mấy bạn ở trọ một mình hoặc ký túc xá vì không chiếm diện tích. Chi phí 72k quá dễ chịu.",
+      "engagement_question": "Món đồ nào bạn mua về xong thấy hối hận vì không mua sớm hơn?",
+      "affiliate_comment_cta": "Mình gắn sẵn đường dẫn combo 2 quần short kaki nam ở đây cho tiện tìm: {affiliate_url}",
+      "hashtags": "",
+      "topic_tag": "Đồ tiện ích"
+    },
+    "image_url": ""
   },
   {
     "sku": "BANK-054",
@@ -802,12 +908,14 @@
     "shopee_affiliate_url": "https://s.shopee.vn/1W16DXZdCk",
     "post": {
       "id": "BANK-054",
-      "hook": "Ở trọ mới thấy mấy món lặt vặt kiểu set 5 gói mì tươi vifon sợi cứu cánh cực kỳ.",
-      "body": "Bữa mình đặt thử về dùng thấy tiện hơn hẳn, giá chỉ tầm 37k nên sinh viên mua không bị xót ví. Gọn nhẹ, dùng hàng ngày đỡ mất thời gian.",
-      "engagement_question": "Ở đây có bạn nào dùng loại này chưa, thấy ổn không?",
-      "affiliate_comment_cta": "Link set 5 gói mì tươi vifon sợi mình để dưới đây cho ai cần nha: {affiliate_url}",
-      "hashtags": "#hoinghiendotienich #tienich #phongtro #sinhvien"
-    }
+      "hook": "Tầm 37k mà kiếm được set 5 gói mì tươi vifon dùng ổn áp phết.",
+      "body": "Nhỏ gọn nên chuyển trọ mang theo cũng dễ, không lo cồng kềnh. Mức giá 37k mua không cần đắn đo.",
+      "engagement_question": "Nếu chấm điểm độ gọn gàng góc phòng hiện tại bạn cho mấy điểm?",
+      "affiliate_comment_cta": "Ai muốn tham khảo set 5 gói mì tươi vifon giống mình thì vào đây xem nhé: {affiliate_url}",
+      "hashtags": "",
+      "topic_tag": "Đồ tiện ích"
+    },
+    "image_url": ""
   },
   {
     "sku": "BANK-055",
@@ -817,12 +925,14 @@
     "shopee_affiliate_url": "https://s.shopee.vn/8KrQMEJaMB",
     "post": {
       "id": "BANK-055",
-      "hook": "Ai hay lười dọn góc phòng giống mình thì ngó thử quần đùi kate ngủ mặc nhà form này xem.",
-      "body": "Mình xài cả tuần nay thấy khá ưng, tầm 87k mà giải quyết gọn mấy việc lặt vặt trong phòng trọ. Đỡ phải loay hoay mỗi lần cần.",
-      "engagement_question": "Mọi người hay ưu tiên đồ giá rẻ hay mua loại xịn dùng lâu dài?",
-      "affiliate_comment_cta": "Link quần đùi kate ngủ mặc nhà form mình để dưới đây cho ai cần nha: {affiliate_url}",
-      "hashtags": "#hoinghiendotienich #tienich #phongtro #sinhvien"
-    }
+      "hook": "Bữa lướt thấy quần đùi kate ngủ mặc nhà giá 87k đặt đại về xài thử mà ưng ghê.",
+      "body": "Không quá cầu kỳ nhưng đúng công năng cần thiết mỗi ngày. Với 87k thì khó đòi hỏi gì hơn.",
+      "engagement_question": "Góc phòng của bạn hiện tại có món nào tâm đắc nhất không?",
+      "affiliate_comment_cta": "Thông tin sản phẩm quần đùi kate ngủ mặc nhà mình để ngay đây nha: {affiliate_url}",
+      "hashtags": "",
+      "topic_tag": "Đồ tiện ích"
+    },
+    "image_url": ""
   },
   {
     "sku": "BANK-056",
@@ -832,12 +942,14 @@
     "shopee_affiliate_url": "https://s.shopee.vn/7VIJMhZL1F",
     "post": {
       "id": "BANK-056",
-      "hook": "Tầm 42k mà mua được quạt mini cầm tay m2 5000mah 100 dùng ổn áp phết.",
-      "body": "Đợt này săn được deal tầm 42k, mang về để góc bàn hay phòng tắm đều vừa vặn. Đồ rẻ nhưng dùng kỹ vẫn bền lắm nha.",
-      "engagement_question": "Phòng trọ mọi người món tiện ích nào dùng nhiều nhất vậy?",
-      "affiliate_comment_cta": "Link quạt mini cầm tay m2 5000mah 100 mình để dưới đây cho ai cần nha: {affiliate_url}",
-      "hashtags": "#hoinghiendotienich #tienich #phongtro #sinhvien"
-    }
+      "hook": "Mấy bạn hay thức khuya học bài chắc sẽ cần tới quạt mini cầm tay m2 5000mah này.",
+      "body": "Mình đặt về dùng thử mấy hôm thấy khá ưng, giá chỉ khoảng 42k nên không bị đau ví. Gọn nhẹ, cất hay mang đi đều tiện.",
+      "engagement_question": "Cuối tuần này bạn có dự định dọn lại góc học tập hay phòng ngủ không?",
+      "affiliate_comment_cta": "Để lại link quạt mini cầm tay m2 5000mah ở đây cho bạn nào đang tìm mua: {affiliate_url}",
+      "hashtags": "",
+      "topic_tag": "Đồ tiện ích"
+    },
+    "image_url": ""
   },
   {
     "sku": "BANK-057",
@@ -847,12 +959,14 @@
     "shopee_affiliate_url": "https://s.shopee.vn/W8Z1qE4y6",
     "post": {
       "id": "BANK-057",
-      "hook": "Ở trọ mới thấy mấy món lặt vặt kiểu dép poschiano quai kẹp nam nữ eva cứu cánh cực kỳ.",
-      "body": "Bữa mình đặt thử về dùng thấy tiện hơn hẳn, giá chỉ tầm 94k nên sinh viên mua không bị xót ví. Gọn nhẹ, dùng hàng ngày đỡ mất thời gian.",
-      "engagement_question": "Ở đây có bạn nào dùng loại này chưa, thấy ổn không?",
-      "affiliate_comment_cta": "Link dép poschiano quai kẹp nam nữ eva mình để dưới đây cho ai cần nha: {affiliate_url}",
-      "hashtags": "#hoinghiendotienich #tienich #phongtro #sinhvien"
-    }
+      "hook": "Nhỏ bạn qua phòng chơi hỏi hoài chỗ mua dép poschiano quai kẹp nam nữ này luôn.",
+      "body": "Phù hợp nhất cho mấy bạn ở trọ một mình hoặc ký túc xá vì không chiếm diện tích. Chi phí 94k quá dễ chịu.",
+      "engagement_question": "Món đồ đầu tiên bạn tự sắm khi ra ở riêng là gì thế?",
+      "affiliate_comment_cta": "Shop mình hay mua dép poschiano quai kẹp nam nữ giá mềm đây nhé: {affiliate_url}",
+      "hashtags": "",
+      "topic_tag": "Đồ tiện ích"
+    },
+    "image_url": ""
   },
   {
     "sku": "BANK-058",
@@ -862,12 +976,14 @@
     "shopee_affiliate_url": "https://s.shopee.vn/7VIJMi4kqH",
     "post": {
       "id": "BANK-058",
-      "hook": "Ai hay lười dọn góc phòng giống mình thì ngó thử biore uv smooth velvet sữa chống nắng này xem.",
-      "body": "Mình xài cả tuần nay thấy khá ưng, tầm 116k mà giải quyết gọn mấy việc lặt vặt trong phòng trọ. Đỡ phải loay hoay mỗi lần cần.",
-      "engagement_question": "Mọi người hay ưu tiên đồ giá rẻ hay mua loại xịn dùng lâu dài?",
-      "affiliate_comment_cta": "Link biore uv smooth velvet sữa chống nắng mình để dưới đây cho ai cần nha: {affiliate_url}",
-      "hashtags": "#hoinghiendotienich #tienich #phongtro #sinhvien"
-    }
+      "hook": "Tháng này tốn tiền nhất là mua mấy món tiện ích, nhưng riêng biore uv smooth velvet sữa chống thì không tiếc.",
+      "body": "Nhỏ gọn nên chuyển trọ mang theo cũng dễ, không lo cồng kềnh. Mức giá 116k mua không cần đắn đo.",
+      "engagement_question": "Có ai hay bị nghiện săn mấy món lặt vặt kiểu này giống mình không?",
+      "affiliate_comment_cta": "Xem giá hiện tại của biore uv smooth velvet sữa chống ở link này nha: {affiliate_url}",
+      "hashtags": "",
+      "topic_tag": "Đồ tiện ích"
+    },
+    "image_url": ""
   },
   {
     "sku": "BANK-059",
@@ -877,12 +993,14 @@
     "shopee_affiliate_url": "https://s.shopee.vn/5VXEz2ObZq",
     "post": {
       "id": "BANK-059",
-      "hook": "Tầm 145k mà mua được combo 5 bịch giấy rút đáy đa dùng ổn áp phết.",
-      "body": "Đợt này săn được deal tầm 145k, mang về để góc bàn hay phòng tắm đều vừa vặn. Đồ rẻ nhưng dùng kỹ vẫn bền lắm nha.",
-      "engagement_question": "Phòng trọ mọi người món tiện ích nào dùng nhiều nhất vậy?",
-      "affiliate_comment_cta": "Link combo 5 bịch giấy rút đáy đa mình để dưới đây cho ai cần nha: {affiliate_url}",
-      "hashtags": "#hoinghiendotienich #tienich #phongtro #sinhvien"
-    }
+      "hook": "Sáng nay dọn lại phòng mới nhớ ra combo 5 bịch giấy rút đáy mua mấy tháng trước vẫn bền.",
+      "body": "Không quá cầu kỳ nhưng đúng công năng cần thiết mỗi ngày. Với 145k thì khó đòi hỏi gì hơn.",
+      "engagement_question": "Bạn thường xem đánh giá mấy sao trước khi bấm đặt hàng?",
+      "affiliate_comment_cta": "Cần mua combo 5 bịch giấy rút đáy thì bấm vào đây xem thử nhé: {affiliate_url}",
+      "hashtags": "",
+      "topic_tag": "Đồ tiện ích"
+    },
+    "image_url": ""
   },
   {
     "sku": "BANK-060",
@@ -892,12 +1010,14 @@
     "shopee_affiliate_url": "https://s.shopee.vn/AUvuwEJniH",
     "post": {
       "id": "BANK-060",
-      "hook": "Ở trọ mới thấy mấy món lặt vặt kiểu che khuyết điểm the saem cover perfection cứu cánh cực kỳ.",
-      "body": "Bữa mình đặt thử về dùng thấy tiện hơn hẳn, giá chỉ tầm 145k nên sinh viên mua không bị xót ví. Gọn nhẹ, dùng hàng ngày đỡ mất thời gian.",
+      "hook": "Ở trọ mới thấy mấy món nhỏ nhỏ kiểu che khuyết điểm the saem cover cứu cánh cực kỳ.",
+      "body": "Mình đặt về dùng thử mấy hôm thấy khá ưng, giá chỉ khoảng 145k nên không bị đau ví. Gọn nhẹ, cất hay mang đi đều tiện.",
       "engagement_question": "Ở đây có bạn nào dùng loại này chưa, thấy ổn không?",
-      "affiliate_comment_cta": "Link che khuyết điểm the saem cover perfection mình để dưới đây cho ai cần nha: {affiliate_url}",
-      "hashtags": "#hoinghiendotienich #tienich #phongtro #sinhvien"
-    }
+      "affiliate_comment_cta": "Link che khuyết điểm the saem cover mình để dưới đây cho ai cần nha: {affiliate_url}",
+      "hashtags": "",
+      "topic_tag": "Đồ tiện ích"
+    },
+    "image_url": ""
   },
   {
     "sku": "BANK-061",
@@ -907,12 +1027,14 @@
     "shopee_affiliate_url": "https://s.shopee.vn/8pngxAdHBG",
     "post": {
       "id": "BANK-061",
-      "hook": "Ai hay lười dọn góc phòng giống mình thì ngó thử mũ trùm đầu y tế nón con này xem.",
-      "body": "Mình xài cả tuần nay thấy khá ưng, tầm 52k mà giải quyết gọn mấy việc lặt vặt trong phòng trọ. Đỡ phải loay hoay mỗi lần cần.",
-      "engagement_question": "Mọi người hay ưu tiên đồ giá rẻ hay mua loại xịn dùng lâu dài?",
-      "affiliate_comment_cta": "Link mũ trùm đầu y tế nón con mình để dưới đây cho ai cần nha: {affiliate_url}",
-      "hashtags": "#hoinghiendotienich #tienich #phongtro #sinhvien"
-    }
+      "hook": "Hồi mới dọn ra ở riêng cứ nghĩ không cần, giờ xài mũ trùm đầu y tế nón mỗi ngày luôn.",
+      "body": "Phù hợp nhất cho mấy bạn ở trọ một mình hoặc ký túc xá vì không chiếm diện tích. Chi phí 52k quá dễ chịu.",
+      "engagement_question": "Mỗi tháng bạn dành khoảng bao nhiêu cho mấy món đồ tiện ích nhỏ?",
+      "affiliate_comment_cta": "Chỗ mình đặt mũ trùm đầu y tế nón uy tín giá ổn đây nhé: {affiliate_url}",
+      "hashtags": "",
+      "topic_tag": "Đồ tiện ích"
+    },
+    "image_url": ""
   },
   {
     "sku": "BANK-062",
@@ -922,12 +1044,14 @@
     "shopee_affiliate_url": "https://s.shopee.vn/70M2loIUUK",
     "post": {
       "id": "BANK-062",
-      "hook": "Tầm 48k mà mua được xốt gia vị ướp khô bò khô dùng ổn áp phết.",
-      "body": "Đợt này săn được deal tầm 48k, mang về để góc bàn hay phòng tắm đều vừa vặn. Đồ rẻ nhưng dùng kỹ vẫn bền lắm nha.",
-      "engagement_question": "Phòng trọ mọi người món tiện ích nào dùng nhiều nhất vậy?",
-      "affiliate_comment_cta": "Link xốt gia vị ướp khô bò khô mình để dưới đây cho ai cần nha: {affiliate_url}",
-      "hashtags": "#hoinghiendotienich #tienich #phongtro #sinhvien"
-    }
+      "hook": "Góc phòng trông bớt lộn xộn hẳn từ hôm mình thêm xốt gia vị ướp khô bò.",
+      "body": "Nhỏ gọn nên chuyển trọ mang theo cũng dễ, không lo cồng kềnh. Mức giá 48k mua không cần đắn đo.",
+      "engagement_question": "Khi chuyển trọ bạn thấy món đồ nào khó mang theo nhất?",
+      "affiliate_comment_cta": "Bạn nào hỏi xốt gia vị ướp khô bò thì xem chi tiết ở đây nha: {affiliate_url}",
+      "hashtags": "",
+      "topic_tag": "Đồ tiện ích"
+    },
+    "image_url": ""
   },
   {
     "sku": "BANK-063",
@@ -937,12 +1061,14 @@
     "shopee_affiliate_url": "https://s.shopee.vn/4qHYBpetu7",
     "post": {
       "id": "BANK-063",
-      "hook": "Ở trọ mới thấy mấy món lặt vặt kiểu tất dệt kim in theo yêu cầu cứu cánh cực kỳ.",
-      "body": "Bữa mình đặt thử về dùng thấy tiện hơn hẳn, giá chỉ tầm 25k nên sinh viên mua không bị xót ví. Gọn nhẹ, dùng hàng ngày đỡ mất thời gian.",
-      "engagement_question": "Ở đây có bạn nào dùng loại này chưa, thấy ổn không?",
-      "affiliate_comment_cta": "Link tất dệt kim in theo yêu cầu mình để dưới đây cho ai cần nha: {affiliate_url}",
-      "hashtags": "#hoinghiendotienich #tienich #phongtro #sinhvien"
-    }
+      "hook": "Đợt này siết chi tiêu nên toàn săn đồ tầm 25k, như tất dệt kim in theo yêu thấy đáng tiền.",
+      "body": "Không quá cầu kỳ nhưng đúng công năng cần thiết mỗi ngày. Với 25k thì khó đòi hỏi gì hơn.",
+      "engagement_question": "Mọi người hay ưu tiên đồ giá rẻ hay mua loại đắt dùng lâu dài?",
+      "affiliate_comment_cta": "Mình gắn sẵn đường dẫn tất dệt kim in theo yêu ở đây cho tiện tìm: {affiliate_url}",
+      "hashtags": "",
+      "topic_tag": "Đồ tiện ích"
+    },
+    "image_url": ""
   },
   {
     "sku": "BANK-064",
@@ -952,12 +1078,14 @@
     "shopee_affiliate_url": "https://s.shopee.vn/1BOFp65629",
     "post": {
       "id": "BANK-064",
-      "hook": "Ai hay lười dọn góc phòng giống mình thì ngó thử kính cường lực iphone kk 4d full này xem.",
-      "body": "Mình xài cả tuần nay thấy khá ưng, tầm 20k mà giải quyết gọn mấy việc lặt vặt trong phòng trọ. Đỡ phải loay hoay mỗi lần cần.",
-      "engagement_question": "Mọi người hay ưu tiên đồ giá rẻ hay mua loại xịn dùng lâu dài?",
-      "affiliate_comment_cta": "Link kính cường lực iphone kk 4d full mình để dưới đây cho ai cần nha: {affiliate_url}",
-      "hashtags": "#hoinghiendotienich #tienich #phongtro #sinhvien"
-    }
+      "hook": "Phòng trọ chật thì cứ ưu tiên mấy món gọn nhẹ như kính cường lực iphone kk 4d trước.",
+      "body": "Mình đặt về dùng thử mấy hôm thấy khá ưng, giá chỉ khoảng 20k nên không bị đau ví. Gọn nhẹ, cất hay mang đi đều tiện.",
+      "engagement_question": "Theo mọi người tiêu chí quan trọng nhất khi mua đồ phòng trọ là gì?",
+      "affiliate_comment_cta": "Ai muốn tham khảo kính cường lực iphone kk 4d giống mình thì vào đây xem nhé: {affiliate_url}",
+      "hashtags": "",
+      "topic_tag": "Đồ tiện ích"
+    },
+    "image_url": ""
   },
   {
     "sku": "BANK-065",
@@ -967,12 +1095,14 @@
     "shopee_affiliate_url": "https://s.shopee.vn/AAJ4XdkzmN",
     "post": {
       "id": "BANK-065",
-      "hook": "Tầm 7k mà mua được bút bi nước mực gel bấm eg118 dùng ổn áp phết.",
-      "body": "Đợt này săn được deal tầm 7k, mang về để góc bàn hay phòng tắm đều vừa vặn. Đồ rẻ nhưng dùng kỹ vẫn bền lắm nha.",
-      "engagement_question": "Phòng trọ mọi người món tiện ích nào dùng nhiều nhất vậy?",
-      "affiliate_comment_cta": "Link bút bi nước mực gel bấm eg118 mình để dưới đây cho ai cần nha: {affiliate_url}",
-      "hashtags": "#hoinghiendotienich #tienich #phongtro #sinhvien"
-    }
+      "hook": "Ai đang muốn nâng cấp góc bàn học mà ngân sách cỡ 7k thử ngó bút bi nước mực gel bấm.",
+      "body": "Phù hợp nhất cho mấy bạn ở trọ một mình hoặc ký túc xá vì không chiếm diện tích. Chi phí 7k quá dễ chịu.",
+      "engagement_question": "Ngoài món này ra mọi người còn gợi ý đồ gì hay cho phòng nhỏ không?",
+      "affiliate_comment_cta": "Thông tin sản phẩm bút bi nước mực gel bấm mình để ngay đây nha: {affiliate_url}",
+      "hashtags": "",
+      "topic_tag": "Đồ tiện ích"
+    },
+    "image_url": ""
   },
   {
     "sku": "BANK-066",
@@ -982,12 +1112,14 @@
     "shopee_affiliate_url": "https://s.shopee.vn/3qP100MNEu",
     "post": {
       "id": "BANK-066",
-      "hook": "Ở trọ mới thấy mấy món lặt vặt kiểu quần đùi nam nữ unisex da cá cứu cánh cực kỳ.",
-      "body": "Bữa mình đặt thử về dùng thấy tiện hơn hẳn, giá chỉ tầm 51k nên sinh viên mua không bị xót ví. Gọn nhẹ, dùng hàng ngày đỡ mất thời gian.",
-      "engagement_question": "Ở đây có bạn nào dùng loại này chưa, thấy ổn không?",
-      "affiliate_comment_cta": "Link quần đùi nam nữ unisex da cá mình để dưới đây cho ai cần nha: {affiliate_url}",
-      "hashtags": "#hoinghiendotienich #tienich #phongtro #sinhvien"
-    }
+      "hook": "Nhiều khi chỉ cần đổi một món nhỏ như quần đùi nam nữ unisex da là sinh hoạt thoải mái hơn nhiều.",
+      "body": "Nhỏ gọn nên chuyển trọ mang theo cũng dễ, không lo cồng kềnh. Mức giá 51k mua không cần đắn đo.",
+      "engagement_question": "Phòng trọ mọi người món tiện ích nào dùng nhiều nhất vậy?",
+      "affiliate_comment_cta": "Để lại link quần đùi nam nữ unisex da ở đây cho bạn nào đang tìm mua: {affiliate_url}",
+      "hashtags": "",
+      "topic_tag": "Đồ tiện ích"
+    },
+    "image_url": ""
   },
   {
     "sku": "BANK-067",
@@ -997,12 +1129,14 @@
     "shopee_affiliate_url": "https://s.shopee.vn/7VIJMkLTcd",
     "post": {
       "id": "BANK-067",
-      "hook": "Ai hay lười dọn góc phòng giống mình thì ngó thử găng tay tpe treo tường dạng rút này xem.",
-      "body": "Mình xài cả tuần nay thấy khá ưng, tầm 69k mà giải quyết gọn mấy việc lặt vặt trong phòng trọ. Đỡ phải loay hoay mỗi lần cần.",
-      "engagement_question": "Mọi người hay ưu tiên đồ giá rẻ hay mua loại xịn dùng lâu dài?",
-      "affiliate_comment_cta": "Link găng tay tpe treo tường dạng rút mình để dưới đây cho ai cần nha: {affiliate_url}",
-      "hashtags": "#hoinghiendotienich #tienich #phongtro #sinhvien"
-    }
+      "hook": "Ai hay lười dọn góc phòng giống mình thì ngó thử găng tay tpe treo tường dạng này xem.",
+      "body": "Không quá cầu kỳ nhưng đúng công năng cần thiết mỗi ngày. Với 69k thì khó đòi hỏi gì hơn.",
+      "engagement_question": "Bạn thích đồ tối giản một màu hay màu sắc nổi bật cho vui mắt?",
+      "affiliate_comment_cta": "Shop mình hay mua găng tay tpe treo tường dạng giá mềm đây nhé: {affiliate_url}",
+      "hashtags": "",
+      "topic_tag": "Đồ tiện ích"
+    },
+    "image_url": ""
   },
   {
     "sku": "BANK-068",
@@ -1012,12 +1146,14 @@
     "shopee_affiliate_url": "https://s.shopee.vn/8KrQMHVmKY",
     "post": {
       "id": "BANK-068",
-      "hook": "Tầm 10k mà mua được tất nam nữ cổ cao họa tiết dùng ổn áp phết.",
-      "body": "Đợt này săn được deal tầm 10k, mang về để góc bàn hay phòng tắm đều vừa vặn. Đồ rẻ nhưng dùng kỹ vẫn bền lắm nha.",
-      "engagement_question": "Phòng trọ mọi người món tiện ích nào dùng nhiều nhất vậy?",
-      "affiliate_comment_cta": "Link tất nam nữ cổ cao họa tiết mình để dưới đây cho ai cần nha: {affiliate_url}",
-      "hashtags": "#hoinghiendotienich #tienich #phongtro #sinhvien"
-    }
+      "hook": "Sinh viên ở ghép phòng nhỏ rất nên có một cái tất nam nữ cổ cao họa cho gọn.",
+      "body": "Mình đặt về dùng thử mấy hôm thấy khá ưng, giá chỉ khoảng 10k nên không bị đau ví. Gọn nhẹ, cất hay mang đi đều tiện.",
+      "engagement_question": "Bạn thích săn mã giảm giá vào khung giờ nào trong ngày?",
+      "affiliate_comment_cta": "Xem giá hiện tại của tất nam nữ cổ cao họa ở link này nha: {affiliate_url}",
+      "hashtags": "",
+      "topic_tag": "Đồ tiện ích"
+    },
+    "image_url": ""
   },
   {
     "sku": "BANK-069",
@@ -1027,12 +1163,14 @@
     "shopee_affiliate_url": "https://s.shopee.vn/50ayOIRZ4z",
     "post": {
       "id": "BANK-069",
-      "hook": "Ở trọ mới thấy mấy món lặt vặt kiểu combo bánh tráng phơi sương muối sặc cứu cánh cực kỳ.",
-      "body": "Bữa mình đặt thử về dùng thấy tiện hơn hẳn, giá chỉ tầm 20k nên sinh viên mua không bị xót ví. Gọn nhẹ, dùng hàng ngày đỡ mất thời gian.",
-      "engagement_question": "Ở đây có bạn nào dùng loại này chưa, thấy ổn không?",
-      "affiliate_comment_cta": "Link combo bánh tráng phơi sương muối sặc mình để dưới đây cho ai cần nha: {affiliate_url}",
-      "hashtags": "#hoinghiendotienich #tienich #phongtro #sinhvien"
-    }
+      "hook": "Không ngờ món đồ giá 20k như combo bánh tráng phơi sương muối lại giải quyết đúng chỗ ngứa.",
+      "body": "Phù hợp nhất cho mấy bạn ở trọ một mình hoặc ký túc xá vì không chiếm diện tích. Chi phí 20k quá dễ chịu.",
+      "engagement_question": "Tầm giá dưới 100k bạn thấy món nào đáng mua nhất?",
+      "affiliate_comment_cta": "Cần mua combo bánh tráng phơi sương muối thì bấm vào đây xem thử nhé: {affiliate_url}",
+      "hashtags": "",
+      "topic_tag": "Đồ tiện ích"
+    },
+    "image_url": ""
   },
   {
     "sku": "BANK-070",
@@ -1042,12 +1180,14 @@
     "shopee_affiliate_url": "https://s.shopee.vn/9fMnwsNcJm",
     "post": {
       "id": "BANK-070",
-      "hook": "Ai hay lười dọn góc phòng giống mình thì ngó thử lọ tỏa hương lovenose tinh dầu thơm này xem.",
-      "body": "Mình xài cả tuần nay thấy khá ưng, tầm 59k mà giải quyết gọn mấy việc lặt vặt trong phòng trọ. Đỡ phải loay hoay mỗi lần cần.",
-      "engagement_question": "Mọi người hay ưu tiên đồ giá rẻ hay mua loại xịn dùng lâu dài?",
-      "affiliate_comment_cta": "Link lọ tỏa hương lovenose tinh dầu thơm mình để dưới đây cho ai cần nha: {affiliate_url}",
-      "hashtags": "#hoinghiendotienich #tienich #phongtro #sinhvien"
-    }
+      "hook": "Cứ tưởng mua về cho vui ai dè lọ tỏa hương lovenose tinh dầu thành món dùng nhiều nhất tuần.",
+      "body": "Nhỏ gọn nên chuyển trọ mang theo cũng dễ, không lo cồng kềnh. Mức giá 59k mua không cần đắn đo.",
+      "engagement_question": "Ở ghép với bạn cùng phòng mọi người có hay chia nhau mua đồ chung không?",
+      "affiliate_comment_cta": "Link lọ tỏa hương lovenose tinh dầu mình để dưới đây cho ai cần nha: {affiliate_url}",
+      "hashtags": "",
+      "topic_tag": "Đồ tiện ích"
+    },
+    "image_url": ""
   },
   {
     "sku": "BANK-071",
@@ -1057,12 +1197,14 @@
     "shopee_affiliate_url": "https://s.shopee.vn/1Lhg1Z5iR3",
     "post": {
       "id": "BANK-071",
-      "hook": "Tầm 19k mà mua được găng tay cao su rửa bát beigl dùng ổn áp phết.",
-      "body": "Đợt này săn được deal tầm 19k, mang về để góc bàn hay phòng tắm đều vừa vặn. Đồ rẻ nhưng dùng kỹ vẫn bền lắm nha.",
-      "engagement_question": "Phòng trọ mọi người món tiện ích nào dùng nhiều nhất vậy?",
-      "affiliate_comment_cta": "Link găng tay cao su rửa bát beigl mình để dưới đây cho ai cần nha: {affiliate_url}",
-      "hashtags": "#hoinghiendotienich #tienich #phongtro #sinhvien"
-    }
+      "hook": "Từ ngày có găng tay cao su rửa bát, mấy việc lặt vặt buổi tối làm nhanh hơn hẳn.",
+      "body": "Không quá cầu kỳ nhưng đúng công năng cần thiết mỗi ngày. Với 19k thì khó đòi hỏi gì hơn.",
+      "engagement_question": "Có ai hay đặt hàng lúc nửa đêm xong sáng ra quên mất mình đặt gì không?",
+      "affiliate_comment_cta": "Chỗ mình đặt găng tay cao su rửa bát uy tín giá ổn đây nhé: {affiliate_url}",
+      "hashtags": "",
+      "topic_tag": "Đồ tiện ích"
+    },
+    "image_url": ""
   },
   {
     "sku": "BANK-072",
@@ -1072,12 +1214,14 @@
     "shopee_affiliate_url": "https://s.shopee.vn/1W16DsLvKi",
     "post": {
       "id": "BANK-072",
-      "hook": "Ở trọ mới thấy mấy món lặt vặt kiểu quần đùi nam thể thao vải gió cứu cánh cực kỳ.",
-      "body": "Bữa mình đặt thử về dùng thấy tiện hơn hẳn, giá chỉ tầm 39k nên sinh viên mua không bị xót ví. Gọn nhẹ, dùng hàng ngày đỡ mất thời gian.",
-      "engagement_question": "Ở đây có bạn nào dùng loại này chưa, thấy ổn không?",
-      "affiliate_comment_cta": "Link quần đùi nam thể thao vải gió mình để dưới đây cho ai cần nha: {affiliate_url}",
-      "hashtags": "#hoinghiendotienich #tienich #phongtro #sinhvien"
-    }
+      "hook": "Đồ gia dụng giờ rẻ thật, tầm 39k đã có quần đùi nam thể thao vải dùng khá chắc chắn.",
+      "body": "Mình đặt về dùng thử mấy hôm thấy khá ưng, giá chỉ khoảng 39k nên không bị đau ví. Gọn nhẹ, cất hay mang đi đều tiện.",
+      "engagement_question": "Bạn hay mua đồ gia dụng ở chợ gần nhà hay đặt online?",
+      "affiliate_comment_cta": "Bạn nào hỏi quần đùi nam thể thao vải thì xem chi tiết ở đây nha: {affiliate_url}",
+      "hashtags": "",
+      "topic_tag": "Đồ tiện ích"
+    },
+    "image_url": ""
   },
   {
     "sku": "BANK-073",
@@ -1087,12 +1231,14 @@
     "shopee_affiliate_url": "https://s.shopee.vn/4VehnOPHcp",
     "post": {
       "id": "BANK-073",
-      "hook": "Ai hay lười dọn góc phòng giống mình thì ngó thử combo 2 quần short kaki slamble nam này xem.",
-      "body": "Mình xài cả tuần nay thấy khá ưng, tầm 99k mà giải quyết gọn mấy việc lặt vặt trong phòng trọ. Đỡ phải loay hoay mỗi lần cần.",
-      "engagement_question": "Mọi người hay ưu tiên đồ giá rẻ hay mua loại xịn dùng lâu dài?",
-      "affiliate_comment_cta": "Link combo 2 quần short kaki slamble nam mình để dưới đây cho ai cần nha: {affiliate_url}",
-      "hashtags": "#hoinghiendotienich #tienich #phongtro #sinhvien"
-    }
+      "hook": "Đi học về mệt mà thấy góc phòng gọn gàng nhờ combo 2 quần short kaki slamble cũng đỡ stress.",
+      "body": "Phù hợp nhất cho mấy bạn ở trọ một mình hoặc ký túc xá vì không chiếm diện tích. Chi phí 99k quá dễ chịu.",
+      "engagement_question": "Món đồ nào bạn mua về xong thấy hối hận vì không mua sớm hơn?",
+      "affiliate_comment_cta": "Mình gắn sẵn đường dẫn combo 2 quần short kaki slamble ở đây cho tiện tìm: {affiliate_url}",
+      "hashtags": "",
+      "topic_tag": "Đồ tiện ích"
+    },
+    "image_url": ""
   },
   {
     "sku": "BANK-074",
@@ -1102,12 +1248,14 @@
     "shopee_affiliate_url": "https://s.shopee.vn/qlPQeoecb",
     "post": {
       "id": "BANK-074",
-      "hook": "Tầm 59k mà mua được áo thun giữ nhiệt nữ dài tay dùng ổn áp phết.",
-      "body": "Đợt này săn được deal tầm 59k, mang về để góc bàn hay phòng tắm đều vừa vặn. Đồ rẻ nhưng dùng kỹ vẫn bền lắm nha.",
-      "engagement_question": "Phòng trọ mọi người món tiện ích nào dùng nhiều nhất vậy?",
-      "affiliate_comment_cta": "Link áo thun giữ nhiệt nữ dài tay mình để dưới đây cho ai cần nha: {affiliate_url}",
-      "hashtags": "#hoinghiendotienich #tienich #phongtro #sinhvien"
-    }
+      "hook": "Tầm 59k mà kiếm được áo thun giữ nhiệt nữ dài dùng ổn áp phết.",
+      "body": "Nhỏ gọn nên chuyển trọ mang theo cũng dễ, không lo cồng kềnh. Mức giá 59k mua không cần đắn đo.",
+      "engagement_question": "Nếu chấm điểm độ gọn gàng góc phòng hiện tại bạn cho mấy điểm?",
+      "affiliate_comment_cta": "Ai muốn tham khảo áo thun giữ nhiệt nữ dài giống mình thì vào đây xem nhé: {affiliate_url}",
+      "hashtags": "",
+      "topic_tag": "Đồ tiện ích"
+    },
+    "image_url": ""
   },
   {
     "sku": "BANK-075",
@@ -1117,12 +1265,14 @@
     "shopee_affiliate_url": "https://s.shopee.vn/9V3NkaWeAy",
     "post": {
       "id": "BANK-075",
-      "hook": "Ở trọ mới thấy mấy món lặt vặt kiểu thùng 30 gói mì tươi vifon 70gr cứu cánh cực kỳ.",
-      "body": "Bữa mình đặt thử về dùng thấy tiện hơn hẳn, giá chỉ tầm 223k nên sinh viên mua không bị xót ví. Gọn nhẹ, dùng hàng ngày đỡ mất thời gian.",
-      "engagement_question": "Ở đây có bạn nào dùng loại này chưa, thấy ổn không?",
-      "affiliate_comment_cta": "Link thùng 30 gói mì tươi vifon 70gr mình để dưới đây cho ai cần nha: {affiliate_url}",
-      "hashtags": "#hoinghiendotienich #tienich #phongtro #sinhvien"
-    }
+      "hook": "Bữa lướt thấy thùng 30 gói mì tươi vifon giá 223k đặt đại về xài thử mà ưng ghê.",
+      "body": "Không quá cầu kỳ nhưng đúng công năng cần thiết mỗi ngày. Với 223k thì khó đòi hỏi gì hơn.",
+      "engagement_question": "Góc phòng của bạn hiện tại có món nào tâm đắc nhất không?",
+      "affiliate_comment_cta": "Thông tin sản phẩm thùng 30 gói mì tươi vifon mình để ngay đây nha: {affiliate_url}",
+      "hashtags": "",
+      "topic_tag": "Đồ tiện ích"
+    },
+    "image_url": ""
   },
   {
     "sku": "BANK-076",
@@ -1132,12 +1282,14 @@
     "shopee_affiliate_url": "https://s.shopee.vn/9KjxYI5edk",
     "post": {
       "id": "BANK-076",
-      "hook": "Ai hay lười dọn góc phòng giống mình thì ngó thử quần short đũi nam dây rút siêu này xem.",
-      "body": "Mình xài cả tuần nay thấy khá ưng, tầm 97k mà giải quyết gọn mấy việc lặt vặt trong phòng trọ. Đỡ phải loay hoay mỗi lần cần.",
-      "engagement_question": "Mọi người hay ưu tiên đồ giá rẻ hay mua loại xịn dùng lâu dài?",
-      "affiliate_comment_cta": "Link quần short đũi nam dây rút siêu mình để dưới đây cho ai cần nha: {affiliate_url}",
-      "hashtags": "#hoinghiendotienich #tienich #phongtro #sinhvien"
-    }
+      "hook": "Mấy bạn hay thức khuya học bài chắc sẽ cần tới quần short đũi nam dây rút này.",
+      "body": "Mình đặt về dùng thử mấy hôm thấy khá ưng, giá chỉ khoảng 97k nên không bị đau ví. Gọn nhẹ, cất hay mang đi đều tiện.",
+      "engagement_question": "Cuối tuần này bạn có dự định dọn lại góc học tập hay phòng ngủ không?",
+      "affiliate_comment_cta": "Để lại link quần short đũi nam dây rút ở đây cho bạn nào đang tìm mua: {affiliate_url}",
+      "hashtags": "",
+      "topic_tag": "Đồ tiện ích"
+    },
+    "image_url": ""
   },
   {
     "sku": "BANK-077",
@@ -1147,12 +1299,14 @@
     "shopee_affiliate_url": "https://s.shopee.vn/50ayOKZcp9",
     "post": {
       "id": "BANK-077",
-      "hook": "Tầm 100k mà mua được cây chà sàn 3in1 topgia xoay 180 dùng ổn áp phết.",
-      "body": "Đợt này săn được deal tầm 100k, mang về để góc bàn hay phòng tắm đều vừa vặn. Đồ rẻ nhưng dùng kỹ vẫn bền lắm nha.",
-      "engagement_question": "Phòng trọ mọi người món tiện ích nào dùng nhiều nhất vậy?",
-      "affiliate_comment_cta": "Link cây chà sàn 3in1 topgia xoay 180 mình để dưới đây cho ai cần nha: {affiliate_url}",
-      "hashtags": "#hoinghiendotienich #tienich #phongtro #sinhvien"
-    }
+      "hook": "Nhỏ bạn qua phòng chơi hỏi hoài chỗ mua cây chà sàn 3in1 topgia xoay này luôn.",
+      "body": "Phù hợp nhất cho mấy bạn ở trọ một mình hoặc ký túc xá vì không chiếm diện tích. Chi phí 100k quá dễ chịu.",
+      "engagement_question": "Món đồ đầu tiên bạn tự sắm khi ra ở riêng là gì thế?",
+      "affiliate_comment_cta": "Shop mình hay mua cây chà sàn 3in1 topgia xoay giá mềm đây nhé: {affiliate_url}",
+      "hashtags": "",
+      "topic_tag": "Đồ tiện ích"
+    },
+    "image_url": ""
   },
   {
     "sku": "BANK-078",
@@ -1162,12 +1316,14 @@
     "shopee_affiliate_url": "https://s.shopee.vn/4fy7zinxKX",
     "post": {
       "id": "BANK-078",
-      "hook": "Ở trọ mới thấy mấy món lặt vặt kiểu combo 60 bao lì xì vuông mini cứu cánh cực kỳ.",
-      "body": "Bữa mình đặt thử về dùng thấy tiện hơn hẳn, giá chỉ tầm 32k nên sinh viên mua không bị xót ví. Gọn nhẹ, dùng hàng ngày đỡ mất thời gian.",
-      "engagement_question": "Ở đây có bạn nào dùng loại này chưa, thấy ổn không?",
-      "affiliate_comment_cta": "Link combo 60 bao lì xì vuông mini mình để dưới đây cho ai cần nha: {affiliate_url}",
-      "hashtags": "#hoinghiendotienich #tienich #phongtro #sinhvien"
-    }
+      "hook": "Tháng này tốn tiền nhất là mua mấy món tiện ích, nhưng riêng combo 60 bao lì xì vuông thì không tiếc.",
+      "body": "Nhỏ gọn nên chuyển trọ mang theo cũng dễ, không lo cồng kềnh. Mức giá 32k mua không cần đắn đo.",
+      "engagement_question": "Có ai hay bị nghiện săn mấy món lặt vặt kiểu này giống mình không?",
+      "affiliate_comment_cta": "Xem giá hiện tại của combo 60 bao lì xì vuông ở link này nha: {affiliate_url}",
+      "hashtags": "",
+      "topic_tag": "Đồ tiện ích"
+    },
+    "image_url": ""
   },
   {
     "sku": "BANK-079",
@@ -1177,12 +1333,14 @@
     "shopee_affiliate_url": "https://s.shopee.vn/7VIJMvqIec",
     "post": {
       "id": "BANK-079",
-      "hook": "Ai hay lười dọn góc phòng giống mình thì ngó thử kem đánh răng làm trắng răng jasmeen này xem.",
-      "body": "Mình xài cả tuần nay thấy khá ưng, tầm 85k mà giải quyết gọn mấy việc lặt vặt trong phòng trọ. Đỡ phải loay hoay mỗi lần cần.",
-      "engagement_question": "Mọi người hay ưu tiên đồ giá rẻ hay mua loại xịn dùng lâu dài?",
-      "affiliate_comment_cta": "Link kem đánh răng làm trắng răng jasmeen mình để dưới đây cho ai cần nha: {affiliate_url}",
-      "hashtags": "#hoinghiendotienich #tienich #phongtro #sinhvien"
-    }
+      "hook": "Sáng nay dọn lại phòng mới nhớ ra kem đánh răng làm trắng răng mua mấy tháng trước vẫn bền.",
+      "body": "Không quá cầu kỳ nhưng đúng công năng cần thiết mỗi ngày. Với 85k thì khó đòi hỏi gì hơn.",
+      "engagement_question": "Bạn thường xem đánh giá mấy sao trước khi bấm đặt hàng?",
+      "affiliate_comment_cta": "Cần mua kem đánh răng làm trắng răng thì bấm vào đây xem thử nhé: {affiliate_url}",
+      "hashtags": "",
+      "topic_tag": "Đồ tiện ích"
+    },
+    "image_url": ""
   },
   {
     "sku": "BANK-080",
@@ -1192,12 +1350,14 @@
     "shopee_affiliate_url": "https://s.shopee.vn/60TVaBEMi2",
     "post": {
       "id": "BANK-080",
-      "hook": "Tầm 175k mà mua được nước tẩy trang garnier micellar cleansing water dùng ổn áp phết.",
-      "body": "Đợt này săn được deal tầm 175k, mang về để góc bàn hay phòng tắm đều vừa vặn. Đồ rẻ nhưng dùng kỹ vẫn bền lắm nha.",
-      "engagement_question": "Phòng trọ mọi người món tiện ích nào dùng nhiều nhất vậy?",
-      "affiliate_comment_cta": "Link nước tẩy trang garnier micellar cleansing water mình để dưới đây cho ai cần nha: {affiliate_url}",
-      "hashtags": "#hoinghiendotienich #tienich #phongtro #sinhvien"
-    }
+      "hook": "Ở trọ mới thấy mấy món nhỏ nhỏ kiểu nước tẩy trang garnier micellar cleansing cứu cánh cực kỳ.",
+      "body": "Mình đặt về dùng thử mấy hôm thấy khá ưng, giá chỉ khoảng 175k nên không bị đau ví. Gọn nhẹ, cất hay mang đi đều tiện.",
+      "engagement_question": "Ở đây có bạn nào dùng loại này chưa, thấy ổn không?",
+      "affiliate_comment_cta": "Link nước tẩy trang garnier micellar cleansing mình để dưới đây cho ai cần nha: {affiliate_url}",
+      "hashtags": "",
+      "topic_tag": "Đồ tiện ích"
+    },
+    "image_url": ""
   },
   {
     "sku": "BANK-081",
@@ -1207,12 +1367,14 @@
     "shopee_affiliate_url": "https://s.shopee.vn/8AY0AAHfMo",
     "post": {
       "id": "BANK-081",
-      "hook": "Ở trọ mới thấy mấy món lặt vặt kiểu áo thun nữ ôm body justdun b18 cứu cánh cực kỳ.",
-      "body": "Bữa mình đặt thử về dùng thấy tiện hơn hẳn, giá chỉ tầm 63k nên sinh viên mua không bị xót ví. Gọn nhẹ, dùng hàng ngày đỡ mất thời gian.",
-      "engagement_question": "Ở đây có bạn nào dùng loại này chưa, thấy ổn không?",
-      "affiliate_comment_cta": "Link áo thun nữ ôm body justdun b18 mình để dưới đây cho ai cần nha: {affiliate_url}",
-      "hashtags": "#hoinghiendotienich #tienich #phongtro #sinhvien"
-    }
+      "hook": "Hồi mới dọn ra ở riêng cứ nghĩ không cần, giờ xài áo thun nữ ôm body justdun mỗi ngày luôn.",
+      "body": "Phù hợp nhất cho mấy bạn ở trọ một mình hoặc ký túc xá vì không chiếm diện tích. Chi phí 63k quá dễ chịu.",
+      "engagement_question": "Mỗi tháng bạn dành khoảng bao nhiêu cho mấy món đồ tiện ích nhỏ?",
+      "affiliate_comment_cta": "Chỗ mình đặt áo thun nữ ôm body justdun uy tín giá ổn đây nhé: {affiliate_url}",
+      "hashtags": "",
+      "topic_tag": "Đồ tiện ích"
+    },
+    "image_url": ""
   },
   {
     "sku": "BANK-082",
@@ -1222,12 +1384,14 @@
     "shopee_affiliate_url": "https://s.shopee.vn/1qdwcWu4m5",
     "post": {
       "id": "BANK-082",
-      "hook": "Ai hay lười dọn góc phòng giống mình thì ngó thử dung dịch vệ sinh lactacyd odor fresh này xem.",
-      "body": "Mình xài cả tuần nay thấy khá ưng, tầm 108k mà giải quyết gọn mấy việc lặt vặt trong phòng trọ. Đỡ phải loay hoay mỗi lần cần.",
-      "engagement_question": "Mọi người hay ưu tiên đồ giá rẻ hay mua loại xịn dùng lâu dài?",
-      "affiliate_comment_cta": "Link dung dịch vệ sinh lactacyd odor fresh mình để dưới đây cho ai cần nha: {affiliate_url}",
-      "hashtags": "#hoinghiendotienich #tienich #phongtro #sinhvien"
-    }
+      "hook": "Góc phòng trông bớt lộn xộn hẳn từ hôm mình thêm dung dịch vệ sinh lactacyd odor.",
+      "body": "Nhỏ gọn nên chuyển trọ mang theo cũng dễ, không lo cồng kềnh. Mức giá 108k mua không cần đắn đo.",
+      "engagement_question": "Khi chuyển trọ bạn thấy món đồ nào khó mang theo nhất?",
+      "affiliate_comment_cta": "Bạn nào hỏi dung dịch vệ sinh lactacyd odor thì xem chi tiết ở đây nha: {affiliate_url}",
+      "hashtags": "",
+      "topic_tag": "Đồ tiện ích"
+    },
+    "image_url": ""
   },
   {
     "sku": "BANK-083",
@@ -1237,12 +1401,14 @@
     "shopee_affiliate_url": "https://s.shopee.vn/3qP10LDCgG",
     "post": {
       "id": "BANK-083",
-      "hook": "Tầm 14k mà mua được găng tay cao su rửa chén siêu dùng ổn áp phết.",
-      "body": "Đợt này săn được deal tầm 14k, mang về để góc bàn hay phòng tắm đều vừa vặn. Đồ rẻ nhưng dùng kỹ vẫn bền lắm nha.",
-      "engagement_question": "Phòng trọ mọi người món tiện ích nào dùng nhiều nhất vậy?",
-      "affiliate_comment_cta": "Link găng tay cao su rửa chén siêu mình để dưới đây cho ai cần nha: {affiliate_url}",
-      "hashtags": "#hoinghiendotienich #tienich #phongtro #sinhvien"
-    }
+      "hook": "Đợt này siết chi tiêu nên toàn săn đồ tầm 14k, như găng tay cao su rửa chén thấy đáng tiền.",
+      "body": "Không quá cầu kỳ nhưng đúng công năng cần thiết mỗi ngày. Với 14k thì khó đòi hỏi gì hơn.",
+      "engagement_question": "Mọi người hay ưu tiên đồ giá rẻ hay mua loại đắt dùng lâu dài?",
+      "affiliate_comment_cta": "Mình gắn sẵn đường dẫn găng tay cao su rửa chén ở đây cho tiện tìm: {affiliate_url}",
+      "hashtags": "",
+      "topic_tag": "Đồ tiện ích"
+    },
+    "image_url": ""
   },
   {
     "sku": "BANK-084",
@@ -1252,12 +1418,14 @@
     "shopee_affiliate_url": "https://s.shopee.vn/1qdwcfc0I4",
     "post": {
       "id": "BANK-084",
-      "hook": "Ở trọ mới thấy mấy món lặt vặt kiểu áo thun cotton tay dài họa tiết cứu cánh cực kỳ.",
-      "body": "Bữa mình đặt thử về dùng thấy tiện hơn hẳn, giá chỉ tầm 49k nên sinh viên mua không bị xót ví. Gọn nhẹ, dùng hàng ngày đỡ mất thời gian.",
-      "engagement_question": "Ở đây có bạn nào dùng loại này chưa, thấy ổn không?",
-      "affiliate_comment_cta": "Link áo thun cotton tay dài họa tiết mình để dưới đây cho ai cần nha: {affiliate_url}",
-      "hashtags": "#hoinghiendotienich #tienich #phongtro #sinhvien"
-    }
+      "hook": "Phòng trọ chật thì cứ ưu tiên mấy món gọn nhẹ như áo thun cotton tay dài họa trước.",
+      "body": "Mình đặt về dùng thử mấy hôm thấy khá ưng, giá chỉ khoảng 49k nên không bị đau ví. Gọn nhẹ, cất hay mang đi đều tiện.",
+      "engagement_question": "Theo mọi người tiêu chí quan trọng nhất khi mua đồ phòng trọ là gì?",
+      "affiliate_comment_cta": "Ai muốn tham khảo áo thun cotton tay dài họa giống mình thì vào đây xem nhé: {affiliate_url}",
+      "hashtags": "",
+      "topic_tag": "Đồ tiện ích"
+    },
+    "image_url": ""
   },
   {
     "sku": "BANK-085",
@@ -1267,12 +1435,14 @@
     "shopee_affiliate_url": "https://s.shopee.vn/AUvuwbJRo3",
     "post": {
       "id": "BANK-085",
-      "hook": "Ai hay lười dọn góc phòng giống mình thì ngó thử icon bàn học gấp gọn cho máy này xem.",
-      "body": "Mình xài cả tuần nay thấy khá ưng, tầm 70k mà giải quyết gọn mấy việc lặt vặt trong phòng trọ. Đỡ phải loay hoay mỗi lần cần.",
-      "engagement_question": "Mọi người hay ưu tiên đồ giá rẻ hay mua loại xịn dùng lâu dài?",
-      "affiliate_comment_cta": "Link icon bàn học gấp gọn cho máy mình để dưới đây cho ai cần nha: {affiliate_url}",
-      "hashtags": "#hoinghiendotienich #tienich #phongtro #sinhvien"
-    }
+      "hook": "Ai đang muốn nâng cấp góc bàn học mà ngân sách cỡ 70k thử ngó icon bàn học gấp gọn cho.",
+      "body": "Phù hợp nhất cho mấy bạn ở trọ một mình hoặc ký túc xá vì không chiếm diện tích. Chi phí 70k quá dễ chịu.",
+      "engagement_question": "Ngoài món này ra mọi người còn gợi ý đồ gì hay cho phòng nhỏ không?",
+      "affiliate_comment_cta": "Thông tin sản phẩm icon bàn học gấp gọn cho mình để ngay đây nha: {affiliate_url}",
+      "hashtags": "",
+      "topic_tag": "Đồ tiện ích"
+    },
+    "image_url": ""
   },
   {
     "sku": "BANK-086",
@@ -1282,12 +1452,14 @@
     "shopee_affiliate_url": "https://s.shopee.vn/6Amvmdn4eR",
     "post": {
       "id": "BANK-086",
-      "hook": "Tầm 62k mà mua được combo 3-5 quần lót nam thun lạnh dùng ổn áp phết.",
-      "body": "Đợt này săn được deal tầm 62k, mang về để góc bàn hay phòng tắm đều vừa vặn. Đồ rẻ nhưng dùng kỹ vẫn bền lắm nha.",
+      "hook": "Nhiều khi chỉ cần đổi một món nhỏ như combo 3-5 quần lót nam thun là sinh hoạt thoải mái hơn nhiều.",
+      "body": "Nhỏ gọn nên chuyển trọ mang theo cũng dễ, không lo cồng kềnh. Mức giá 62k mua không cần đắn đo.",
       "engagement_question": "Phòng trọ mọi người món tiện ích nào dùng nhiều nhất vậy?",
-      "affiliate_comment_cta": "Link combo 3-5 quần lót nam thun lạnh mình để dưới đây cho ai cần nha: {affiliate_url}",
-      "hashtags": "#hoinghiendotienich #tienich #phongtro #sinhvien"
-    }
+      "affiliate_comment_cta": "Để lại link combo 3-5 quần lót nam thun ở đây cho bạn nào đang tìm mua: {affiliate_url}",
+      "hashtags": "",
+      "topic_tag": "Đồ tiện ích"
+    },
+    "image_url": ""
   },
   {
     "sku": "BANK-087",
@@ -1297,12 +1469,14 @@
     "shopee_affiliate_url": "https://s.shopee.vn/Lp8pvN6CC",
     "post": {
       "id": "BANK-087",
-      "hook": "Ở trọ mới thấy mấy món lặt vặt kiểu túi nước giặt xả yomani hương nước cứu cánh cực kỳ.",
-      "body": "Bữa mình đặt thử về dùng thấy tiện hơn hẳn, giá chỉ tầm 107k nên sinh viên mua không bị xót ví. Gọn nhẹ, dùng hàng ngày đỡ mất thời gian.",
-      "engagement_question": "Ở đây có bạn nào dùng loại này chưa, thấy ổn không?",
-      "affiliate_comment_cta": "Link túi nước giặt xả yomani hương nước mình để dưới đây cho ai cần nha: {affiliate_url}",
-      "hashtags": "#hoinghiendotienich #tienich #phongtro #sinhvien"
-    }
+      "hook": "Ai hay lười dọn góc phòng giống mình thì ngó thử túi nước giặt xả yomani hương này xem.",
+      "body": "Không quá cầu kỳ nhưng đúng công năng cần thiết mỗi ngày. Với 107k thì khó đòi hỏi gì hơn.",
+      "engagement_question": "Bạn thích đồ tối giản một màu hay màu sắc nổi bật cho vui mắt?",
+      "affiliate_comment_cta": "Shop mình hay mua túi nước giặt xả yomani hương giá mềm đây nhé: {affiliate_url}",
+      "hashtags": "",
+      "topic_tag": "Đồ tiện ích"
+    },
+    "image_url": ""
   },
   {
     "sku": "BANK-088",
@@ -1312,12 +1486,14 @@
     "shopee_affiliate_url": "https://s.shopee.vn/1gKWQNTqau",
     "post": {
       "id": "BANK-088",
-      "hook": "Ai hay lười dọn góc phòng giống mình thì ngó thử dép lào kẹp xỏ ngón nam nữ này xem.",
-      "body": "Mình xài cả tuần nay thấy khá ưng, tầm 68k mà giải quyết gọn mấy việc lặt vặt trong phòng trọ. Đỡ phải loay hoay mỗi lần cần.",
-      "engagement_question": "Mọi người hay ưu tiên đồ giá rẻ hay mua loại xịn dùng lâu dài?",
-      "affiliate_comment_cta": "Link dép lào kẹp xỏ ngón nam nữ mình để dưới đây cho ai cần nha: {affiliate_url}",
-      "hashtags": "#hoinghiendotienich #tienich #phongtro #sinhvien"
-    }
+      "hook": "Sinh viên ở ghép phòng nhỏ rất nên có một cái dép lào kẹp xỏ ngón nam cho gọn.",
+      "body": "Mình đặt về dùng thử mấy hôm thấy khá ưng, giá chỉ khoảng 68k nên không bị đau ví. Gọn nhẹ, cất hay mang đi đều tiện.",
+      "engagement_question": "Bạn thích săn mã giảm giá vào khung giờ nào trong ngày?",
+      "affiliate_comment_cta": "Xem giá hiện tại của dép lào kẹp xỏ ngón nam ở link này nha: {affiliate_url}",
+      "hashtags": "",
+      "topic_tag": "Đồ tiện ích"
+    },
+    "image_url": ""
   },
   {
     "sku": "BANK-089",
@@ -1327,12 +1503,14 @@
     "shopee_affiliate_url": "https://s.shopee.vn/1BOFpSifuL",
     "post": {
       "id": "BANK-089",
-      "hook": "Tầm 129k mà mua được quần short jean nam mềm thoáng mát dùng ổn áp phết.",
-      "body": "Đợt này săn được deal tầm 129k, mang về để góc bàn hay phòng tắm đều vừa vặn. Đồ rẻ nhưng dùng kỹ vẫn bền lắm nha.",
-      "engagement_question": "Phòng trọ mọi người món tiện ích nào dùng nhiều nhất vậy?",
-      "affiliate_comment_cta": "Link quần short jean nam mềm thoáng mát mình để dưới đây cho ai cần nha: {affiliate_url}",
-      "hashtags": "#hoinghiendotienich #tienich #phongtro #sinhvien"
-    }
+      "hook": "Không ngờ món đồ giá 129k như quần short jean nam mềm thoáng lại giải quyết đúng chỗ ngứa.",
+      "body": "Phù hợp nhất cho mấy bạn ở trọ một mình hoặc ký túc xá vì không chiếm diện tích. Chi phí 129k quá dễ chịu.",
+      "engagement_question": "Tầm giá dưới 100k bạn thấy món nào đáng mua nhất?",
+      "affiliate_comment_cta": "Cần mua quần short jean nam mềm thoáng thì bấm vào đây xem thử nhé: {affiliate_url}",
+      "hashtags": "",
+      "topic_tag": "Đồ tiện ích"
+    },
+    "image_url": ""
   },
   {
     "sku": "BANK-090",
@@ -1342,12 +1520,14 @@
     "shopee_affiliate_url": "https://s.shopee.vn/5fqfBk5D52",
     "post": {
       "id": "BANK-090",
-      "hook": "Ở trọ mới thấy mấy món lặt vặt kiểu hộp carton đóng hàng gumato giá rẻ cứu cánh cực kỳ.",
-      "body": "Bữa mình đặt thử về dùng thấy tiện hơn hẳn, giá chỉ tầm 14k nên sinh viên mua không bị xót ví. Gọn nhẹ, dùng hàng ngày đỡ mất thời gian.",
-      "engagement_question": "Ở đây có bạn nào dùng loại này chưa, thấy ổn không?",
-      "affiliate_comment_cta": "Link hộp carton đóng hàng gumato giá rẻ mình để dưới đây cho ai cần nha: {affiliate_url}",
-      "hashtags": "#hoinghiendotienich #tienich #phongtro #sinhvien"
-    }
+      "hook": "Cứ tưởng mua về cho vui ai dè hộp carton đóng hàng gumato giá thành món dùng nhiều nhất tuần.",
+      "body": "Nhỏ gọn nên chuyển trọ mang theo cũng dễ, không lo cồng kềnh. Mức giá 14k mua không cần đắn đo.",
+      "engagement_question": "Ở ghép với bạn cùng phòng mọi người có hay chia nhau mua đồ chung không?",
+      "affiliate_comment_cta": "Link hộp carton đóng hàng gumato giá mình để dưới đây cho ai cần nha: {affiliate_url}",
+      "hashtags": "",
+      "topic_tag": "Đồ tiện ích"
+    },
+    "image_url": ""
   },
   {
     "sku": "BANK-091",
@@ -1357,12 +1537,14 @@
     "shopee_affiliate_url": "https://s.shopee.vn/4fy7zuMDSL",
     "post": {
       "id": "BANK-091",
-      "hook": "Ai hay lười dọn góc phòng giống mình thì ngó thử quạt tích điện mini kẹp bàn đèn này xem.",
-      "body": "Mình xài cả tuần nay thấy khá ưng, tầm 166k mà giải quyết gọn mấy việc lặt vặt trong phòng trọ. Đỡ phải loay hoay mỗi lần cần.",
-      "engagement_question": "Mọi người hay ưu tiên đồ giá rẻ hay mua loại xịn dùng lâu dài?",
-      "affiliate_comment_cta": "Link quạt tích điện mini kẹp bàn đèn mình để dưới đây cho ai cần nha: {affiliate_url}",
-      "hashtags": "#hoinghiendotienich #tienich #phongtro #sinhvien"
-    }
+      "hook": "Từ ngày có quạt tích điện mini kẹp bàn, mấy việc lặt vặt buổi tối làm nhanh hơn hẳn.",
+      "body": "Không quá cầu kỳ nhưng đúng công năng cần thiết mỗi ngày. Với 166k thì khó đòi hỏi gì hơn.",
+      "engagement_question": "Có ai hay đặt hàng lúc nửa đêm xong sáng ra quên mất mình đặt gì không?",
+      "affiliate_comment_cta": "Chỗ mình đặt quạt tích điện mini kẹp bàn uy tín giá ổn đây nhé: {affiliate_url}",
+      "hashtags": "",
+      "topic_tag": "Đồ tiện ích"
+    },
+    "image_url": ""
   },
   {
     "sku": "BANK-092",
@@ -1372,12 +1554,14 @@
     "shopee_affiliate_url": "https://s.shopee.vn/3g5ao4dQcd",
     "post": {
       "id": "BANK-092",
-      "hook": "Tầm 16k mà mua được combo sốt mỳ cay cô tám + dùng ổn áp phết.",
-      "body": "Đợt này săn được deal tầm 16k, mang về để góc bàn hay phòng tắm đều vừa vặn. Đồ rẻ nhưng dùng kỹ vẫn bền lắm nha.",
-      "engagement_question": "Phòng trọ mọi người món tiện ích nào dùng nhiều nhất vậy?",
-      "affiliate_comment_cta": "Link combo sốt mỳ cay cô tám + mình để dưới đây cho ai cần nha: {affiliate_url}",
-      "hashtags": "#hoinghiendotienich #tienich #phongtro #sinhvien"
-    }
+      "hook": "Đồ gia dụng giờ rẻ thật, tầm 16k đã có combo sốt mỳ cay cô tám dùng khá chắc chắn.",
+      "body": "Mình đặt về dùng thử mấy hôm thấy khá ưng, giá chỉ khoảng 16k nên không bị đau ví. Gọn nhẹ, cất hay mang đi đều tiện.",
+      "engagement_question": "Bạn hay mua đồ gia dụng ở chợ gần nhà hay đặt online?",
+      "affiliate_comment_cta": "Bạn nào hỏi combo sốt mỳ cay cô tám thì xem chi tiết ở đây nha: {affiliate_url}",
+      "hashtags": "",
+      "topic_tag": "Đồ tiện ích"
+    },
+    "image_url": ""
   },
   {
     "sku": "BANK-093",
@@ -1387,12 +1571,14 @@
     "shopee_affiliate_url": "https://s.shopee.vn/9AQXMBWNRf",
     "post": {
       "id": "BANK-093",
-      "hook": "Ở trọ mới thấy mấy món lặt vặt kiểu dây rút nhựa đen 10-30cm 65 sợi cứu cánh cực kỳ.",
-      "body": "Bữa mình đặt thử về dùng thấy tiện hơn hẳn, giá chỉ tầm 8k nên sinh viên mua không bị xót ví. Gọn nhẹ, dùng hàng ngày đỡ mất thời gian.",
-      "engagement_question": "Ở đây có bạn nào dùng loại này chưa, thấy ổn không?",
-      "affiliate_comment_cta": "Link dây rút nhựa đen 10-30cm 65 sợi mình để dưới đây cho ai cần nha: {affiliate_url}",
-      "hashtags": "#hoinghiendotienich #tienich #phongtro #sinhvien"
-    }
+      "hook": "Đi học về mệt mà thấy góc phòng gọn gàng nhờ dây rút nhựa đen 10-30cm 65 cũng đỡ stress.",
+      "body": "Phù hợp nhất cho mấy bạn ở trọ một mình hoặc ký túc xá vì không chiếm diện tích. Chi phí 8k quá dễ chịu.",
+      "engagement_question": "Món đồ nào bạn mua về xong thấy hối hận vì không mua sớm hơn?",
+      "affiliate_comment_cta": "Mình gắn sẵn đường dẫn dây rút nhựa đen 10-30cm 65 ở đây cho tiện tìm: {affiliate_url}",
+      "hashtags": "",
+      "topic_tag": "Đồ tiện ích"
+    },
+    "image_url": ""
   },
   {
     "sku": "BANK-094",
@@ -1402,12 +1588,14 @@
     "shopee_affiliate_url": "https://s.shopee.vn/8pngxZpS1R",
     "post": {
       "id": "BANK-094",
-      "hook": "Ai hay lười dọn góc phòng giống mình thì ngó thử set 10 đôi + tặng 2 tất này xem.",
-      "body": "Mình xài cả tuần nay thấy khá ưng, tầm 62k mà giải quyết gọn mấy việc lặt vặt trong phòng trọ. Đỡ phải loay hoay mỗi lần cần.",
-      "engagement_question": "Mọi người hay ưu tiên đồ giá rẻ hay mua loại xịn dùng lâu dài?",
-      "affiliate_comment_cta": "Link set 10 đôi + tặng 2 tất mình để dưới đây cho ai cần nha: {affiliate_url}",
-      "hashtags": "#hoinghiendotienich #tienich #phongtro #sinhvien"
-    }
+      "hook": "Tầm 62k mà kiếm được set 10 đôi tặng 2 tất dùng ổn áp phết.",
+      "body": "Nhỏ gọn nên chuyển trọ mang theo cũng dễ, không lo cồng kềnh. Mức giá 62k mua không cần đắn đo.",
+      "engagement_question": "Nếu chấm điểm độ gọn gàng góc phòng hiện tại bạn cho mấy điểm?",
+      "affiliate_comment_cta": "Ai muốn tham khảo set 10 đôi tặng 2 tất giống mình thì vào đây xem nhé: {affiliate_url}",
+      "hashtags": "",
+      "topic_tag": "Đồ tiện ích"
+    },
+    "image_url": ""
   },
   {
     "sku": "BANK-095",
@@ -1417,12 +1605,14 @@
     "shopee_affiliate_url": "https://s.shopee.vn/8fUGlH2OIb",
     "post": {
       "id": "BANK-095",
-      "hook": "Tầm 54k mà mua được kem sâm thorakao tái tạo da sáng dùng ổn áp phết.",
-      "body": "Đợt này săn được deal tầm 54k, mang về để góc bàn hay phòng tắm đều vừa vặn. Đồ rẻ nhưng dùng kỹ vẫn bền lắm nha.",
-      "engagement_question": "Phòng trọ mọi người món tiện ích nào dùng nhiều nhất vậy?",
-      "affiliate_comment_cta": "Link kem sâm thorakao tái tạo da sáng mình để dưới đây cho ai cần nha: {affiliate_url}",
-      "hashtags": "#hoinghiendotienich #tienich #phongtro #sinhvien"
-    }
+      "hook": "Bữa lướt thấy kem sâm thorakao tái tạo da giá 54k đặt đại về xài thử mà ưng ghê.",
+      "body": "Không quá cầu kỳ nhưng đúng công năng cần thiết mỗi ngày. Với 54k thì khó đòi hỏi gì hơn.",
+      "engagement_question": "Góc phòng của bạn hiện tại có món nào tâm đắc nhất không?",
+      "affiliate_comment_cta": "Thông tin sản phẩm kem sâm thorakao tái tạo da mình để ngay đây nha: {affiliate_url}",
+      "hashtags": "",
+      "topic_tag": "Đồ tiện ích"
+    },
+    "image_url": ""
   },
   {
     "sku": "BANK-096",
@@ -1432,12 +1622,14 @@
     "shopee_affiliate_url": "https://s.shopee.vn/20xMp1ecrw",
     "post": {
       "id": "BANK-096",
-      "hook": "Ở trọ mới thấy mấy món lặt vặt kiểu mi giả sẵn keo tự nhiên 4 cứu cánh cực kỳ.",
-      "body": "Bữa mình đặt thử về dùng thấy tiện hơn hẳn, giá chỉ tầm 34k nên sinh viên mua không bị xót ví. Gọn nhẹ, dùng hàng ngày đỡ mất thời gian.",
-      "engagement_question": "Ở đây có bạn nào dùng loại này chưa, thấy ổn không?",
-      "affiliate_comment_cta": "Link mi giả sẵn keo tự nhiên 4 mình để dưới đây cho ai cần nha: {affiliate_url}",
-      "hashtags": "#hoinghiendotienich #tienich #phongtro #sinhvien"
-    }
+      "hook": "Mấy bạn hay thức khuya học bài chắc sẽ cần tới mi giả sẵn keo tự nhiên này.",
+      "body": "Mình đặt về dùng thử mấy hôm thấy khá ưng, giá chỉ khoảng 34k nên không bị đau ví. Gọn nhẹ, cất hay mang đi đều tiện.",
+      "engagement_question": "Cuối tuần này bạn có dự định dọn lại góc học tập hay phòng ngủ không?",
+      "affiliate_comment_cta": "Để lại link mi giả sẵn keo tự nhiên ở đây cho bạn nào đang tìm mua: {affiliate_url}",
+      "hashtags": "",
+      "topic_tag": "Đồ tiện ích"
+    },
+    "image_url": ""
   },
   {
     "sku": "BANK-097",
@@ -1447,12 +1639,14 @@
     "shopee_affiliate_url": "https://s.shopee.vn/114pdM5kpF",
     "post": {
       "id": "BANK-097",
-      "hook": "Ai hay lười dọn góc phòng giống mình thì ngó thử túi rác tự phân hủy kích thước này xem.",
-      "body": "Mình xài cả tuần nay thấy khá ưng, tầm 10k mà giải quyết gọn mấy việc lặt vặt trong phòng trọ. Đỡ phải loay hoay mỗi lần cần.",
-      "engagement_question": "Mọi người hay ưu tiên đồ giá rẻ hay mua loại xịn dùng lâu dài?",
-      "affiliate_comment_cta": "Link túi rác tự phân hủy kích thước mình để dưới đây cho ai cần nha: {affiliate_url}",
-      "hashtags": "#hoinghiendotienich #tienich #phongtro #sinhvien"
-    }
+      "hook": "Nhỏ bạn qua phòng chơi hỏi hoài chỗ mua túi rác tự phân hủy kích này luôn.",
+      "body": "Phù hợp nhất cho mấy bạn ở trọ một mình hoặc ký túc xá vì không chiếm diện tích. Chi phí 10k quá dễ chịu.",
+      "engagement_question": "Món đồ đầu tiên bạn tự sắm khi ra ở riêng là gì thế?",
+      "affiliate_comment_cta": "Shop mình hay mua túi rác tự phân hủy kích giá mềm đây nhé: {affiliate_url}",
+      "hashtags": "",
+      "topic_tag": "Đồ tiện ích"
+    },
+    "image_url": ""
   },
   {
     "sku": "BANK-098",
@@ -1462,12 +1656,14 @@
     "shopee_affiliate_url": "https://s.shopee.vn/6AmvmqzHg6",
     "post": {
       "id": "BANK-098",
-      "hook": "Tầm 72k mà mua được khăn quàng cổ len ấm áp phong dùng ổn áp phết.",
-      "body": "Đợt này săn được deal tầm 72k, mang về để góc bàn hay phòng tắm đều vừa vặn. Đồ rẻ nhưng dùng kỹ vẫn bền lắm nha.",
-      "engagement_question": "Phòng trọ mọi người món tiện ích nào dùng nhiều nhất vậy?",
-      "affiliate_comment_cta": "Link khăn quàng cổ len ấm áp phong mình để dưới đây cho ai cần nha: {affiliate_url}",
-      "hashtags": "#hoinghiendotienich #tienich #phongtro #sinhvien"
-    }
+      "hook": "Tháng này tốn tiền nhất là mua mấy món tiện ích, nhưng riêng khăn quàng cổ len ấm áp thì không tiếc.",
+      "body": "Nhỏ gọn nên chuyển trọ mang theo cũng dễ, không lo cồng kềnh. Mức giá 72k mua không cần đắn đo.",
+      "engagement_question": "Có ai hay bị nghiện săn mấy món lặt vặt kiểu này giống mình không?",
+      "affiliate_comment_cta": "Xem giá hiện tại của khăn quàng cổ len ấm áp ở link này nha: {affiliate_url}",
+      "hashtags": "",
+      "topic_tag": "Đồ tiện ích"
+    },
+    "image_url": ""
   },
   {
     "sku": "BANK-099",
@@ -1477,12 +1673,14 @@
     "shopee_affiliate_url": "https://s.shopee.vn/5VXEzdISUE",
     "post": {
       "id": "BANK-099",
-      "hook": "Ở trọ mới thấy mấy món lặt vặt kiểu quần short nam nữ bigsize nỉ cotton cứu cánh cực kỳ.",
-      "body": "Bữa mình đặt thử về dùng thấy tiện hơn hẳn, giá chỉ tầm 84k nên sinh viên mua không bị xót ví. Gọn nhẹ, dùng hàng ngày đỡ mất thời gian.",
-      "engagement_question": "Ở đây có bạn nào dùng loại này chưa, thấy ổn không?",
-      "affiliate_comment_cta": "Link quần short nam nữ bigsize nỉ cotton mình để dưới đây cho ai cần nha: {affiliate_url}",
-      "hashtags": "#hoinghiendotienich #tienich #phongtro #sinhvien"
-    }
+      "hook": "Sáng nay dọn lại phòng mới nhớ ra quần short nam nữ bigsize nỉ mua mấy tháng trước vẫn bền.",
+      "body": "Không quá cầu kỳ nhưng đúng công năng cần thiết mỗi ngày. Với 84k thì khó đòi hỏi gì hơn.",
+      "engagement_question": "Bạn thường xem đánh giá mấy sao trước khi bấm đặt hàng?",
+      "affiliate_comment_cta": "Cần mua quần short nam nữ bigsize nỉ thì bấm vào đây xem thử nhé: {affiliate_url}",
+      "hashtags": "",
+      "topic_tag": "Đồ tiện ích"
+    },
+    "image_url": ""
   },
   {
     "sku": "BANK-100",
@@ -1492,12 +1690,14 @@
     "shopee_affiliate_url": "https://s.shopee.vn/BVidpqr46",
     "post": {
       "id": "BANK-100",
-      "hook": "Ai hay lười dọn góc phòng giống mình thì ngó thử keo dán giày thể thao siêu dính này xem.",
-      "body": "Mình xài cả tuần nay thấy khá ưng, tầm 35k mà giải quyết gọn mấy việc lặt vặt trong phòng trọ. Đỡ phải loay hoay mỗi lần cần.",
-      "engagement_question": "Mọi người hay ưu tiên đồ giá rẻ hay mua loại xịn dùng lâu dài?",
-      "affiliate_comment_cta": "Link keo dán giày thể thao siêu dính mình để dưới đây cho ai cần nha: {affiliate_url}",
-      "hashtags": "#hoinghiendotienich #tienich #phongtro #sinhvien"
-    }
+      "hook": "Ở trọ mới thấy mấy món nhỏ nhỏ kiểu keo dán giày thể thao siêu cứu cánh cực kỳ.",
+      "body": "Mình đặt về dùng thử mấy hôm thấy khá ưng, giá chỉ khoảng 35k nên không bị đau ví. Gọn nhẹ, cất hay mang đi đều tiện.",
+      "engagement_question": "Ở đây có bạn nào dùng loại này chưa, thấy ổn không?",
+      "affiliate_comment_cta": "Link keo dán giày thể thao siêu mình để dưới đây cho ai cần nha: {affiliate_url}",
+      "hashtags": "",
+      "topic_tag": "Đồ tiện ích"
+    },
+    "image_url": ""
   },
   {
     "sku": "BANK-101",
@@ -1507,12 +1707,14 @@
     "shopee_affiliate_url": "https://s.shopee.vn/2qWTojtLuB",
     "post": {
       "id": "BANK-101",
-      "hook": "Tầm 699k mà mua được máy tăm nước yawashi y66 pin 2000mah dùng ổn áp phết.",
-      "body": "Đợt này săn được deal tầm 699k, mang về để góc bàn hay phòng tắm đều vừa vặn. Đồ rẻ nhưng dùng kỹ vẫn bền lắm nha.",
-      "engagement_question": "Phòng trọ mọi người món tiện ích nào dùng nhiều nhất vậy?",
-      "affiliate_comment_cta": "Link máy tăm nước yawashi y66 pin 2000mah mình để dưới đây cho ai cần nha: {affiliate_url}",
-      "hashtags": "#hoinghiendotienich #tienich #phongtro #sinhvien"
-    }
+      "hook": "Hồi mới dọn ra ở riêng cứ nghĩ không cần, giờ xài máy tăm nước yawashi y66 pin mỗi ngày luôn.",
+      "body": "Phù hợp nhất cho mấy bạn ở trọ một mình hoặc ký túc xá vì không chiếm diện tích. Chi phí 699k quá dễ chịu.",
+      "engagement_question": "Mỗi tháng bạn dành khoảng bao nhiêu cho mấy món đồ tiện ích nhỏ?",
+      "affiliate_comment_cta": "Chỗ mình đặt máy tăm nước yawashi y66 pin uy tín giá ổn đây nhé: {affiliate_url}",
+      "hashtags": "",
+      "topic_tag": "Đồ tiện ích"
+    },
+    "image_url": ""
   },
   {
     "sku": "BANK-102",
@@ -1522,12 +1724,14 @@
     "shopee_affiliate_url": "https://s.shopee.vn/9KjxYgiUhP",
     "post": {
       "id": "BANK-102",
-      "hook": "Ở trọ mới thấy mấy món lặt vặt kiểu túi hút chân không siêu dày bảo cứu cánh cực kỳ.",
-      "body": "Bữa mình đặt thử về dùng thấy tiện hơn hẳn, giá chỉ tầm 11k nên sinh viên mua không bị xót ví. Gọn nhẹ, dùng hàng ngày đỡ mất thời gian.",
-      "engagement_question": "Ở đây có bạn nào dùng loại này chưa, thấy ổn không?",
-      "affiliate_comment_cta": "Link túi hút chân không siêu dày bảo mình để dưới đây cho ai cần nha: {affiliate_url}",
-      "hashtags": "#hoinghiendotienich #tienich #phongtro #sinhvien"
-    }
+      "hook": "Góc phòng trông bớt lộn xộn hẳn từ hôm mình thêm túi hút chân không siêu dày.",
+      "body": "Nhỏ gọn nên chuyển trọ mang theo cũng dễ, không lo cồng kềnh. Mức giá 11k mua không cần đắn đo.",
+      "engagement_question": "Khi chuyển trọ bạn thấy món đồ nào khó mang theo nhất?",
+      "affiliate_comment_cta": "Bạn nào hỏi túi hút chân không siêu dày thì xem chi tiết ở đây nha: {affiliate_url}",
+      "hashtags": "",
+      "topic_tag": "Đồ tiện ích"
+    },
+    "image_url": ""
   },
   {
     "sku": "BANK-103",
@@ -1537,12 +1741,14 @@
     "shopee_affiliate_url": "https://s.shopee.vn/6VPmBU6cJs",
     "post": {
       "id": "BANK-103",
-      "hook": "Ai hay lười dọn góc phòng giống mình thì ngó thử ositree face primer kem lót trang điểm này xem.",
-      "body": "Mình xài cả tuần nay thấy khá ưng, tầm 149k mà giải quyết gọn mấy việc lặt vặt trong phòng trọ. Đỡ phải loay hoay mỗi lần cần.",
-      "engagement_question": "Mọi người hay ưu tiên đồ giá rẻ hay mua loại xịn dùng lâu dài?",
-      "affiliate_comment_cta": "Link ositree face primer kem lót trang điểm mình để dưới đây cho ai cần nha: {affiliate_url}",
-      "hashtags": "#hoinghiendotienich #tienich #phongtro #sinhvien"
-    }
+      "hook": "Đợt này siết chi tiêu nên toàn săn đồ tầm 149k, như ositree face primer kem lót trang thấy đáng tiền.",
+      "body": "Không quá cầu kỳ nhưng đúng công năng cần thiết mỗi ngày. Với 149k thì khó đòi hỏi gì hơn.",
+      "engagement_question": "Mọi người hay ưu tiên đồ giá rẻ hay mua loại đắt dùng lâu dài?",
+      "affiliate_comment_cta": "Mình gắn sẵn đường dẫn ositree face primer kem lót trang ở đây cho tiện tìm: {affiliate_url}",
+      "hashtags": "",
+      "topic_tag": "Đồ tiện ích"
+    },
+    "image_url": ""
   },
   {
     "sku": "BANK-104",
@@ -1552,12 +1758,14 @@
     "shopee_affiliate_url": "https://s.shopee.vn/1gKWQc6wgA",
     "post": {
       "id": "BANK-104",
-      "hook": "Tầm 84k mà mua được dầu tắm ôliv 3x dưỡng ẩm sáng dùng ổn áp phết.",
-      "body": "Đợt này săn được deal tầm 84k, mang về để góc bàn hay phòng tắm đều vừa vặn. Đồ rẻ nhưng dùng kỹ vẫn bền lắm nha.",
-      "engagement_question": "Phòng trọ mọi người món tiện ích nào dùng nhiều nhất vậy?",
-      "affiliate_comment_cta": "Link dầu tắm ôliv 3x dưỡng ẩm sáng mình để dưới đây cho ai cần nha: {affiliate_url}",
-      "hashtags": "#hoinghiendotienich #tienich #phongtro #sinhvien"
-    }
+      "hook": "Phòng trọ chật thì cứ ưu tiên mấy món gọn nhẹ như dầu tắm ôliv 3x dưỡng ẩm trước.",
+      "body": "Mình đặt về dùng thử mấy hôm thấy khá ưng, giá chỉ khoảng 84k nên không bị đau ví. Gọn nhẹ, cất hay mang đi đều tiện.",
+      "engagement_question": "Theo mọi người tiêu chí quan trọng nhất khi mua đồ phòng trọ là gì?",
+      "affiliate_comment_cta": "Ai muốn tham khảo dầu tắm ôliv 3x dưỡng ẩm giống mình thì vào đây xem nhé: {affiliate_url}",
+      "hashtags": "",
+      "topic_tag": "Đồ tiện ích"
+    },
+    "image_url": ""
   },
   {
     "sku": "BANK-105",
@@ -1567,12 +1775,14 @@
     "shopee_affiliate_url": "https://s.shopee.vn/8fUGlTtMIP",
     "post": {
       "id": "BANK-105",
-      "hook": "Ở trọ mới thấy mấy món lặt vặt kiểu bàn chải rửa bát cọ xoong nồi cứu cánh cực kỳ.",
-      "body": "Bữa mình đặt thử về dùng thấy tiện hơn hẳn, giá chỉ tầm 13k nên sinh viên mua không bị xót ví. Gọn nhẹ, dùng hàng ngày đỡ mất thời gian.",
-      "engagement_question": "Ở đây có bạn nào dùng loại này chưa, thấy ổn không?",
-      "affiliate_comment_cta": "Link bàn chải rửa bát cọ xoong nồi mình để dưới đây cho ai cần nha: {affiliate_url}",
-      "hashtags": "#hoinghiendotienich #tienich #phongtro #sinhvien"
-    }
+      "hook": "Ai đang muốn nâng cấp góc bàn học mà ngân sách cỡ 13k thử ngó bàn chải rửa bát cọ xoong.",
+      "body": "Phù hợp nhất cho mấy bạn ở trọ một mình hoặc ký túc xá vì không chiếm diện tích. Chi phí 13k quá dễ chịu.",
+      "engagement_question": "Ngoài món này ra mọi người còn gợi ý đồ gì hay cho phòng nhỏ không?",
+      "affiliate_comment_cta": "Thông tin sản phẩm bàn chải rửa bát cọ xoong mình để ngay đây nha: {affiliate_url}",
+      "hashtags": "",
+      "topic_tag": "Đồ tiện ích"
+    },
+    "image_url": ""
   },
   {
     "sku": "BANK-106",
@@ -1582,12 +1792,14 @@
     "shopee_affiliate_url": "https://s.shopee.vn/AUvuwqzmil",
     "post": {
       "id": "BANK-106",
-      "hook": "Ai hay lười dọn góc phòng giống mình thì ngó thử bộ sạc nhanh pd 20w không nóng này xem.",
-      "body": "Mình xài cả tuần nay thấy khá ưng, tầm 139k mà giải quyết gọn mấy việc lặt vặt trong phòng trọ. Đỡ phải loay hoay mỗi lần cần.",
-      "engagement_question": "Mọi người hay ưu tiên đồ giá rẻ hay mua loại xịn dùng lâu dài?",
-      "affiliate_comment_cta": "Link bộ sạc nhanh pd 20w không nóng mình để dưới đây cho ai cần nha: {affiliate_url}",
-      "hashtags": "#hoinghiendotienich #tienich #phongtro #sinhvien"
-    }
+      "hook": "Nhiều khi chỉ cần đổi một món nhỏ như bộ sạc nhanh pd 20w không là sinh hoạt thoải mái hơn nhiều.",
+      "body": "Nhỏ gọn nên chuyển trọ mang theo cũng dễ, không lo cồng kềnh. Mức giá 139k mua không cần đắn đo.",
+      "engagement_question": "Phòng trọ mọi người món tiện ích nào dùng nhiều nhất vậy?",
+      "affiliate_comment_cta": "Để lại link bộ sạc nhanh pd 20w không ở đây cho bạn nào đang tìm mua: {affiliate_url}",
+      "hashtags": "",
+      "topic_tag": "Đồ tiện ích"
+    },
+    "image_url": ""
   },
   {
     "sku": "BANK-107",
@@ -1597,12 +1809,14 @@
     "shopee_affiliate_url": "https://s.shopee.vn/6VPmBVSDAx",
     "post": {
       "id": "BANK-107",
-      "hook": "Tầm 73k mà mua được lô túi rác tiện dụng inochi 4 dùng ổn áp phết.",
-      "body": "Đợt này săn được deal tầm 73k, mang về để góc bàn hay phòng tắm đều vừa vặn. Đồ rẻ nhưng dùng kỹ vẫn bền lắm nha.",
-      "engagement_question": "Phòng trọ mọi người món tiện ích nào dùng nhiều nhất vậy?",
-      "affiliate_comment_cta": "Link lô túi rác tiện dụng inochi 4 mình để dưới đây cho ai cần nha: {affiliate_url}",
-      "hashtags": "#hoinghiendotienich #tienich #phongtro #sinhvien"
-    }
+      "hook": "Ai hay lười dọn góc phòng giống mình thì ngó thử lô túi rác tiện dụng inochi này xem.",
+      "body": "Không quá cầu kỳ nhưng đúng công năng cần thiết mỗi ngày. Với 73k thì khó đòi hỏi gì hơn.",
+      "engagement_question": "Bạn thích đồ tối giản một màu hay màu sắc nổi bật cho vui mắt?",
+      "affiliate_comment_cta": "Shop mình hay mua lô túi rác tiện dụng inochi giá mềm đây nhé: {affiliate_url}",
+      "hashtags": "",
+      "topic_tag": "Đồ tiện ích"
+    },
+    "image_url": ""
   },
   {
     "sku": "BANK-108",
@@ -1612,12 +1826,14 @@
     "shopee_affiliate_url": "https://s.shopee.vn/9KjxYiTnd3",
     "post": {
       "id": "BANK-108",
-      "hook": "Ở trọ mới thấy mấy món lặt vặt kiểu aztk má hồng kem dạng lỏng lâu cứu cánh cực kỳ.",
-      "body": "Bữa mình đặt thử về dùng thấy tiện hơn hẳn, giá chỉ tầm 129k nên sinh viên mua không bị xót ví. Gọn nhẹ, dùng hàng ngày đỡ mất thời gian.",
-      "engagement_question": "Ở đây có bạn nào dùng loại này chưa, thấy ổn không?",
-      "affiliate_comment_cta": "Link aztk má hồng kem dạng lỏng lâu mình để dưới đây cho ai cần nha: {affiliate_url}",
-      "hashtags": "#hoinghiendotienich #tienich #phongtro #sinhvien"
-    }
+      "hook": "Sinh viên ở ghép phòng nhỏ rất nên có một cái aztk má hồng kem dạng lỏng cho gọn.",
+      "body": "Mình đặt về dùng thử mấy hôm thấy khá ưng, giá chỉ khoảng 129k nên không bị đau ví. Gọn nhẹ, cất hay mang đi đều tiện.",
+      "engagement_question": "Bạn thích săn mã giảm giá vào khung giờ nào trong ngày?",
+      "affiliate_comment_cta": "Xem giá hiện tại của aztk má hồng kem dạng lỏng ở link này nha: {affiliate_url}",
+      "hashtags": "",
+      "topic_tag": "Đồ tiện ích"
+    },
+    "image_url": ""
   },
   {
     "sku": "BANK-109",
@@ -1627,12 +1843,14 @@
     "shopee_affiliate_url": "https://s.shopee.vn/9KjxYilwqu",
     "post": {
       "id": "BANK-109",
-      "hook": "Ai hay lười dọn góc phòng giống mình thì ngó thử set 5 đôi tất vớ nam nữ này xem.",
-      "body": "Mình xài cả tuần nay thấy khá ưng, tầm 24k mà giải quyết gọn mấy việc lặt vặt trong phòng trọ. Đỡ phải loay hoay mỗi lần cần.",
-      "engagement_question": "Mọi người hay ưu tiên đồ giá rẻ hay mua loại xịn dùng lâu dài?",
-      "affiliate_comment_cta": "Link set 5 đôi tất vớ nam nữ mình để dưới đây cho ai cần nha: {affiliate_url}",
-      "hashtags": "#hoinghiendotienich #tienich #phongtro #sinhvien"
-    }
+      "hook": "Không ngờ món đồ giá 24k như set 5 đôi tất vớ nam lại giải quyết đúng chỗ ngứa.",
+      "body": "Phù hợp nhất cho mấy bạn ở trọ một mình hoặc ký túc xá vì không chiếm diện tích. Chi phí 24k quá dễ chịu.",
+      "engagement_question": "Tầm giá dưới 100k bạn thấy món nào đáng mua nhất?",
+      "affiliate_comment_cta": "Cần mua set 5 đôi tất vớ nam thì bấm vào đây xem thử nhé: {affiliate_url}",
+      "hashtags": "",
+      "topic_tag": "Đồ tiện ích"
+    },
+    "image_url": ""
   },
   {
     "sku": "BANK-110",
@@ -1642,11 +1860,13 @@
     "shopee_affiliate_url": "https://s.shopee.vn/2VtdQAPIag",
     "post": {
       "id": "BANK-110",
-      "hook": "Tầm 33k mà mua được kính cường lực chống nhìn trộm tự dùng ổn áp phết.",
-      "body": "Đợt này săn được deal tầm 33k, mang về để góc bàn hay phòng tắm đều vừa vặn. Đồ rẻ nhưng dùng kỹ vẫn bền lắm nha.",
-      "engagement_question": "Phòng trọ mọi người món tiện ích nào dùng nhiều nhất vậy?",
-      "affiliate_comment_cta": "Link kính cường lực chống nhìn trộm tự mình để dưới đây cho ai cần nha: {affiliate_url}",
-      "hashtags": "#hoinghiendotienich #tienich #phongtro #sinhvien"
-    }
+      "hook": "Cứ tưởng mua về cho vui ai dè kính cường lực chống nhìn trộm thành món dùng nhiều nhất tuần.",
+      "body": "Nhỏ gọn nên chuyển trọ mang theo cũng dễ, không lo cồng kềnh. Mức giá 33k mua không cần đắn đo.",
+      "engagement_question": "Ở ghép với bạn cùng phòng mọi người có hay chia nhau mua đồ chung không?",
+      "affiliate_comment_cta": "Link kính cường lực chống nhìn trộm mình để dưới đây cho ai cần nha: {affiliate_url}",
+      "hashtags": "",
+      "topic_tag": "Đồ tiện ích"
+    },
+    "image_url": ""
   }
 ]

@@ -51,6 +51,26 @@ class TestPipeline(unittest.TestCase):
         res_ai = audit_post(ai_post, "https://s.shopee.vn/test123")
         self.assertEqual(res_ai.verdict, "REJECT")
 
+        hashtag_post = dict(valid_post)
+        hashtag_post["hashtags"] = "#tienich #phongtro #sinhvien"
+        res_ht = audit_post(hashtag_post, "https://s.shopee.vn/test123")
+        self.assertEqual(res_ht.verdict, "REJECT")
+        self.assertLess(res_ht.naturalness_score, 85)
+
+        caps_post = dict(valid_post)
+        caps_post["body"] = "MUA NGAY HÔM NAY GIÁ SỐC cho phòng trọ sạch đẹp."
+        res_caps = audit_post(caps_post, "https://s.shopee.vn/test123")
+        self.assertEqual(res_caps.verdict, "REJECT")
+
+        dup_res = audit_post(
+            valid_post,
+            "https://s.shopee.vn/test123",
+            recent_texts=[
+                "Đèn ngủ cảm biến giá rẻ cho phòng trọ.\n\nSạc USB dùng cả tháng, ánh sáng dịu không chói mắt.\n\nBạn thích đèn ánh sáng vàng hay trắng?\n\n#hoinghiendotienich"
+            ],
+        )
+        self.assertEqual(dup_res.verdict, "REJECT")
+
     def test_self_heal_retry_and_circuit_breaker(self) -> None:
         with tempfile.TemporaryDirectory() as tmp:
             logs_dir = Path(tmp)
@@ -250,6 +270,65 @@ class TestPipeline(unittest.TestCase):
             )
             self.assertFalse(second["viral_post"]["published"])
             self.assertEqual(second["viral_post"]["reason"], "already_published_today")
+
+    def test_auto_rewrite_and_skip_rejected_sku(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            tmp_root = Path(tmp)
+            logs_dir = tmp_root / "logs"
+            bank_path = tmp_root / "data" / "product_bank_90d.json"
+            bank_path.parent.mkdir(parents=True, exist_ok=True)
+            bank_path.write_text(
+                json.dumps(
+                    [
+                        {
+                            "sku": "BAD-01",
+                            "name": "Sản phẩm lỗi",
+                            "price_vnd": 50000,
+                            "commission_rate": 0.1,
+                            "shopee_affiliate_url": "https://s.shopee.vn/bad1",
+                            "post": {
+                                "id": "BAD-01",
+                                "hook": "Không thể phủ nhận món này quá đỉnh",
+                                "body": "Cam kết 100% sự lựa chọn hoàn hảo cho bạn.",
+                                "engagement_question": "Thích không?",
+                                "affiliate_comment_cta": "Link: {affiliate_url}",
+                                "hashtags": "#a #b #c",
+                            },
+                        },
+                        {
+                            "sku": "GOOD-02",
+                            "name": "Kệ để bàn gấp gọn",
+                            "price_vnd": 65000,
+                            "commission_rate": 0.12,
+                            "shopee_affiliate_url": "https://s.shopee.vn/good2",
+                            "image_url": "https://example.com/ke.jpg",
+                            "post": {
+                                "id": "GOOD-02",
+                                "hook": "Bàn học nhỏ xíu mà để sách vở hay bị chật.",
+                                "body": "Thêm cái kệ nhỏ 65k xếp chồng lên nhìn góc bàn thoáng hẳn luôn.",
+                                "engagement_question": "Góc bàn của bạn đang để mấy món đồ?",
+                                "affiliate_comment_cta": "Link kệ mình để đây nha: {affiliate_url}",
+                                "hashtags": "",
+                                "topic_tag": "Đồ tiện ích",
+                            },
+                        },
+                    ],
+                    ensure_ascii=False,
+                ),
+                encoding="utf-8",
+            )
+            # Run at 20:30 when 08:30, 12:30, 20:30 are all due, BAD-01 gets auto-rewritten & passes!
+            res = run_cycle(
+                dry_run=True,
+                simulate_self_heal=False,
+                respect_schedule=True,
+                now_local=datetime(2026, 11, 28, 20, 35, tzinfo=timezone(timedelta(hours=7))),
+                logs_dir=logs_dir,
+                bank_path=bank_path,
+            )
+            passed = [r for r in res["results"] if r["verdict"] == "PASS"]
+            self.assertEqual(len(passed), 2)
+            self.assertEqual(passed[1]["publish"]["media_type"], "TEXT")  # 12:30 -> TEXT-only
 
 
 if __name__ == "__main__":
