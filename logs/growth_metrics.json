@@ -1,0 +1,18 @@
+{
+  "goal_followers": 10000,
+  "goal_days": 90,
+  "start_date": "2026-11-28",
+  "snapshots": [
+    {
+      "date": "2026-11-28",
+      "timestamp": "2026-11-28T16:09:47.481852+07:00",
+      "followers": 0,
+      "views": 0,
+      "likes": 0,
+      "replies": 0,
+      "elapsed_days": 1,
+      "remaining_days": 89,
+      "required_daily_pace": 112.4
+    }
+  ]
+}
