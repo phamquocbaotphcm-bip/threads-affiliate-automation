@@ -56,11 +56,13 @@ def _threads_request(
             return json.loads(resp.read().decode("utf-8"))
     except urllib.error.HTTPError as exc:
         body = exc.read().decode("utf-8", errors="replace")
-        if exc.code in (401, 403):
+        if exc.code in (401, 403) or (
+            exc.code == 400 and ("OAuthException" in body or '"code":190' in body)
+        ):
             raise RecoverableTaskError(
                 "TOKEN_EXPIRED",
                 f"Threads API auth error {exc.code}: {body}",
-                root_cause="Access token expired or unauthorized",
+                root_cause=f"Access token expired or unauthorized: {body[:200]}",
             ) from exc
         if exc.code == 429:
             raise RecoverableTaskError(
