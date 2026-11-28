@@ -16,6 +16,13 @@ from src.orchestrator import PROJECT_ROOT, run_cycle
 from src.product_bank import add_products_to_bank, load_bank
 from src.reporter import build_report
 from src.growth_engine import run_growth_cycle
+from src.scout_matcher import (
+    has_buyer_intent,
+    is_already_replied,
+    load_scout_state,
+    match_product_from_bank,
+    record_scout_reply,
+)
 from src.watchdog import run_watchdog
 from src.self_heal import (
     CircuitBreakerOpenError,
@@ -329,6 +336,56 @@ class TestPipeline(unittest.TestCase):
             passed = [r for r in res["results"] if r["verdict"] == "PASS"]
             self.assertEqual(len(passed), 2)
             self.assertEqual(passed[1]["publish"]["media_type"], "TEXT")  # 12:30 -> TEXT-only
+
+    def test_scout_matcher_intent_dedup_and_match(self) -> None:
+        self.assertTrue(has_buyer_intent("Mình xin link bình giữ nhiệt gọn nhẹ nha"))
+        self.assertFalse(has_buyer_intent("Hôm nay trời đẹp quá mọi người ơi"))
+
+        with tempfile.TemporaryDirectory() as tmp:
+            tmp_root = Path(tmp)
+            bank_path = tmp_root / "data" / "product_bank_90d.json"
+            state_path = tmp_root / "logs" / "scout_replies_state.json"
+            add_products_to_bank(
+                bank_path,
+                [
+                    {
+                        "sku": "MATCH-01",
+                        "name": "Bình giữ nhiệt inox 304 LocknLock 500ml",
+                        "price_vnd": 199000,
+                        "commission_rate": 0.10,
+                        "shopee_affiliate_url": "https://s.shopee.vn/match01",
+                    },
+                    {
+                        "sku": "MATCH-02",
+                        "name": "Đèn bàn học chống cận LED cảm ứng",
+                        "price_vnd": 149000,
+                        "commission_rate": 0.12,
+                        "shopee_affiliate_url": "https://s.shopee.vn/match02",
+                    },
+                ],
+            )
+            matched = match_product_from_bank(
+                "Xin link bình giữ nhiệt inox giữ nóng tốt với ạ",
+                bank_path=bank_path,
+            )
+            self.assertIsNotNone(matched)
+            self.assertEqual(matched["shopee_affiliate_url"], "https://s.shopee.vn/match01")
+
+            now = datetime(2026, 11, 28, 21, 15, tzinfo=timezone.utc)
+            state_before = load_scout_state(state_path)
+            self.assertFalse(is_already_replied(state_before, "https://www.threads.com/@u1/post/1", "u1", "2026-11-28"))
+
+            record_scout_reply(
+                state_path,
+                "https://www.threads.com/@u1/post/1",
+                "@u1",
+                "MATCH-01",
+                "https://s.shopee.vn/match01",
+                now_utc=now,
+            )
+            state_after = load_scout_state(state_path)
+            self.assertTrue(is_already_replied(state_after, "https://www.threads.com/@u1/post/1?x=1", "u1", "2026-11-28"))
+            self.assertTrue(is_already_replied(state_after, "https://www.threads.com/@u1/post/2", "u1", "2026-11-28"))
 
 
 if __name__ == "__main__":
