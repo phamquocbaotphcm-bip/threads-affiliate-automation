@@ -15,6 +15,7 @@ from src.compliance_qa import audit_post
 from src.orchestrator import PROJECT_ROOT, run_cycle
 from src.product_bank import add_products_to_bank, load_bank
 from src.reporter import build_report
+from src.watchdog import run_watchdog
 from src.self_heal import (
     CircuitBreakerOpenError,
     LearnLogger,
@@ -162,6 +163,60 @@ class TestPipeline(unittest.TestCase):
             rep = build_report(period="3d", project_root=tmp_root)
             self.assertTrue(Path(rep["report_path"]).exists())
             self.assertEqual(rep["total_bank"], 1)
+
+    def test_watchdog_healthy_recovery_and_low_bank_alert(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            tmp_root = Path(tmp)
+            logs_dir = tmp_root / "logs"
+            bank_path = tmp_root / "data" / "product_bank_90d.json"
+            items = [
+                {
+                    "name": f"Sản phẩm tiện ích {i}",
+                    "price_vnd": 35000,
+                    "commission_rate": 0.12,
+                    "shopee_affiliate_url": f"https://s.shopee.vn/wd{i}",
+                }
+                for i in range(16)
+            ]
+            add_products_to_bank(bank_path, items)
+
+            # 08:30 missed at 09:30 -> Watchdog recovers it
+            morning = datetime(2026, 11, 28, 9, 30, tzinfo=timezone(timedelta(hours=7)))
+            res_recover = run_watchdog(
+                dry_run=True,
+                auto_recover=True,
+                now_local=morning,
+                logs_dir=logs_dir,
+                bank_path=bank_path,
+            )
+            self.assertEqual(res_recover["status"], "RECOVERED")
+            self.assertEqual(res_recover["recovered_posts"], 1)
+
+            # Second check at 09:45 -> already published, stays HEALTHY
+            res_ok = run_watchdog(
+                dry_run=True,
+                auto_recover=True,
+                now_local=datetime(2026, 11, 28, 9, 45, tzinfo=timezone(timedelta(hours=7))),
+                logs_dir=logs_dir,
+                bank_path=bank_path,
+            )
+            self.assertEqual(res_ok["status"], "HEALTHY")
+
+            # Now remaining links = 15 -> if 1 more is marked published -> 14 < 15 -> ALERT
+            state_file = logs_dir / "published_state.json"
+            state = json.loads(state_file.read_text(encoding="utf-8"))
+            state["published_urls"].append("https://s.shopee.vn/wd99_extra")
+            # Actually reduce bank to 10 items to trigger LOW_BANK
+            add_products_to_bank(tmp_root / "data" / "small_bank.json", items[:5])
+            res_alert = run_watchdog(
+                dry_run=True,
+                auto_recover=False,
+                now_local=morning,
+                logs_dir=logs_dir,
+                bank_path=tmp_root / "data" / "small_bank.json",
+            )
+            self.assertEqual(res_alert["status"], "ALERT")
+            self.assertTrue(any("LOW_BANK" in a for a in res_alert["alerts"]))
 
 
 if __name__ == "__main__":

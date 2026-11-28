@@ -1,0 +1,80 @@
+name: Satellite Watchdog 24/7 (@hoinghiendotienich)
+
+on:
+  schedule:
+    # Truc 24/7 moi 4 tieng (6 ca/ngay) de giam sat token, kho link & dang bu neu cron chinh bi tre
+    - cron: "15 */4 * * *"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Chay kiem tra thu nghiem (true/false)"
+        required: false
+        default: "false"
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  watchdog_shift:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run 24/7 Watchdog Shift
+        id: wd
+        continue-on-error: true
+        env:
+          THREADS_USER_ID: ${{ secrets.THREADS_USER_ID }}
+          THREADS_ACCESS_TOKEN: ${{ secrets.THREADS_ACCESS_TOKEN }}
+          TIMEZONE_OFFSET_HOURS: "7"
+          TARGET_CTR_THRESHOLD: "0.035"
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
+            python src/watchdog.py --dry-run > watchdog_out.json
+          else
+            python src/watchdog.py --live > watchdog_out.json
+          fi
+          cat watchdog_out.json
+          STATUS=$(python -c "import json; print(json.load(open('watchdog_out.json'))['status'])")
+          echo "status=$STATUS" >> "$GITHUB_OUTPUT"
+
+      - name: Persist Watchdog status & logs
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -f logs/watchdog_status.json logs/published_state.json logs/learn.log logs/learn_kb.json || true
+          git diff --staged --quiet || (git commit -m "chore: watchdog 24/7 status (${{ steps.wd.outputs.status }})" && git pull --rebase origin main && git push)
+
+      - name: Alert Admin on Incident
+        if: steps.wd.outputs.status == 'ALERT'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const data = JSON.parse(fs.readFileSync('watchdog_out.json', 'utf8'));
+            const body = [
+              `### Satellite Watchdog 24/7 Alert (@hoinghiendotienich)`,
+              `- **Status:** ${data.status}`,
+              `- **Token Healthy:** ${data.token_healthy}`,
+              `- **Remaining Links:** ${data.remaining_links}`,
+              `- **Alerts:**`,
+              ...data.alerts.map(a => `  - ${a}`)
+            ].join('\n');
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: `[WATCHDOG ALERT] @hoinghiendotienich - ${new Date().toISOString().slice(0, 10)}`,
+              body
+            });
+
+      - name: Fail job if Watchdog raised ALERT
+        if: steps.wd.outputs.status == 'ALERT'
+        run: exit 1
