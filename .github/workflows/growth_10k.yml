@@ -1,0 +1,57 @@
+name: 10K Followers Growth Engine (@hoinghiendotienich)
+
+on:
+  schedule:
+    # 10:00 & 21:00 GMT+7 (03:00 & 14:00 UTC): Quet & tra loi binh luan + do followers
+    - cron: "0 3,14 * * *"
+    # 17:30 GMT+7 (10:30 UTC): Dang 1 bai Viral Organic khong link + do followers
+    - cron: "30 10 * * *"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Chay thu nghiem (true/false)"
+        required: false
+        default: "false"
+      mode:
+        description: "Che do (viral_and_engage / engage_only)"
+        required: false
+        default: "engage_only"
+
+permissions:
+  contents: write
+
+jobs:
+  grow_audience:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run 10K Growth Cycle
+        env:
+          THREADS_USER_ID: ${{ secrets.THREADS_USER_ID }}
+          THREADS_ACCESS_TOKEN: ${{ secrets.THREADS_ACCESS_TOKEN }}
+          TIMEZONE_OFFSET_HOURS: "7"
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
+            python src/growth_engine.py --dry-run --no-viral
+          elif [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ github.event.inputs.mode }}" = "engage_only" ]; then
+            python src/growth_engine.py --live --no-viral
+          elif [ "${{ github.event.schedule }}" = "0 3,14 * * *" ]; then
+            python src/growth_engine.py --live --no-viral
+          else
+            python src/growth_engine.py --live
+          fi
+
+      - name: Persist growth metrics & state
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -f logs/growth_metrics.json logs/growth_state.json logs/learn.log logs/learn_kb.json || true
+          git diff --staged --quiet || (git commit -m "chore: update 10k growth metrics and engagement state" && git pull --rebase origin main && git push)

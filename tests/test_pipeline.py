@@ -15,6 +15,7 @@ from src.compliance_qa import audit_post
 from src.orchestrator import PROJECT_ROOT, run_cycle
 from src.product_bank import add_products_to_bank, load_bank
 from src.reporter import build_report
+from src.growth_engine import run_growth_cycle
 from src.watchdog import run_watchdog
 from src.self_heal import (
     CircuitBreakerOpenError,
@@ -217,6 +218,38 @@ class TestPipeline(unittest.TestCase):
             )
             self.assertEqual(res_alert["status"], "ALERT")
             self.assertTrue(any("LOW_BANK" in a for a in res_alert["alerts"]))
+
+    def test_growth_engine_and_viral_bank_qa(self) -> None:
+        viral_bank = json.loads(
+            (PROJECT_ROOT / "data" / "viral_organic_bank.json").read_text(encoding="utf-8")
+        )
+        self.assertEqual(len(viral_bank), 30)
+        for post in viral_bank:
+            probe = dict(post)
+            probe["affiliate_comment_cta"] = "organic {affiliate_url}"
+            res = audit_post(probe, "https://s.shopee.vn/organic")
+            self.assertEqual(res.verdict, "PASS", msg=f"{post['id']} failed: {res.defects}")
+
+        with tempfile.TemporaryDirectory() as tmp:
+            logs_dir = Path(tmp) / "logs"
+            evening = datetime(2026, 11, 28, 17, 35, tzinfo=timezone(timedelta(hours=7)))
+            first = run_growth_cycle(
+                dry_run=True,
+                publish_viral=True,
+                now_local=evening,
+                logs_dir=logs_dir,
+            )
+            self.assertTrue(first["viral_post"]["published"])
+            self.assertTrue((logs_dir / "growth_metrics.json").exists())
+
+            second = run_growth_cycle(
+                dry_run=True,
+                publish_viral=True,
+                now_local=evening,
+                logs_dir=logs_dir,
+            )
+            self.assertFalse(second["viral_post"]["published"])
+            self.assertEqual(second["viral_post"]["reason"], "already_published_today")
 
 
 if __name__ == "__main__":

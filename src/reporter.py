@@ -39,7 +39,15 @@ def build_report(
     bank = load_bank(project_root / "data" / "product_bank_90d.json")
     state = _read_json(project_root / "logs" / "published_state.json", {})
     insights = _read_json(project_root / "logs" / "insights_report.json", {})
+    growth = _read_json(project_root / "logs" / "growth_metrics.json", {})
     learn_path = project_root / "logs" / "learn.log"
+
+    snapshots = growth.get("snapshots", [])
+    latest_growth = snapshots[-1] if snapshots else {}
+    current_followers = int(latest_growth.get("followers", 0))
+    goal_followers = int(growth.get("goal_followers", 10000))
+    elapsed_days = int(latest_growth.get("elapsed_days", 1))
+    required_pace = float(latest_growth.get("required_daily_pace", round(goal_followers / 90, 1)))
 
     published_urls = set(state.get("published_urls", []))
     total_bank = len(bank)
@@ -99,6 +107,11 @@ def build_report(
 
     md_lines = [
         f"# {title} — @hoinghiendotienich ({date_str})",
+        "",
+        "## 0. Tiến độ mục tiêu 10.000 Followers (Tối đa 90 ngày)",
+        f"- **Followers hiện tại:** {current_followers} / {goal_followers}",
+        f"- **Ngày vận hành:** Ngày {elapsed_days} / 90",
+        f"- **Tốc độ cần đạt để cán đích 10K:** ~{required_pace} followers/ngày",
         "",
         "## 1. Tình trạng kho link 90 ngày (3 bài/ngày)",
         f"- **Tổng link trong kho:** {total_bank} / {TARGET_BANK_SIZE}",
