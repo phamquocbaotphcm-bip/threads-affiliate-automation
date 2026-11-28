@@ -1,8 +1,30 @@
 {
   "channel": "@hoinghiendotienich",
-  "timestamp": "2026-11-28T01:12:36.927831+00:00",
+  "timestamp": "2026-11-28T04:50:27.406460+00:00",
   "dry_run": false,
   "target_ctr_threshold": 0.035,
-  "total_posts": 0,
-  "results": []
+  "total_posts": 1,
+  "results": [
+    {
+      "post_id": "POST-02",
+      "slot": "08:30",
+      "sku": "TIENICH-02",
+      "verdict": "PASS",
+      "publish": {
+        "media_id": "17940347070406215",
+        "reply_id": "18141844496504572",
+        "status": "PUBLISHED_LIVE"
+      },
+      "insights": {
+        "post_id": "POST-02",
+        "impressions": 0,
+        "clicks": 1,
+        "ctr": 0.0,
+        "top_comments": [
+          "Chỗ mình mua thùng 6 bịch giá 58k đây nhé: https://s.shopee.vn/7pv91V7F5y"
+        ]
+      },
+      "ctr_above_target": false
+    }
+  ]
 }
